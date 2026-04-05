@@ -38,8 +38,7 @@ Backlog atual do produto. Itens marcados com ✅ ja foram implementados.
 - Tipos Boss e Simulado como nos nativos da trilha
   Motivo: o simulado existe como experiencia separada, mas nao esta plugado como tipo de no.
 
-- Progressao automatica de no ao concluir sessao
-  Motivo: hoje o status do no nao e atualizado automaticamente ao terminar uma sessao.
+✅ Progressao automatica de no ao concluir sessao (reloadTrails apos cada resposta)
 
 ---
 
@@ -48,8 +47,7 @@ Backlog atual do produto. Itens marcados com ✅ ja foram implementados.
 - Final de sessao com revisao filtrada pelos erros reais daquela rodada
   Motivo: o filtro de erros existe, mas depende de historico granular por questao ainda nao persistido.
 
-- Modo Flashcard dentro da sessao
-  Motivo: o tipo existe nos nos de trilha, mas ainda nao foi implementado como modo de estudo dedicado.
+✅ Modo Flashcard dentro da sessao (tela dedicada com flip de card, auto-progressao, revisao dos erros)
 
 ---
 
@@ -84,8 +82,7 @@ Backlog atual do produto. Itens marcados com ✅ ja foram implementados.
 - Navegacao livre por grade de questoes
   Motivo: a experiencia atual e linear por simplicidade.
 
-- Persistencia historica de simulados realizados com analytics dedicado
-  Motivo: ainda nao existe entidade de tentativa de simulado no banco.
+✅ Persistencia historica de simulados realizados com analytics dedicado
 
 ---
 
@@ -114,5 +111,15 @@ Backlog atual do produto. Itens marcados com ✅ ja foram implementados.
 - Adicionar OCR para PDFs escaneados/imagem
   Motivo: o parser atual nao consegue extrair texto de PDFs sem texto embutido.
 
-- Migrar storage e banco locais para infraestrutura de producao
-  Motivo: hoje usa JSON local para validacao funcional.
+✅ Migrar storage e banco locais para infraestrutura de producao (Supabase — banco PostgreSQL + Storage para PDFs)
+
+## Autenticacao
+
+✅ Tela de login com email+senha e Google OAuth
+✅ Middleware de protecao de rotas
+✅ Callback OAuth com Supabase SSR
+✅ Pagina 404 animada estilizada
+
+## Deploy
+
+✅ Deploy na Vercel com URL publica (sem dominio proprio)
