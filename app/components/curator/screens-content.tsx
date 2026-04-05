@@ -148,17 +148,54 @@ export const LibraryScreen = ({
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {filteredDocs.length === 0 ? (
-            <div className="lg:col-span-3 rounded-2xl border border-dashed border-black/10 bg-white p-10 text-center shadow-sm">
-              <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/5 text-primary">
-                <FileSearch size={24} />
-              </div>
-              <p className="font-headline mt-4 text-lg font-bold text-on-surface">
-                Nenhum material encontrado
-              </p>
-              <p className="mt-2 text-sm text-gray-500">
-                Ajuste a busca, troque o filtro ou adicione um novo material.
-              </p>
-            </div>
+            docs.length === 0 ? (
+              // Zero docs total — estado de onboarding
+              <motion.div
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="lg:col-span-3 flex flex-col items-center rounded-[2rem] border-2 border-dashed border-primary/15 bg-gradient-to-br from-primary/3 to-white p-14 text-center"
+              >
+                <motion.div
+                  animate={{ y: [-4, 4, -4] }}
+                  transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                  className="flex h-20 w-20 items-center justify-center rounded-3xl bg-gradient-to-br from-primary to-primary-container shadow-xl shadow-primary/20"
+                >
+                  <FileText size={36} className="text-white" />
+                </motion.div>
+                <p className="font-headline mt-6 text-2xl font-extrabold text-on-surface">
+                  Sua biblioteca está vazia
+                </p>
+                <p className="mt-2 max-w-sm text-sm text-gray-500 leading-relaxed">
+                  Envie o primeiro PDF para começar. O Curator vai extrair as questões, gerar flashcards e montar trilhas personalizadas para você.
+                </p>
+                <button
+                  onClick={handleTriggerUpload}
+                  className="mt-8 flex items-center gap-2 rounded-2xl bg-gradient-to-br from-primary to-primary-container px-8 py-4 font-bold text-white shadow-lg shadow-primary/20 transition-all hover:scale-[1.02] active:scale-[0.98]"
+                >
+                  <FileText size={18} />
+                  Enviar primeiro PDF
+                  <Plus size={18} />
+                </button>
+                <p className="mt-4 text-xs text-gray-400">Formatos aceitos: PDF · Máx. 20 MB</p>
+              </motion.div>
+            ) : (
+              // Tem docs mas filtro não retornou nada
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                className="lg:col-span-3 rounded-2xl border border-dashed border-black/10 bg-white p-10 text-center shadow-sm"
+              >
+                <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-gray-50 text-gray-400">
+                  <FileSearch size={24} />
+                </div>
+                <p className="font-headline mt-4 text-lg font-bold text-on-surface">
+                  Nenhum resultado
+                </p>
+                <p className="mt-2 text-sm text-gray-500">
+                  Ajuste a busca ou troque o filtro de status.
+                </p>
+              </motion.div>
+            )
           ) : (
             filteredDocs.map((doc) => (
               <div
@@ -920,71 +957,157 @@ export const SimuladoScreen = ({
             </button>
           </section>
         ) : isFinished ? (
-          <section className="rounded-[2rem] border border-black/5 bg-white p-6 shadow-sm sm:p-8">
-            <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400">
-              Resultado final
-            </p>
-            <h2 className="font-headline mt-2 text-3xl font-extrabold text-on-surface">
-              Score: {accuracy}%
-            </h2>
-            <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3">
-              <div className="rounded-2xl bg-emerald-50 p-4">
-                <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-emerald-700">Acertos</p>
-                <p className="font-headline mt-2 text-3xl font-black text-emerald-700">{correctCount}</p>
-              </div>
-              <div className="rounded-2xl bg-rose-50 p-4">
-                <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-rose-700">Erros</p>
-                <p className="font-headline mt-2 text-3xl font-black text-rose-700">{wrongCount}</p>
-              </div>
-              <div className="rounded-2xl bg-surface-container-low p-4">
-                <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-gray-400">Tempo restante</p>
-                <p className="font-headline mt-2 text-3xl font-black text-on-surface">
-                  {formatTimer(remainingSeconds)}
+          <motion.section
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+          >
+            {/* Hero de resultado */}
+            <div className={cn(
+              "relative overflow-hidden rounded-[2rem] p-8 text-center shadow-xl sm:p-10",
+              accuracy >= 70
+                ? "bg-gradient-to-br from-emerald-500 to-teal-600"
+                : accuracy >= 50
+                  ? "bg-gradient-to-br from-amber-500 to-orange-500"
+                  : "bg-gradient-to-br from-rose-500 to-rose-600"
+            )}>
+              {/* Partículas decorativas */}
+              {[...Array(6)].map((_, i) => (
+                <motion.div
+                  key={i}
+                  className="pointer-events-none absolute rounded-full bg-white/10"
+                  style={{
+                    width: 20 + i * 15,
+                    height: 20 + i * 15,
+                    left: `${10 + i * 15}%`,
+                    top: `${20 + (i % 3) * 25}%`,
+                  }}
+                  animate={{ y: [0, -12, 0], opacity: [0.3, 0.6, 0.3] }}
+                  transition={{ duration: 2 + i * 0.5, repeat: Infinity, ease: "easeInOut" }}
+                />
+              ))}
+              <div className="relative z-10">
+                <p className="text-sm font-bold uppercase tracking-[0.25em] text-white/70">
+                  {accuracy >= 70 ? "🎉 Excelente resultado!" : accuracy >= 50 ? "💪 Bom esforço!" : "📚 Hora de revisar"}
+                </p>
+                <motion.p
+                  initial={{ scale: 0.5, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
+                  className="font-headline mt-3 text-7xl font-black text-white sm:text-8xl"
+                >
+                  {accuracy}%
+                </motion.p>
+                <p className="mt-2 text-lg font-semibold text-white/80">
+                  {correctCount} de {configuredQuestions.length} corretas
                 </p>
               </div>
             </div>
 
-            <div className="mt-8 rounded-2xl bg-surface-container-low p-5">
-              <p className="text-sm font-bold text-on-surface">Analise rapida</p>
-              <p className="mt-2 text-sm leading-relaxed text-gray-600">
-                {accuracy >= 70
-                  ? "Bom ritmo. Voce ja consegue sustentar um desempenho forte neste conjunto."
-                  : "Este simulado mostrou espacos claros de revisao. Vale voltar aos pontos fracos antes da proxima rodada."}
-              </p>
-              <p className="mt-4 text-sm font-bold text-on-surface">Pontos fracos</p>
-              <div className="mt-3 flex flex-wrap gap-2">
-                {(weakestSubjects.length > 0 ? weakestSubjects : ["Revisao geral"]).map((subject) => (
-                  <span
-                    key={subject}
-                    className="rounded-full bg-white px-3 py-2 text-xs font-bold text-primary ring-1 ring-black/5"
-                  >
-                    {subject}
-                  </span>
-                ))}
-              </div>
+            {/* Cards de stats */}
+            <div className="grid grid-cols-3 gap-4">
+              <motion.div
+                initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}
+                className="rounded-2xl bg-emerald-50 p-5 text-center"
+              >
+                <p className="text-[10px] font-black uppercase tracking-wider text-emerald-600">Acertos</p>
+                <p className="font-headline mt-2 text-4xl font-black text-emerald-700">{correctCount}</p>
+                <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-emerald-100">
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: `${(correctCount / configuredQuestions.length) * 100}%` }}
+                    transition={{ duration: 1, delay: 0.4 }}
+                    className="h-full rounded-full bg-emerald-500"
+                  />
+                </div>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
+                className="rounded-2xl bg-rose-50 p-5 text-center"
+              >
+                <p className="text-[10px] font-black uppercase tracking-wider text-rose-600">Erros</p>
+                <p className="font-headline mt-2 text-4xl font-black text-rose-700">{wrongCount}</p>
+                <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-rose-100">
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: `${(wrongCount / configuredQuestions.length) * 100}%` }}
+                    transition={{ duration: 1, delay: 0.5 }}
+                    className="h-full rounded-full bg-rose-500"
+                  />
+                </div>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}
+                className="rounded-2xl bg-surface-container-low p-5 text-center"
+              >
+                <p className="text-[10px] font-black uppercase tracking-wider text-gray-500">Tempo</p>
+                <p className="font-headline mt-2 text-4xl font-black text-on-surface">
+                  {formatTimer(remainingSeconds)}
+                </p>
+                <p className="mt-2 text-[10px] text-gray-400">restante</p>
+              </motion.div>
             </div>
 
+            {/* Análise e pontos fracos */}
+            <div className="rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
+              <div className="flex items-start gap-3">
+                <div className={cn(
+                  "flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-lg",
+                  accuracy >= 70 ? "bg-emerald-50" : "bg-amber-50"
+                )}>
+                  {accuracy >= 70 ? "🏆" : "💡"}
+                </div>
+                <div>
+                  <p className="font-bold text-on-surface">Análise rápida</p>
+                  <p className="mt-1 text-sm leading-relaxed text-gray-600">
+                    {accuracy >= 70
+                      ? "Bom ritmo. Você já consegue sustentar um desempenho forte neste conjunto. Continue revisando os pontos fracos para consolidar."
+                      : accuracy >= 50
+                        ? "Resultado razoável. Há espaço para melhorar — foque nos pontos fracos identificados abaixo antes da próxima rodada."
+                        : "Este simulado revelou lacunas importantes. Revise o material dos temas abaixo antes de tentar novamente."}
+                  </p>
+                </div>
+              </div>
+
+              {weakestSubjects.length > 0 && (
+                <div className="mt-5">
+                  <p className="text-xs font-bold uppercase tracking-wider text-gray-400">Pontos para revisar</p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {weakestSubjects.map((subject) => (
+                      <span
+                        key={subject}
+                        className="rounded-full border border-rose-100 bg-rose-50 px-3 py-1.5 text-xs font-bold text-rose-700"
+                      >
+                        {subject}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Histórico recente */}
             {history.length > 0 && (
-              <div className="mt-8">
+              <div className="rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
                 <p className="text-sm font-bold text-on-surface">Histórico recente</p>
-                <div className="mt-3 space-y-2">
+                <div className="mt-4 space-y-2">
                   {history.map((h) => {
                     const date = new Date(h.finishedAt);
-                    const label = `${date.toLocaleDateString("pt-BR")} ${date.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" })}`;
                     const mins = Math.floor(h.durationSeconds / 60);
                     const secs = h.durationSeconds % 60;
                     return (
-                      <div key={h.id} className="flex items-center justify-between rounded-xl bg-surface-container-low px-4 py-3">
+                      <div key={h.id} className="flex items-center justify-between rounded-xl bg-gray-50 px-4 py-3">
                         <div>
                           <p className="text-xs font-bold text-on-surface">
-                            {h.correctAnswers}/{h.totalQuestions} acertos
-                            {h.subject ? ` · ${h.subject}` : ""}
+                            {h.correctAnswers}/{h.totalQuestions} acertos{h.subject ? ` · ${h.subject}` : ""}
                           </p>
-                          <p className="text-[10px] text-gray-400">{label} · {mins}m{secs.toString().padStart(2,"0")}s</p>
+                          <p className="text-[10px] text-gray-400">
+                            {date.toLocaleDateString("pt-BR")} · {mins}m{secs.toString().padStart(2, "0")}s
+                          </p>
                         </div>
                         <span className={cn(
                           "rounded-full px-3 py-1 text-xs font-black",
-                          h.accuracy >= 70 ? "bg-emerald-100 text-emerald-700" : "bg-rose-100 text-rose-700"
+                          h.accuracy >= 70 ? "bg-emerald-100 text-emerald-700" : h.accuracy >= 50 ? "bg-amber-100 text-amber-700" : "bg-rose-100 text-rose-700"
                         )}>
                           {h.accuracy}%
                         </span>
@@ -995,7 +1118,8 @@ export const SimuladoScreen = ({
               </div>
             )}
 
-            <div className="mt-8 flex flex-wrap gap-3">
+            {/* Ações */}
+            <div className="flex flex-wrap gap-3">
               <button
                 onClick={() => {
                   setIsStarted(false);
@@ -1003,27 +1127,28 @@ export const SimuladoScreen = ({
                   setAnswers({});
                   setRemainingSeconds(0);
                 }}
-                className="rounded-xl border border-black/5 bg-white px-4 py-3 text-sm font-bold text-gray-700 transition hover:border-primary/20 hover:text-primary"
+                className="rounded-xl border border-black/5 bg-white px-5 py-3 text-sm font-bold text-gray-700 shadow-sm transition hover:border-primary/20 hover:text-primary"
               >
                 Configurar novo simulado
               </button>
               <button
                 onClick={onBack}
-                className="rounded-xl bg-primary px-4 py-3 text-sm font-bold text-white transition hover:bg-primary-container"
+                className="rounded-xl bg-primary px-5 py-3 text-sm font-bold text-white shadow-md shadow-primary/15 transition hover:bg-primary-container"
               >
-                Voltar para revisao
+                Voltar
               </button>
             </div>
-          </section>
+          </motion.section>
         ) : (
           <section className="space-y-6 rounded-[2rem] border border-black/5 bg-white p-6 shadow-sm sm:p-8">
+            {/* Header com timer */}
             <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400">
                   Simulado em andamento
                 </p>
                 <h2 className="font-headline mt-2 text-2xl font-extrabold text-on-surface">
-                  Questao {currentIndex + 1} de {configuredQuestions.length}
+                  Questão {currentIndex + 1} de {configuredQuestions.length}
                 </h2>
               </div>
               {(() => {
@@ -1046,17 +1171,17 @@ export const SimuladoScreen = ({
               })()}
             </div>
 
-            {/* Barra de questões + barra de tempo */}
+            {/* Barras de progresso */}
             <div className="space-y-2">
               <div className="flex items-center justify-between text-[10px] font-bold uppercase tracking-wider text-gray-400">
-                <span>Questões</span>
-                <span>Tempo</span>
+                <span>Questões respondidas</span>
+                <span>Tempo restante</span>
               </div>
               <div className="grid grid-cols-2 gap-2">
                 <div className="h-2 overflow-hidden rounded-full bg-gray-100">
                   <div
                     className="h-full rounded-full bg-gradient-to-r from-primary to-primary-container transition-all"
-                    style={{ width: `${((currentIndex + 1) / configuredQuestions.length) * 100}%` }}
+                    style={{ width: `${(Object.keys(answers).length / configuredQuestions.length) * 100}%` }}
                   />
                 </div>
                 <div className="h-2 overflow-hidden rounded-full bg-gray-100">
@@ -1073,11 +1198,43 @@ export const SimuladoScreen = ({
               </div>
             </div>
 
+            {/* Grade de navegação livre */}
+            <div>
+              <p className="mb-2 text-[10px] font-bold uppercase tracking-wider text-gray-400">
+                Navegar por questão
+              </p>
+              <div className="flex flex-wrap gap-1.5">
+                {configuredQuestions.map((q, idx) => {
+                  const answered = !!answers[q.id];
+                  const isCurrent = idx === currentIndex;
+                  return (
+                    <button
+                      key={q.id}
+                      onClick={() => setCurrentIndex(idx)}
+                      className={cn(
+                        "flex h-8 w-8 items-center justify-center rounded-lg text-xs font-bold transition",
+                        isCurrent
+                          ? "bg-primary text-white shadow-md shadow-primary/30"
+                          : answered
+                          ? "bg-emerald-100 text-emerald-700"
+                          : "bg-gray-100 text-gray-500 hover:bg-gray-200"
+                      )}
+                    >
+                      {idx + 1}
+                    </button>
+                  );
+                })}
+              </div>
+              <p className="mt-2 text-[10px] text-gray-400">
+                {Object.keys(answers).length} de {configuredQuestions.length} respondidas
+              </p>
+            </div>
+
             {currentQuestion ? (
               <>
                 <div className="rounded-2xl bg-surface-container-low p-5">
                   <p className="text-sm font-bold text-primary">
-                    {currentQuestion.subject || "Geral"} • {currentQuestion.sourceTitle || "Questao real"}
+                    {currentQuestion.subject || "Geral"} • {currentQuestion.sourceTitle || "Questão real"}
                   </p>
                   <h3 className="font-headline mt-3 text-xl font-bold text-on-surface">
                     {currentQuestion.prompt}
@@ -1087,15 +1244,11 @@ export const SimuladoScreen = ({
                 <div className="grid grid-cols-1 gap-3">
                   {currentQuestion.options.map((option) => {
                     const isSelected = answers[currentQuestion.id] === option.id;
-
                     return (
                       <button
                         key={option.id}
                         onClick={() =>
-                          setAnswers((prev) => ({
-                            ...prev,
-                            [currentQuestion.id]: option.id,
-                          }))
+                          setAnswers((prev) => ({ ...prev, [currentQuestion.id]: option.id }))
                         }
                         className={cn(
                           "flex items-center rounded-xl border-2 p-4 text-left transition",
@@ -1104,7 +1257,10 @@ export const SimuladoScreen = ({
                             : "border-gray-100 bg-gray-50 hover:border-primary/20 hover:bg-white"
                         )}
                       >
-                        <div className="mr-4 flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-gray-200 font-bold text-gray-700">
+                        <div className={cn(
+                          "mr-4 flex h-10 w-10 shrink-0 items-center justify-center rounded-lg font-bold",
+                          isSelected ? "bg-primary text-white" : "bg-gray-200 text-gray-700"
+                        )}>
                           {option.id}
                         </div>
                         <span className="font-medium text-gray-700">{option.label}</span>
@@ -1129,7 +1285,14 @@ export const SimuladoScreen = ({
                     }
                     className="rounded-xl bg-primary px-4 py-3 text-sm font-bold text-white transition hover:bg-primary-container"
                   >
-                    {currentIndex >= configuredQuestions.length - 1 ? "Finalizar" : "Proxima"}
+                    {currentIndex >= configuredQuestions.length - 1 ? "Finalizar" : "Próxima"}
+                  </button>
+                  {/* Botão de entrega antecipada */}
+                  <button
+                    onClick={() => setCurrentIndex(configuredQuestions.length)}
+                    className="ml-auto rounded-xl border border-rose-100 bg-rose-50 px-4 py-3 text-sm font-bold text-rose-600 transition hover:bg-rose-100"
+                  >
+                    Entregar agora
                   </button>
                 </div>
               </>

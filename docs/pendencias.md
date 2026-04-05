@@ -22,18 +22,14 @@ Backlog atual do produto. Itens marcados com ✅ ja foram implementados.
 ✅ 6 conquistas com desbloqueio automatico por regras de negocio
 ✅ Mapa de trilha visual estilo Duolingo com nos em zigzag, linha SVG e animacao de pulso
 
-- Badges persistidos por conquista com data de desbloqueio visivel no perfil
-  Motivo: o campo `unlockedAt` existe no banco mas ainda nao e exibido na UI.
-
-- Loja de recompensas com troca de moedas por beneficios
-  Motivo: o sistema de moedas esta pronto, mas ainda nao existe UI de loja.
+✅ Badges persistidos por conquista com data de desbloqueio visivel no perfil
+✅ Loja de recompensas com troca de moedas por beneficios (UI implementada; mecânicas reais são pendentes)
 
 ---
 
 ## Trilhas
 
-- Cada no abrir a sessao correta vinculada ao seu tipo e conteudo real
-  Motivo: o mapa visual ja funciona com nos reais do backend, mas o clique ainda navega de forma generica (por PDF).
+✅ Cada no abrir a sessao correta vinculada ao seu tipo e conteudo real
 
 - Tipos Boss e Simulado como nos nativos da trilha
   Motivo: o simulado existe como experiencia separada, mas nao esta plugado como tipo de no.
@@ -79,17 +75,14 @@ Backlog atual do produto. Itens marcados com ✅ ja foram implementados.
 - Timer por secao (alem do timer global)
   Motivo: o timer unico por sessao ja existe; falta estrutura de blocos/secoes.
 
-- Navegacao livre por grade de questoes
-  Motivo: a experiencia atual e linear por simplicidade.
-
+✅ Navegacao livre por grade de questoes
 ✅ Persistencia historica de simulados realizados com analytics dedicado
 
 ---
 
 ## Analytics e Perfil
 
-- Ampliar analytics com revisao, simulados e historico temporal comparativo
-  Motivo: a tela atual usa bem o `overview`, mas falta camada historica.
+✅ Ampliar analytics com revisao espaca e historico de simulados
 
 - Historico de atividade e timeline pessoal no Perfil
   Motivo: falta persistir eventos individuais suficientes para um historico detalhado.
@@ -98,8 +91,10 @@ Backlog atual do produto. Itens marcados com ✅ ja foram implementados.
 
 ## Configuracoes
 
-- Persistir preferencias reais (tema, notificacoes, idioma, conta)
-  Motivo: a tela existe mas ainda e estrutural, sem persistencia.
+✅ Persistir nome do usuario via PATCH /api/settings
+
+- Persistir preferencias de tema, notificacoes e idioma
+  Motivo: apenas o nome e salvo; demais preferencias ainda nao tem persistencia.
 
 ---
 

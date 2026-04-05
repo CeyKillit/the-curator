@@ -17,7 +17,7 @@ const colorByIconKey: Record<PlanIconKey, string> = {
 
 export default function TrilhasPage() {
   const router = useRouter();
-  const { trails, buildStudySessionFromDoc, buildReviewSession, setStudySession, setStudyProgress, addNotification } = useCurator();
+  const { trails, buildStudySessionFromNode, buildStudySessionFromDoc, buildReviewSession, setStudySession, setStudyProgress, addNotification } = useCurator();
   const [tasks, setTasks] = useState<PlanTask[]>([]);
 
   useEffect(() => {
@@ -70,25 +70,39 @@ export default function TrilhasPage() {
       addNotification("Trilha indisponível", "Não foi possível localizar este nó.", "warning");
       return;
     }
-    if (node.type === "exercise") {
-      const session = await buildStudySessionFromDoc(trail.pdfId);
-      if (session) {
-        setStudySession(session);
-        setStudyProgress({ currentQuestionIndex: 0, answers: {}, completed: false });
-        router.push("/sessao");
-      }
+
+    // Nó de resumo/summary → abre o PDF
+    if (node.type === "summary") {
+      router.push(`/pdf-viewer/${trail.pdfId}`);
       return;
     }
+
+    // Tenta construir sessão específica para o nó
+    const session = await buildStudySessionFromNode(trailId, nodeId);
+    if (session) {
+      setStudySession(session);
+      setStudyProgress({ currentQuestionIndex: 0, answers: {}, completed: false });
+      router.push(session.mode === "flashcard" ? "/flashcard" : "/sessao");
+      return;
+    }
+
+    // Fallback: carrega todas as questões do doc ou revisão geral
     if (node.type === "review") {
-      const session = await buildReviewSession();
-      if (session) {
-        setStudySession(session);
+      const fallback = await buildReviewSession();
+      if (fallback) {
+        setStudySession(fallback);
         setStudyProgress({ currentQuestionIndex: 0, answers: {}, completed: false });
         router.push("/sessao");
       }
       return;
     }
-    router.push(`/pdf-viewer/${trail.pdfId}`);
+
+    const fallback = await buildStudySessionFromDoc(trail.pdfId);
+    if (fallback) {
+      setStudySession(fallback);
+      setStudyProgress({ currentQuestionIndex: 0, answers: {}, completed: false });
+      router.push("/sessao");
+    }
   };
 
   return (

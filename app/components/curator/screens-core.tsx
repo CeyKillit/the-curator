@@ -1,7 +1,23 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { motion } from "motion/react";
+import {
+  Area,
+  AreaChart,
+  CartesianGrid,
+  Cell,
+  Pie,
+  PieChart,
+  PolarAngleAxis,
+  PolarGrid,
+  Radar,
+  RadarChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 import {
   ArrowRight,
   BookOpen,
@@ -10,10 +26,12 @@ import {
   Clock3,
   Flame,
   Landmark,
+  Loader2,
   Lock,
   Microscope,
   Play,
   Plus,
+  Save,
   School,
   Settings,
   Sparkles,
@@ -298,7 +316,7 @@ export const PlanScreen = ({
 }) => {
   const completedCount = tasks.filter((task) => task.status === "completed").length;
   const progress = tasks.length ? (completedCount / tasks.length) * 100 : 0;
-  const pendingCount = tasks.length - completedCount;
+  const _pendingCount = tasks.length - completedCount; void _pendingCount;
   const [title, setTitle] = useState("");
   const [duration, setDuration] = useState("30min");
   const [iconKey, setIconKey] = useState<PlanIconKey>("book");
@@ -635,12 +653,19 @@ export const PlanScreen = ({
 
           <div className="space-y-3">
             {tasks.length === 0 ? (
-              <div className="rounded-2xl border border-dashed border-black/10 bg-white p-8 text-center">
-                <p className="font-headline text-lg font-bold text-on-surface">Plano vazio</p>
-                <p className="mt-2 text-sm text-gray-500">
-                  Adicione uma tarefa acima para começar a organizar seu estudo.
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="flex flex-col items-center rounded-2xl border-2 border-dashed border-primary/15 bg-white p-10 text-center shadow-sm"
+              >
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/8 text-primary">
+                  <Plus size={26} />
+                </div>
+                <p className="font-headline mt-4 text-lg font-bold text-on-surface">Nenhuma tarefa ainda</p>
+                <p className="mt-1 text-sm text-gray-500 max-w-xs">
+                  Use o formulário acima para adicionar etapas curtas ao seu plano de hoje.
                 </p>
-              </div>
+              </motion.div>
             ) : (
               tasks.map((task) => (
                 <div
@@ -819,13 +844,27 @@ export const AnalyticsOverviewScreen = ({
   overview: DashboardOverview | null;
   docs: Doc[];
 }) => {
-  const subjects = overview?.subjects.length
-    ? overview.subjects.map((subject) => ({
-        name: subject.subject,
-        score: subject.progressPercent,
-        color: "bg-primary",
-      }))
-    : [{ name: "Sem dados ainda", score: 0, color: "bg-primary" }];
+  const [simuladoHistory, setSimuladoHistory] = useState<Array<{
+    id: string; accuracy: number; correctAnswers: number; totalQuestions: number;
+    durationSeconds: number; subject: string | null; finishedAt: string;
+  }>>([]);
+  const [reviewStats, setReviewStats] = useState<{ total: number; mastered: number; review: number } | null>(null);
+
+  useEffect(() => {
+    fetch("/api/simulado", { cache: "no-store" })
+      .then((r) => r.json() as Promise<{ attempts?: typeof simuladoHistory }>)
+      .then((d) => setSimuladoHistory((d.attempts ?? []).slice(0, 8).reverse()))
+      .catch(() => {});
+    fetch("/api/study/review", { cache: "no-store" })
+      .then((r) => r.json() as Promise<{ questions?: { id: string }[] }>)
+      .then((d) => {
+        const pending = d.questions?.length ?? 0;
+        const totalQ = docs.reduce((s, d) => s + (d.questionsCount ?? 0), 0);
+        setReviewStats({ total: totalQ, mastered: Math.max(0, totalQ - pending), review: pending });
+      })
+      .catch(() => {});
+  }, [docs]);
+
   const accuracyRate = overview?.subjects.length
     ? Math.round(
         overview.subjects.reduce((total, subject) => total + subject.accuracyRate, 0) /
@@ -849,132 +888,283 @@ export const AnalyticsOverviewScreen = ({
   const weakestSubject = overview?.subjects.length
     ? [...overview.subjects].sort((a, b) => a.progressPercent - b.progressPercent)[0]?.subject
     : null;
-  const strongestSubject = overview?.subjects.length
-    ? [...overview.subjects].sort((a, b) => b.progressPercent - a.progressPercent)[0]?.subject
-    : null;
-  const reviewPending = docs.reduce(
-    (total, doc) => total + (doc.questionsCount ?? 0) + (doc.flashcardsCount ?? 0),
-    0
+
+  // Radar chart data — performance por matéria
+  const radarData = useMemo(() => {
+    if (!overview?.subjects.length) return [];
+    return overview.subjects.slice(0, 6).map((s) => ({
+      subject: s.subject.length > 12 ? s.subject.slice(0, 12) + "…" : s.subject,
+      acertos: s.accuracyRate,
+      progresso: s.progressPercent,
+    }));
+  }, [overview]);
+
+  // Area chart data — histórico de simulados
+  const areaData = useMemo(
+    () =>
+      simuladoHistory.map((h) => ({
+        label: new Date(h.finishedAt).toLocaleDateString("pt-BR", { day: "2-digit", month: "short" }),
+        accuracy: h.accuracy,
+        acertos: h.correctAnswers,
+        total: h.totalQuestions,
+      })),
+    [simuladoHistory]
   );
-  const analyzedDocs = docs.filter((doc) => doc.status === "analyzed").length;
-  const pendingDocs = docs.filter((doc) => doc.status === "analyzing" || doc.status === "idle").length;
-  const weeklySignals = [
+
+  // Pie data — revisão espaçada
+  const pieData = useMemo(() => {
+    if (!reviewStats || reviewStats.total === 0) return [];
+    return [
+      { name: "Dominadas", value: reviewStats.mastered, fill: "#10b981" },
+      { name: "Para revisar", value: reviewStats.review, fill: "#f59e0b" },
+      { name: "Novas", value: Math.max(0, reviewStats.total - reviewStats.mastered - reviewStats.review), fill: "#e5e7eb" },
+    ].filter((d) => d.value > 0);
+  }, [reviewStats]);
+
+  const kpiCards = [
     {
-      label: "Documentos analisados",
-      value: overview?.documentsAnalyzed ?? analyzedDocs,
-      helper: "materiais ja convertidos em estudo",
+      label: "Taxa de Acertos",
+      value: `${accuracyRate}%`,
+      sub: "média geral",
+      color: "from-primary/10 to-primary/5",
+      textColor: "text-primary",
     },
     {
-      label: "Revisao pendente",
-      value: reviewPending,
-      helper: "questoes e flashcards prontos para retorno",
+      label: "Horas Estudadas",
+      value: `${totalStudyHours}h`,
+      sub: "tempo acumulado",
+      color: "from-emerald-50 to-emerald-50/50",
+      textColor: "text-emerald-700",
     },
     {
-      label: "Processando agora",
-      value: pendingDocs,
-      helper: "PDFs ainda entrando no fluxo",
+      label: "Questões Resolvidas",
+      value: String(totalSolved),
+      sub: "no total",
+      color: "from-violet-50 to-violet-50/50",
+      textColor: "text-violet-700",
+    },
+    {
+      label: "Previsão de Aprovação",
+      value: `${approvalEstimate}%`,
+      sub: "estimativa IA",
+      color: "from-amber-50 to-amber-50/50",
+      textColor: "text-amber-700",
     },
   ];
 
   return (
     <div className="min-h-screen pb-28 md:pb-32">
       <Header />
-      <main className="mx-auto max-w-6xl space-y-8 px-4 pb-4 pt-20 sm:px-6 lg:px-8 md:space-y-10">
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-          <div className="flex flex-col gap-2 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
-            <span className="text-xs font-bold uppercase tracking-wider text-gray-400">
-              Taxa de Acertos
-            </span>
-            <div className="flex items-baseline gap-2">
-              <span className="font-headline text-4xl font-extrabold text-primary">
-                {accuracyRate}%
-              </span>
-            </div>
-          </div>
-          <div className="flex flex-col gap-2 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
-            <span className="text-xs font-bold uppercase tracking-wider text-gray-400">
-              Tempo Total
-            </span>
-            <div className="flex items-baseline gap-2">
-              <span className="font-headline text-4xl font-extrabold text-on-surface">
-                {totalStudyHours}h
-              </span>
-              <span className="text-xs text-gray-400">acumuladas</span>
-            </div>
-          </div>
-          <div className="flex flex-col gap-2 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
-            <span className="text-xs font-bold uppercase tracking-wider text-gray-400">
-              Questões Resolvidas
-            </span>
-            <div className="flex items-baseline gap-2">
-              <span className="font-headline text-4xl font-extrabold text-on-surface">
-                {totalSolved}
-              </span>
-              <CheckCircle2 size={24} className="fill-primary text-white" />
-            </div>
-          </div>
+      <main className="mx-auto max-w-6xl space-y-8 px-4 pb-4 pt-20 sm:px-6 lg:px-8">
+
+        {/* KPIs */}
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+          {kpiCards.map((card) => (
+            <motion.div
+              key={card.label}
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              className={cn("rounded-2xl bg-gradient-to-br p-5 shadow-sm", card.color)}
+            >
+              <p className="text-[10px] font-bold uppercase tracking-wider text-gray-500">{card.label}</p>
+              <p className={cn("font-headline mt-2 text-3xl font-extrabold", card.textColor)}>{card.value}</p>
+              <p className="mt-1 text-[10px] text-gray-400">{card.sub}</p>
+            </motion.div>
+          ))}
         </div>
 
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
-          <div className="rounded-2xl border border-black/5 bg-white p-5 shadow-sm sm:p-8 lg:col-span-8">
-            <div className="mb-8 flex flex-col gap-4 sm:mb-10 sm:flex-row sm:items-center sm:justify-between">
-              <h2 className="font-headline text-xl font-bold sm:text-2xl">
-                Performance por Matéria
-              </h2>
+        {/* Radar + Simulado Area Chart */}
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
+
+          {/* Radar — performance por matéria */}
+          <div className="rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
+            <h2 className="font-headline mb-1 text-lg font-bold">Performance por Matéria</h2>
+            <p className="mb-4 text-xs text-gray-400">Acertos e progresso por disciplina</p>
+            {radarData.length > 0 ? (
+              <ResponsiveContainer width="100%" height={260}>
+                <RadarChart data={radarData} cx="50%" cy="50%" outerRadius="75%">
+                  <PolarGrid stroke="#f3f4f6" />
+                  <PolarAngleAxis dataKey="subject" tick={{ fontSize: 11, fill: "#6b7280", fontWeight: 600 }} />
+                  <Radar name="Acertos %" dataKey="acertos" stroke="#6366f1" fill="#6366f1" fillOpacity={0.25} strokeWidth={2} />
+                  <Radar name="Progresso %" dataKey="progresso" stroke="#10b981" fill="#10b981" fillOpacity={0.15} strokeWidth={2} />
+                  <Tooltip
+                    contentStyle={{ borderRadius: 12, border: "none", boxShadow: "0 4px 24px rgba(0,0,0,0.08)", fontSize: 12 }}
+                    formatter={(value: unknown, name: unknown) => [`${value as number}%`, String(name)]}
+                  />
+                </RadarChart>
+              </ResponsiveContainer>
+            ) : (
+              <div className="flex h-64 flex-col items-center justify-center gap-3 text-center">
+                <BrainCircuit size={40} className="text-gray-200" />
+                <p className="text-sm text-gray-400">Processe um PDF para ver seus dados aqui.</p>
+              </div>
+            )}
+            <div className="mt-3 flex gap-4">
+              <div className="flex items-center gap-1.5"><span className="h-2.5 w-2.5 rounded-full bg-indigo-500" /><span className="text-[10px] font-semibold text-gray-500">Acertos %</span></div>
+              <div className="flex items-center gap-1.5"><span className="h-2.5 w-2.5 rounded-full bg-emerald-500" /><span className="text-[10px] font-semibold text-gray-500">Progresso %</span></div>
             </div>
-            <div className="space-y-8">
-              {subjects.map((subject) => (
-                <div key={subject.name} className="space-y-2">
-                  <div className="font-headline flex justify-between text-sm font-bold">
-                    <span className="text-on-surface">{subject.name}</span>
-                    <span className="text-gray-400">{subject.score}%</span>
-                  </div>
-                  <div className="h-3 w-full overflow-hidden rounded-full bg-gray-100">
-                    <motion.div
-                      initial={{ width: 0 }}
-                      animate={{ width: `${subject.score}%` }}
-                      className={cn("h-full rounded-full", subject.color)}
-                    />
-                  </div>
+          </div>
+
+          {/* Area chart — histórico simulados */}
+          <div className="rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
+            <h2 className="font-headline mb-1 text-lg font-bold">Evolução nos Simulados</h2>
+            <p className="mb-4 text-xs text-gray-400">Taxa de acertos ao longo do tempo</p>
+            {areaData.length > 1 ? (
+              <ResponsiveContainer width="100%" height={260}>
+                <AreaChart data={areaData} margin={{ top: 8, right: 8, left: -24, bottom: 0 }}>
+                  <defs>
+                    <linearGradient id="gradAccuracy" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="5%" stopColor="#6366f1" stopOpacity={0.3} />
+                      <stop offset="95%" stopColor="#6366f1" stopOpacity={0} />
+                    </linearGradient>
+                  </defs>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#f3f4f6" />
+                  <XAxis dataKey="label" tick={{ fontSize: 10, fill: "#9ca3af" }} />
+                  <YAxis domain={[0, 100]} tick={{ fontSize: 10, fill: "#9ca3af" }} tickFormatter={(v) => `${v}%`} />
+                  <Tooltip
+                    contentStyle={{ borderRadius: 12, border: "none", boxShadow: "0 4px 24px rgba(0,0,0,0.08)", fontSize: 12 }}
+                    formatter={(value: unknown) => [`${value as number}%`, "Acertos"]}
+                  />
+                  <Area type="monotone" dataKey="accuracy" stroke="#6366f1" strokeWidth={2.5} fill="url(#gradAccuracy)" dot={{ r: 4, fill: "#6366f1", strokeWidth: 0 }} activeDot={{ r: 6 }} />
+                </AreaChart>
+              </ResponsiveContainer>
+            ) : areaData.length === 1 ? (
+              <div className="flex h-64 flex-col items-center justify-center gap-3 text-center">
+                <div className="rounded-2xl bg-indigo-50 px-6 py-4 text-center">
+                  <p className="font-headline text-3xl font-black text-indigo-600">{areaData[0].accuracy}%</p>
+                  <p className="mt-1 text-xs text-indigo-400">único simulado realizado</p>
                 </div>
-              ))}
-            </div>
+                <p className="text-xs text-gray-400">Faça mais simulados para ver a evolução.</p>
+              </div>
+            ) : (
+              <div className="flex h-64 flex-col items-center justify-center gap-3 text-center">
+                <Timer size={40} className="text-gray-200" />
+                <p className="text-sm text-gray-400">Realize simulados para ver sua evolução aqui.</p>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Spaced repetition pie + AI tip */}
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+
+          {/* Pie — revisão espaçada */}
+          <div className="rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
+            <h2 className="font-headline mb-1 text-lg font-bold">Revisão Espaçada</h2>
+            <p className="mb-4 text-xs text-gray-400">Estado do banco de questões por nível de domínio</p>
+            {pieData.length > 0 ? (
+              <div className="flex items-center gap-6">
+                <ResponsiveContainer width={140} height={140}>
+                  <PieChart>
+                    <Pie data={pieData} cx="50%" cy="50%" innerRadius={40} outerRadius={65} paddingAngle={3} dataKey="value" stroke="none">
+                      {pieData.map((entry, index) => (
+                        <Cell key={index} fill={entry.fill} />
+                      ))}
+                    </Pie>
+                    <Tooltip
+                      contentStyle={{ borderRadius: 12, border: "none", boxShadow: "0 4px 24px rgba(0,0,0,0.08)", fontSize: 12 }}
+                      formatter={(value: unknown, name: unknown) => [value as number, String(name)]}
+                    />
+                  </PieChart>
+                </ResponsiveContainer>
+                <div className="flex flex-col gap-3">
+                  {pieData.map((d) => (
+                    <div key={d.name} className="flex items-center gap-2">
+                      <span className="h-3 w-3 rounded-full shrink-0" style={{ background: d.fill }} />
+                      <div>
+                        <p className="text-xs font-bold text-on-surface">{d.value} questões</p>
+                        <p className="text-[10px] text-gray-400">{d.name}</p>
+                      </div>
+                    </div>
+                  ))}
+                  {reviewStats && reviewStats.total > 0 && (
+                    <p className="text-[10px] font-bold text-gray-400 pt-1 border-t border-black/5">
+                      {Math.round((reviewStats.mastered / reviewStats.total) * 100)}% de domínio geral
+                    </p>
+                  )}
+                </div>
+              </div>
+            ) : (
+              <div className="flex h-40 flex-col items-center justify-center gap-3">
+                <BookOpen size={36} className="text-gray-200" />
+                <p className="text-sm text-gray-400">Responda questões para gerar dados de revisão.</p>
+              </div>
+            )}
           </div>
 
-          <div className="flex flex-col gap-6 lg:col-span-4">
-            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary to-primary-container p-6 text-white shadow-xl sm:p-8">
-              <div className="relative z-10 flex flex-col items-center gap-6 text-center">
-                <h3 className="font-headline text-lg font-bold">Previsão de Aprovação</h3>
-                <div className="font-headline text-4xl font-black">{approvalEstimate}%</div>
-                <p className="text-sm leading-relaxed opacity-90">
-                  {overview?.nextTrailTitle
-                    ? `Próxima trilha sugerida: ${overview.nextTrailTitle}.`
-                    : "Envie e processe um PDF para começar a montar previsões reais."}
-                </p>
+          {/* AI suggestion + approval */}
+          <div className="flex flex-col gap-4">
+            <div className="flex-1 rounded-2xl bg-gradient-to-br from-primary to-primary-container p-6 text-white shadow-xl">
+              <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">Previsão de aprovação</p>
+              <p className="font-headline mt-2 text-5xl font-black">{approvalEstimate}%</p>
+              <p className="mt-3 text-sm leading-relaxed opacity-80">
+                {overview?.nextTrailTitle
+                  ? `Continue: ${overview.nextTrailTitle}.`
+                  : "Processe PDFs e responda questões para uma previsão real."}
+              </p>
+              <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-white/20">
+                <motion.div
+                  initial={{ width: 0 }}
+                  animate={{ width: `${approvalEstimate}%` }}
+                  transition={{ duration: 1, delay: 0.3 }}
+                  className="h-full rounded-full bg-white"
+                />
               </div>
             </div>
-
-            <div className="flex items-start gap-4 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/5">
-                <Sparkles size={20} className="fill-primary text-primary" />
-              </div>
-              <div className="space-y-1">
-                <h4 className="font-headline text-sm font-bold text-on-surface">Sugestão da IA</h4>
-                <p className="text-xs leading-relaxed text-gray-500">
-                  {weakestSubject ? (
-                    <>
-                      O menor progresso atual está em{" "}
-                      <span className="font-bold text-primary">{weakestSubject}</span>. Vale
-                      priorizar revisão e exercícios desse tema.
-                    </>
-                  ) : (
-                    "Ainda não há dados suficientes para recomendar uma revisão prioritária."
-                  )}
-                </p>
+            <div className="rounded-2xl border border-black/5 bg-white p-5 shadow-sm">
+              <div className="flex items-start gap-3">
+                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-primary/8">
+                  <Sparkles size={18} className="text-primary" />
+                </div>
+                <div>
+                  <p className="text-sm font-bold text-on-surface">Sugestão da IA</p>
+                  <p className="mt-1 text-xs leading-relaxed text-gray-500">
+                    {weakestSubject ? (
+                      <>Foco em <span className="font-bold text-primary">{weakestSubject}</span> — menor progresso atual. Vale revisar esse tema antes do próximo simulado.</>
+                    ) : (
+                      "Envie PDFs e comece a responder questões para receber sugestões personalizadas."
+                    )}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        {/* Histórico de Simulados */}
+        {simuladoHistory.length > 0 && (
+          <div className="rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
+            <h2 className="font-headline text-lg font-bold">Histórico de Simulados</h2>
+            <p className="mt-1 text-xs text-gray-400">Últimas {simuladoHistory.length} tentativas</p>
+            <div className="mt-5 space-y-2">
+              {[...simuladoHistory].reverse().map((h) => {
+                const date = new Date(h.finishedAt);
+                const mins = Math.floor(h.durationSeconds / 60);
+                const secs = h.durationSeconds % 60;
+                return (
+                  <div key={h.id} className="flex items-center gap-4 rounded-xl bg-gray-50 px-4 py-3">
+                    <div className="flex h-10 w-10 shrink-0 flex-col items-center justify-center rounded-xl bg-white shadow-sm text-center">
+                      <span className="text-[9px] font-black leading-none text-gray-400 uppercase">{date.toLocaleDateString("pt-BR", { month: "short" })}</span>
+                      <span className="text-sm font-black text-on-surface leading-none">{date.getDate()}</span>
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <p className="text-sm font-bold text-on-surface truncate">
+                        {h.correctAnswers}/{h.totalQuestions} acertos{h.subject ? ` · ${h.subject}` : ""}
+                      </p>
+                      <p className="text-[10px] text-gray-400">{mins}m{secs.toString().padStart(2, "0")}s · {date.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" })}</p>
+                    </div>
+                    <div className="flex flex-col items-end gap-1">
+                      <span className={cn(
+                        "shrink-0 rounded-full px-3 py-1 text-xs font-black",
+                        h.accuracy >= 70 ? "bg-emerald-100 text-emerald-700" : h.accuracy >= 50 ? "bg-amber-100 text-amber-700" : "bg-rose-100 text-rose-700"
+                      )}>{h.accuracy}%</span>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
       </main>
     </div>
   );
@@ -1030,11 +1220,15 @@ export const ProfileScreen = ({
     { key: "streak_3", title: "3 Dias Seguidos", desc: "Streak de 3 dias" },
     { key: "streak_7", title: "Uma Semana!", desc: "7 dias seguidos de estudo" },
     { key: "100_xp", title: "Primeiros 100 XP", desc: "Acumulou 100 XP" },
-  ].map((a) => ({
-    ...a,
-    icon: ACHIEVEMENT_ICONS[a.key] ?? "🏅",
-    unlocked: achievements.some((u) => u.key === a.key),
-  }));
+  ].map((a) => {
+    const unlocked = achievements.find((u) => u.key === a.key);
+    return {
+      ...a,
+      icon: ACHIEVEMENT_ICONS[a.key] ?? "🏅",
+      unlocked: !!unlocked,
+      unlockedAt: unlocked?.unlockedAt ?? null,
+    };
+  });
 
   const unlockedCount = allAchievements.filter((a) => a.unlocked).length;
 
@@ -1169,13 +1363,78 @@ export const ProfileScreen = ({
                 )}
               >
                 <span className="text-2xl">{a.icon}</span>
-                <div>
+                <div className="min-w-0 flex-1">
                   <p className="text-sm font-bold text-on-surface">{a.title}</p>
                   <p className="text-xs text-gray-500">{a.desc}</p>
+                  {a.unlocked && a.unlockedAt && (
+                    <p className="mt-0.5 text-[10px] text-emerald-600">
+                      {new Date(a.unlockedAt).toLocaleDateString("pt-BR", { day: "2-digit", month: "short", year: "numeric" })}
+                    </p>
+                  )}
                 </div>
                 {a.unlocked && (
                   <CheckCircle2 size={16} className="ml-auto shrink-0 fill-emerald-500 text-white" />
                 )}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Loja de recompensas */}
+        <section className="rounded-3xl border border-black/5 bg-white p-6 shadow-sm">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="font-headline text-xl font-bold">Loja de Recompensas</h3>
+              <p className="mt-1 text-sm text-gray-500">Troque suas moedas por benefícios.</p>
+            </div>
+            <div className="flex items-center gap-2 rounded-2xl bg-amber-50 px-4 py-2">
+              <span className="text-lg">🪙</span>
+              <span className="font-headline text-xl font-black text-amber-700">{coins}</span>
+            </div>
+          </div>
+          <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              { id: "streak_shield", icon: "🛡️", title: "Proteção de Streak", desc: "Protege seu streak por 1 dia sem estudar.", cost: 50, color: "border-blue-100 bg-blue-50" },
+              { id: "xp_boost", icon: "⚡", title: "XP Dobrado", desc: "Próximas 10 respostas valem XP em dobro.", cost: 80, color: "border-primary/20 bg-primary/5" },
+              { id: "hint_pack", icon: "💡", title: "Pack de Dicas", desc: "5 dicas extras para questões difíceis.", cost: 30, color: "border-amber-100 bg-amber-50" },
+              { id: "theme_dark", icon: "🌙", title: "Tema Escuro", desc: "Visual dark mode para o app. (Em breve)", cost: 100, color: "border-gray-200 bg-gray-50", disabled: true },
+              { id: "bonus_mission", icon: "🎯", title: "Missão Bônus", desc: "Missão extra com recompensa dobrada.", cost: 60, color: "border-emerald-100 bg-emerald-50" },
+              { id: "pdf_priority", icon: "📄", title: "Análise Prioritária", desc: "Próximo PDF processado em destaque.", cost: 40, color: "border-rose-100 bg-rose-50" },
+            ].map((item) => (
+              <div
+                key={item.id}
+                className={cn(
+                  "flex flex-col gap-3 rounded-2xl border p-4 transition",
+                  item.disabled ? "opacity-50 grayscale" : "",
+                  item.color
+                )}
+              >
+                <div className="flex items-start justify-between gap-2">
+                  <span className="text-2xl">{item.icon}</span>
+                  <span className="flex items-center gap-1 rounded-full bg-white/70 px-2 py-0.5 text-xs font-black text-amber-700">
+                    🪙 {item.cost}
+                  </span>
+                </div>
+                <div>
+                  <p className="text-sm font-bold text-on-surface">{item.title}</p>
+                  <p className="mt-0.5 text-xs text-gray-500">{item.desc}</p>
+                </div>
+                <button
+                  disabled={item.disabled || coins < item.cost}
+                  onClick={() => {
+                    if (!item.disabled && coins >= item.cost) {
+                      alert(`"${item.title}" em implementação completa em breve!`);
+                    }
+                  }}
+                  className={cn(
+                    "mt-auto rounded-xl py-2 text-xs font-bold transition",
+                    item.disabled || coins < item.cost
+                      ? "bg-gray-100 text-gray-400 cursor-not-allowed"
+                      : "bg-white shadow-sm hover:shadow-md active:scale-95 text-on-surface"
+                  )}
+                >
+                  {item.disabled ? "Em breve" : coins < item.cost ? "Sem moedas" : "Resgatar"}
+                </button>
               </div>
             ))}
           </div>
@@ -1201,78 +1460,122 @@ export const ProfileScreen = ({
   );
 };
 
-export const SettingsScreen = ({
-  onBack,
-}: {
-  onBack: () => void;
-}) => (
-  <div className="min-h-screen pb-28 md:pb-32">
-    <Header />
-    <main className="mx-auto max-w-4xl space-y-8 px-4 pb-4 pt-24 sm:px-6 lg:px-8">
-      <section className="rounded-[2rem] border border-black/5 bg-white p-6 shadow-sm sm:p-8">
-        <button onClick={onBack} className="text-sm font-bold text-primary hover:underline">
-          Voltar para perfil
-        </button>
-        <div className="mt-4 flex items-center gap-4">
-          <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-primary">
-            <Settings size={24} />
-          </div>
-          <div>
-            <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400">
-              Configuracoes
-            </p>
-            <h1 className="font-headline mt-2 text-3xl font-extrabold text-on-surface">
-              Preferencias do app
-            </h1>
-          </div>
-        </div>
-      </section>
+export const SettingsScreen = ({ onBack }: { onBack: () => void }) => {
+  const { user, reloadUser } = useCurator();
+  const [name, setName] = useState(user?.name ?? "");
+  const [saving, setSaving] = useState(false);
+  const [saved, setSaved] = useState(false);
 
-      <section className="grid grid-cols-1 gap-6">
-        {[
-          {
-            title: "Tema",
-            description: "Controle a aparencia geral da experiencia.",
-            value: "Claro",
-          },
-          {
-            title: "Notificacoes",
-            description: "Ajuste lembretes de estudo e revisao.",
-            value: "Ativadas",
-          },
-          {
-            title: "Idioma",
-            description: "Defina o idioma principal da interface.",
-            value: "Portugues",
-          },
-          {
-            title: "Conta",
-            description: "Gerencie identidade e dados basicos do usuario.",
-            value: "Conta local",
-          },
-          {
-            title: "Plano",
-            description: "Espaco reservado para status e upgrades futuros.",
-            value: "Base",
-          },
-        ].map((item) => (
-          <div
-            key={item.title}
-            className="flex flex-col gap-3 rounded-2xl border border-black/5 bg-white p-6 shadow-sm sm:flex-row sm:items-center sm:justify-between"
-          >
-            <div>
-              <h3 className="font-headline text-lg font-bold text-on-surface">{item.title}</h3>
-              <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+  useEffect(() => { setName(user?.name ?? ""); }, [user?.name]);
+
+  const handleSaveName = async () => {
+    if (!name.trim() || name === user?.name) return;
+    setSaving(true);
+    try {
+      await fetch("/api/settings", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name }),
+      });
+      await reloadUser();
+      setSaved(true);
+      setTimeout(() => setSaved(false), 2500);
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  return (
+    <div className="min-h-screen pb-28 md:pb-32">
+      <Header />
+      <main className="mx-auto max-w-4xl space-y-8 px-4 pb-4 pt-24 sm:px-6 lg:px-8">
+        <section className="rounded-[2rem] border border-black/5 bg-white p-6 shadow-sm sm:p-8">
+          <button onClick={onBack} className="text-sm font-bold text-primary hover:underline">
+            Voltar para perfil
+          </button>
+          <div className="mt-4 flex items-center gap-4">
+            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-primary">
+              <Settings size={24} />
             </div>
-            <div className="rounded-full bg-primary/5 px-4 py-2 text-sm font-bold text-primary">
-              {item.value}
+            <div>
+              <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400">Configurações</p>
+              <h1 className="font-headline mt-2 text-3xl font-extrabold text-on-surface">Preferências do app</h1>
             </div>
           </div>
-        ))}
-      </section>
-    </main>
-  </div>
-);
+        </section>
+
+        {/* Conta */}
+        <section className="rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
+          <h2 className="font-headline text-lg font-bold text-on-surface">Conta</h2>
+          <p className="mt-1 text-sm text-gray-500">Gerencie seu nome de exibição e informações básicas.</p>
+          <div className="mt-5 space-y-4">
+            <div>
+              <label className="mb-1.5 block text-[10px] font-bold uppercase tracking-wider text-gray-400">Nome</label>
+              <div className="flex gap-3">
+                <input
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  placeholder="Seu nome"
+                  className="flex-1 rounded-xl border border-black/10 bg-gray-50 px-4 py-2.5 text-sm outline-none transition focus:border-primary/30 focus:bg-white focus:ring-2 focus:ring-primary/10"
+                />
+                <button
+                  onClick={() => void handleSaveName()}
+                  disabled={saving || !name.trim() || name === user?.name}
+                  className={cn(
+                    "flex items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-bold transition disabled:opacity-40",
+                    saved ? "bg-emerald-100 text-emerald-700" : "bg-primary text-white"
+                  )}
+                >
+                  {saving ? <Loader2 size={14} className="animate-spin" /> : saved ? <CheckCircle2 size={14} /> : <Save size={14} />}
+                  {saved ? "Salvo!" : "Salvar"}
+                </button>
+              </div>
+            </div>
+            <div>
+              <label className="mb-1.5 block text-[10px] font-bold uppercase tracking-wider text-gray-400">E-mail</label>
+              <input
+                value={user?.id === "local-user" ? "local@thecurator.app" : ""}
+                disabled
+                className="w-full rounded-xl border border-black/10 bg-gray-50 px-4 py-2.5 text-sm text-gray-400 outline-none"
+              />
+              <p className="mt-1 text-[10px] text-gray-400">O e-mail é gerenciado pelo provedor de autenticação.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Estatísticas da conta */}
+        <section className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+          {[
+            { label: "XP Total", value: String(user?.xp ?? 0), color: "text-primary" },
+            { label: "Streak atual", value: `${user?.streak ?? 0} dias`, color: "text-orange-600" },
+            { label: "Moedas", value: `🪙 ${user?.coins ?? 0}`, color: "text-amber-700" },
+          ].map((item) => (
+            <div key={item.label} className="rounded-2xl border border-black/5 bg-white p-5 shadow-sm text-center">
+              <p className="text-[10px] font-bold uppercase tracking-wider text-gray-400">{item.label}</p>
+              <p className={cn("font-headline mt-2 text-2xl font-black", item.color)}>{item.value}</p>
+            </div>
+          ))}
+        </section>
+
+        {/* Outros */}
+        <section className="grid grid-cols-1 gap-4">
+          {[
+            { title: "Idioma", description: "Português (Brasil)", icon: "🌎" },
+            { title: "Plano", description: "Gratuito — todos os recursos disponíveis", icon: "⭐" },
+          ].map((item) => (
+            <div key={item.title} className="flex items-center gap-4 rounded-2xl border border-black/5 bg-white p-5 shadow-sm">
+              <span className="text-2xl">{item.icon}</span>
+              <div className="flex-1">
+                <p className="text-sm font-bold text-on-surface">{item.title}</p>
+                <p className="text-xs text-gray-500">{item.description}</p>
+              </div>
+            </div>
+          ))}
+        </section>
+      </main>
+    </div>
+  );
+};
 
 export const DashboardOverviewScreen = ({
   onStartSession,

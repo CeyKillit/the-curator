@@ -120,6 +120,8 @@ export interface TrailNode {
   type: string;
   status: string;
   order: number;
+  relatedQuestionIds?: string[];
+  relatedFlashcardIds?: string[];
 }
 
 export interface TrailOverview {

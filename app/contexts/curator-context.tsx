@@ -87,6 +87,7 @@ interface CuratorContextValue {
   handleAddManualQuestion: (id: string, payload: Parameters<typeof addManualQuestion>[1]) => Promise<void>;
   // ações de estudo
   buildStudySessionFromDoc: (docId: string) => Promise<StudySessionState | null>;
+  buildStudySessionFromNode: (trailId: string, nodeId: string) => Promise<StudySessionState | null>;
   buildFlashcardSession: (docId: string) => Promise<StudySessionState | null>;
   buildReviewSession: () => Promise<StudySessionState | null>;
   buildSimuladoSession: () => Promise<StudySessionState | null>;
@@ -395,6 +396,41 @@ export const CuratorProvider = ({ children }: { children: React.ReactNode }) => 
     }
   };
 
+  const buildStudySessionFromNode = async (trailId: string, nodeId: string): Promise<StudySessionState | null> => {
+    const trail = trails.find((t) => t.id === trailId);
+    const node = trail?.nodes.find((n) => n.id === nodeId);
+    if (!trail || !node) {
+      addNotification("Trilha indisponível", "Não foi possível localizar este nó.", "warning");
+      return null;
+    }
+
+    // Nó de flashcard
+    if (node.type === "review" && (node.relatedFlashcardIds?.length ?? 0) > 0) {
+      return buildFlashcardSession(trail.pdfId);
+    }
+
+    // Nó de exercício: carrega apenas as questões vinculadas ao nó
+    if (node.type === "exercise" || node.type === "topic" || node.type === "module") {
+      const relatedIds = node.relatedQuestionIds ?? [];
+      if (relatedIds.length === 0) return buildStudySessionFromDoc(trail.pdfId);
+      try {
+        const detail = await fetchDocumentById(trail.pdfId);
+        const doc = docs.find((d) => d.id === trail.pdfId);
+        const nodeQuestions = (detail?.questions ?? [])
+          .filter((q) => relatedIds.includes(q.id))
+          .map((q) => mapApiQuestionToStudyQuestion({ ...q, subject: doc?.subject, sourceTitle: doc?.title, sourceDocId: doc?.id }))
+          .filter((q) => q.options.length >= 2);
+        if (nodeQuestions.length === 0) return buildStudySessionFromDoc(trail.pdfId);
+        return { questions: shuffleQuestions(nodeQuestions), flashcards: [], progress: { ...initialStudyProgress }, mode: "doc", title: node.title };
+      } catch {
+        return buildStudySessionFromDoc(trail.pdfId);
+      }
+    }
+
+    // Nó de resumo/summary: abre o PDF
+    return null;
+  };
+
   const buildFlashcardSession = async (docId: string): Promise<StudySessionState | null> => {
     const doc = docs.find((d) => d.id === docId);
     if (!doc) {
@@ -484,7 +520,7 @@ export const CuratorProvider = ({ children }: { children: React.ReactNode }) => 
     studySession, setStudySession, studyProgress, setStudyProgress,
     notifications, addNotification, removeNotification,
     handleUpload, handleAnalyze, handleRemoveDoc, handleAddManualQuestion,
-    buildStudySessionFromDoc, buildFlashcardSession, buildReviewSession, buildSimuladoSession,
+    buildStudySessionFromDoc, buildStudySessionFromNode, buildFlashcardSession, buildReviewSession, buildSimuladoSession,
     handleSelectOption, handleSubmitAnswer, handleNextQuestion, handleRestartStudy, handleReviewWrong,
     reloadUser, reloadDocs, reloadTrails,
   };
