@@ -1,0 +1,185 @@
+{
+  "kind": "curation-workbench",
+  "fileName": "PROVA B - AGENTE COMERCIAL - GABARITO 1.pdf",
+  "sourcePdfPath": "C:/Users/ADM/Documents/the-curator/pdf/PROVA B - AGENTE COMERCIAL - GABARITO 1.pdf",
+  "title": "Prova B - Agente Comercial - Lingua Portuguesa",
+  "subject": "Lingua Portuguesa",
+  "questionRange": ["1", "10"],
+  "status": "texto_extraido_aguardando_validacao_de_gabarito",
+  "summaryDraft": "Bloco de Lingua Portuguesa da prova do Banco do Brasil com foco em interpretacao textual, concordancia, crase, pontuacao e colocacao pronominal a partir de um texto-base sobre deep fake.",
+  "topics": [
+    "Interpretacao de Texto",
+    "Semantica",
+    "Concordancia Verbal",
+    "Concordancia Nominal",
+    "Crase",
+    "Pontuacao",
+    "Colocacao Pronominal"
+  ],
+  "trailDraft": {
+    "title": "Trilha: Prova BB - Lingua Portuguesa",
+    "subject": "Lingua Portuguesa",
+    "nodes": [
+      {
+        "title": "Leitura do texto-base: deep fake",
+        "type": "summary"
+      },
+      {
+        "title": "Questoes 1 a 10 de Lingua Portuguesa",
+        "type": "exercise",
+        "relatedQuestionNumbers": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      },
+      {
+        "title": "Revisao dos erros de Portugues",
+        "type": "review"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "questionNumber": "1",
+      "statement": "O trecho que explica o modo como se elabora uma deep fake e:",
+      "options": [
+        {
+          "id": "A",
+          "label": "Segundo estudo de uma empresa de seguranca, 65% dos brasileiros ignoram a sua existencia e 71% nao reconhecem quando um video foi editado digitalmente usando essa tecnica."
+        },
+        {
+          "id": "B",
+          "label": "O que muita gente nao sabe, porem, e que esse tipo de golpe, alem de manipular videos com celebridades e politicos famosos, tambem prejudica empresas e cidadaos comuns, que podem ser envolvidos em fraudes de identidade e extorsoes."
+        },
+        {
+          "id": "C",
+          "label": "A pratica costuma utilizar um video de referencia e a face ou corpo de outra pessoa, que nao fazia parte do video original. Criam-se audios falsos, fazendo a inteligencia artificial aprender como uma pessoa fala e, a partir dai, obter uma montagem com outras falas, inclusive alterando os labios."
+        },
+        {
+          "id": "D",
+          "label": "Isso ocorre porque as novas redes neurais, a evolucao da capacidade de processamento e a reducao de custos da computacao em nuvem tem facilitado o acesso a essa tecnologia."
+        },
+        {
+          "id": "E",
+          "label": "As redes sociais devem se manter configuradas como privadas, ja que fotos, audios ou videos disponiveis publicamente podem ser utilizados para alimentar a inteligencia artificial e engendrar deep fakes."
+        }
+      ],
+      "answerStatus": "pendente_validacao",
+      "topic": "Interpretacao de Texto"
+    },
+    {
+      "questionNumber": "2",
+      "statement": "Na progressao tematica do texto, depois de citar as novas tecnologias que permitem a producao de videos falsificados, desenvolve-se a ideia de que",
+      "options": [
+        { "id": "A", "label": "os usuarios devem reduzir a postagem de fotos, audios ou videos para evitar alimentar a producao de deep fakes." },
+        { "id": "B", "label": "os videos falsificados prejudicam celebridades, mas tambem trazem efeitos negativos a empresas e cidadaos comuns." },
+        { "id": "C", "label": "a tecnologia que permite a falsificacao de videos se utiliza de inteligencia artificial para criar audios falsos que substituem os verdadeiros." },
+        { "id": "D", "label": "mais da metade dos brasileiros nao conseguem reconhecer se um video foi falsificado por meio da tecnica de deep fake." },
+        { "id": "E", "label": "a falsificacao profunda e uma expressao para designar o fenomeno das deep fakes na lingua portuguesa." }
+      ],
+      "answerStatus": "pendente_validacao",
+      "topic": "Interpretacao de Texto"
+    },
+    {
+      "questionNumber": "3",
+      "statement": "No trecho \"alimentar a inteligencia artificial e engendrar deep fakes\", a palavra destacada pode ser substituida, sem prejuizo do sentido do texto, por",
+      "options": [
+        { "id": "A", "label": "arquitetar" },
+        { "id": "B", "label": "distribuir" },
+        { "id": "C", "label": "fraudar" },
+        { "id": "D", "label": "repetir" },
+        { "id": "E", "label": "utilizar" }
+      ],
+      "answerStatus": "pendente_validacao",
+      "topic": "Semantica"
+    },
+    {
+      "questionNumber": "4",
+      "statement": "No trecho \"que, como a traducao indica, e tao bem feita que pode enganar ate os mais atentos\", as palavras destacadas contribuem para expressar, entre as duas ideias, a relacao logica de",
+      "options": [
+        { "id": "A", "label": "adicao" },
+        { "id": "B", "label": "condicao" },
+        { "id": "C", "label": "contradicao" },
+        { "id": "D", "label": "consequencia" },
+        { "id": "E", "label": "temporalidade" }
+      ],
+      "answerStatus": "pendente_validacao",
+      "topic": "Interpretacao de Texto"
+    },
+    {
+      "questionNumber": "5",
+      "statement": "De acordo com as regras de concordancia verbal da norma-padrao da lingua portuguesa, a palavra destacada esta empregada corretamente em:",
+      "options": [
+        { "id": "A", "label": "No mundo dominado pela tecnologia, conferem-se aos softwares de manipulacao de dados importante papel no processo de controle da informacao." },
+        { "id": "B", "label": "Em todos os estudos comportamentais, atribuem-se aos jovens uma dependencia crescente das redes sociais, tendo em vista a sua necessidade permanente de relacionamento." },
+        { "id": "C", "label": "Ao receber algum video suspeito de deep fake, recomendam-se alguns cuidados especiais, como a analise do rosto e dos labios, para identificar se eles se movem em conjunto com o que e falado." },
+        { "id": "D", "label": "Para identificar se os videos falsos apresentam cortes entre uma palavra e outra, necessitam-se de instrumentos sofisticados de diagnostico tecnologico." },
+        { "id": "E", "label": "Uma das formas de identificar a manipulacao de videos e considerar o contexto, para avaliarem-se se as falas dos personagens mantem coerencia com a realidade." }
+      ],
+      "answerStatus": "pendente_validacao",
+      "topic": "Concordancia Verbal"
+    },
+    {
+      "questionNumber": "6",
+      "statement": "De acordo com as regras de concordancia nominal da norma-padrao da lingua portuguesa, a palavra destacada esta empregada corretamente em:",
+      "options": [
+        { "id": "A", "label": "A necessidade que as familias tem de economizar recursos e o desejo de conseguir emprego sao causadoras de muita ansiedade nos tempos atuais." },
+        { "id": "B", "label": "A correta instalacao da rede eletrica e a qualidade do material utilizado na construcao dos predios sao basicas para evitar problemas no futuro." },
+        { "id": "C", "label": "A fraude na veiculacao da informacao e o prejuizo que fake news causam no debate das grandes questoes nacionais sao impeditivas para o avanco da reflexao sobre o pais." },
+        { "id": "D", "label": "As empresas fabricantes de produtos que empregam alta tecnologia e os profissionais dessas empresas estao sempre atentas quanto a qualidade dos materiais que veiculam." },
+        { "id": "E", "label": "Os estudiosos nas areas de tecnologia e de comunicacao e as empresas de e-commerce estao interessadas na ampliacao do uso da internet em nossa sociedade." }
+      ],
+      "answerStatus": "pendente_validacao",
+      "topic": "Concordancia Nominal"
+    },
+    {
+      "questionNumber": "7",
+      "statement": "No texto, o referente da palavra em destaque esta corretamente explicitado, entre colchetes, no trecho do",
+      "options": [
+        { "id": "A", "label": "paragrafo 1 - 65% dos brasileiros ignoram a sua existencia e 71% nao reconhecem quando um video foi editado [empresa de seguranca]" },
+        { "id": "B", "label": "paragrafo 4 - tornando cada vez mais dificil a sua identificacao [palavras]" },
+        { "id": "C", "label": "paragrafo 4 - tem facilitado o acesso a essa tecnologia [computacao em nuvem]" },
+        { "id": "D", "label": "paragrafo 4 - Isso ocorre porque as novas redes neurais [esse processo]" },
+        { "id": "E", "label": "paragrafo 5 - nao precisam de tanto conhecimento e tecnologia para aplicar seus golpes [criminosos]" }
+      ],
+      "answerStatus": "pendente_validacao",
+      "topic": "Referencia Textual"
+    },
+    {
+      "questionNumber": "8",
+      "statement": "De acordo com a norma-padrao da lingua portuguesa, o uso do acento grave indicativo da crase e obrigatorio na palavra destacada em:",
+      "options": [
+        { "id": "A", "label": "A capacidade criativa do brasileiro e um privilegio que leva solucoes favoraveis a empresas de diferentes setores." },
+        { "id": "B", "label": "A seguranca em saude e a violencia sao temas que a maioria da populacao considera como os maiores obstaculos a serem superados." },
+        { "id": "C", "label": "As acoes de inclusao social colocaram o nosso pais em um patamar superior em relacao a outros paises, em diferentes epocas." },
+        { "id": "D", "label": "O objetivo das instituicoes que se preocupam com o bem-estar de seus funcionarios e ajuda-los a cuidarem de sua saude." },
+        { "id": "E", "label": "Os empresarios passaram a dar mais atencao a funcao que sua organizacao desempenha na sociedade." }
+      ],
+      "answerStatus": "pendente_validacao",
+      "topic": "Crase"
+    },
+    {
+      "questionNumber": "9",
+      "statement": "De acordo com a norma-padrao da lingua portuguesa, o emprego da virgula esta correto em:",
+      "options": [
+        { "id": "A", "label": "Os produtos comercializados nos mercados deverao apresentar embalagens adaptadas em seus rotulos ate o proximo ano atendendo, a expectativa do cliente na busca de uma dieta saudavel." },
+        { "id": "B", "label": "A tabela de informacao nutricional, passara a conter informacoes graficas nitidas e legiveis com o objetivo de preservar a compreensao das informacoes." },
+        { "id": "C", "label": "As industrias alimenticias estao sendo obrigadas, pelos orgaos fiscalizadores a se adequarem a legislacao em vigor para que nao sejam multadas." },
+        { "id": "D", "label": "A partir da promulgacao de lei no proximo ano, os rotulos de alimentos e bebidas deverao esclarecer os consumidores sobre a existencia de substancias alergenicas." },
+        { "id": "E", "label": "Varios economistas recomendam, que os consumidores tenham precaucao ao utilizar seus cartoes de credito devido a possibilidade de aumentarem seu endividamento." }
+      ],
+      "answerStatus": "pendente_validacao",
+      "topic": "Pontuacao"
+    },
+    {
+      "questionNumber": "10",
+      "statement": "O pronome obliquo atono em destaque esta empregado de acordo com a norma-padrao em:",
+      "options": [
+        { "id": "A", "label": "Convidaremo-lo para experimentar algumas novidades tecnologicas em oferta no interior da loja." },
+        { "id": "B", "label": "Aquele funcionario, que foi aprovado no exame seletivo de uma instituicao, para o cargo de tecnologo, estava em duvida em aceita-lo." },
+        { "id": "C", "label": "Os profissionais da informatica, ao serem entrevistados sobre sua carreira, nunca cansavam-se de citar as fontes em que poderiam encontrar novos conteudos de interesse para a sua area." },
+        { "id": "D", "label": "Quando os produtos tecnologicos mantem-se nas prateleiras das lojas por muito tempo, e sinal de que despertaram pouca atencao das pessoas." },
+        { "id": "E", "label": "Se os pesquisadores especializados em conserto de computadores ou outros dispositivos eletronicos conservarem-se atualizados, a ciencia que se dedica ao tratamento da informacao apresentara maior progresso." }
+      ],
+      "answerStatus": "pendente_validacao",
+      "topic": "Colocacao Pronominal"
+    }
+  ]
+}

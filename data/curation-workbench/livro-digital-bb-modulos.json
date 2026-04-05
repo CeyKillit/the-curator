@@ -1,0 +1,57 @@
+{
+  "kind": "module-blueprint",
+  "fileName": "PDF_-_Livro_Digital-banco-do-brasil.pdf",
+  "sourcePdfPath": "C:/Users/ADM/Documents/the-curator/pdf/PDF_-_Livro_Digital-banco-do-brasil.pdf",
+  "strategy": "separar por sumario, materia, topico e pagina inicial",
+  "modules": [
+    {
+      "subject": "Portugues",
+      "topic": "Acentuacao Grafica",
+      "startPage": 6,
+      "status": "curado_e_importado",
+      "curatedFile": "data/curated-imports/livro-digital-bb-portugues-acentuacao-grafica.json"
+    },
+    {
+      "subject": "Portugues",
+      "topic": "Ortografia",
+      "startPage": 10,
+      "status": "pronto_para_curadoria"
+    },
+    {
+      "subject": "Portugues",
+      "topic": "Emprego das Classes de Palavras",
+      "startPage": 15,
+      "status": "pronto_para_curadoria"
+    },
+    {
+      "subject": "Portugues",
+      "topic": "Crase",
+      "startPage": 80,
+      "status": "pronto_para_curadoria"
+    },
+    {
+      "subject": "Lingua Inglesa",
+      "topic": "Pronouns",
+      "startPage": 170,
+      "status": "pronto_para_curadoria"
+    },
+    {
+      "subject": "Matematica",
+      "topic": "Porcentagem",
+      "startPage": 247,
+      "status": "pronto_para_curadoria"
+    },
+    {
+      "subject": "Atualidades do Mercado Financeiro",
+      "topic": "PIX",
+      "startPage": 372,
+      "status": "pronto_para_curadoria"
+    },
+    {
+      "subject": "Conhecimentos Bancarios",
+      "topic": "Sistema Financeiro Nacional",
+      "startPage": 384,
+      "status": "pronto_para_curadoria"
+    }
+  ]
+}

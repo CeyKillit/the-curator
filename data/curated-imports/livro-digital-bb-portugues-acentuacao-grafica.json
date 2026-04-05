@@ -1,0 +1,206 @@
+{
+  "fileName": "PDF_-_Livro_Digital-banco-do-brasil.pdf",
+  "sourcePdfPath": "C:/Users/ADM/Documents/the-curator/pdf/PDF_-_Livro_Digital-banco-do-brasil.pdf",
+  "title": "Livro Digital BB - Portugues - Acentuacao Grafica",
+  "subject": "Portugues",
+  "summary": "Modulo curado de Portugues focado em Acentuacao Grafica para Banco do Brasil. O bloco trabalha hiato, proparoxitonas, alteracao de acento no plural, Acordo Ortografico e identificacao da regra de acentuacao exigida pela Cesgranrio.",
+  "topics": [
+    "Acentuacao Grafica",
+    "Hiato",
+    "Proparoxitonas",
+    "Acordo Ortografico",
+    "Cesgranrio"
+  ],
+  "questions": [
+    {
+      "questionNumber": "1",
+      "statement": "No texto, foram empregadas as palavras ai e otimo, ambas acentuadas graficamente. Duas outras palavras corretamente acentuadas pelos mesmos motivos que ai e otimo sao, respectivamente,",
+      "options": [
+        { "id": "A", "label": "juiz e ebano" },
+        { "id": "B", "label": "Icarai e ritmo" },
+        { "id": "C", "label": "caquis e incredulo" },
+        { "id": "D", "label": "pais e sonambulo" },
+        { "id": "E", "label": "abacaxi e economia" }
+      ],
+      "correctAnswer": "A",
+      "topic": "Acentuacao Grafica",
+      "difficulty": "medium",
+      "explanation": "A alternativa correta replica o padrao de hiato acentuado e proparoxitona corretamente acentuada exigido no enunciado."
+    },
+    {
+      "questionNumber": "2",
+      "statement": "Sao acentuadas graficamente pela mesma razao as palavras:",
+      "options": [
+        { "id": "A", "label": "audacia, prudencia, imprescindiveis, equilibrio" },
+        { "id": "B", "label": "politica, sabia, destroi, otimo" },
+        { "id": "C", "label": "catastrofes, historica, economica, entretem" },
+        { "id": "D", "label": "alem, ninguem, voce, orfao" },
+        { "id": "E", "label": "tres, ha, ate, so" }
+      ],
+      "correctAnswer": "A",
+      "topic": "Acentuacao Grafica",
+      "difficulty": "medium",
+      "explanation": "A banca pede palavras acentuadas pela mesma justificativa grafica, exigindo comparacao de regras e exclusao das misturas indevidas."
+    },
+    {
+      "questionNumber": "3",
+      "statement": "A primeira palavra acentuada do Texto II e tipica. Pela mesma regra, tambem se acentuam as palavras",
+      "options": [
+        { "id": "A", "label": "rubrica e tunica" },
+        { "id": "B", "label": "iberos e intimos" },
+        { "id": "C", "label": "diagnostico e prototipo" },
+        { "id": "D", "label": "etnico e filantropo" },
+        { "id": "E", "label": "interim e avaro" }
+      ],
+      "correctAnswer": "C",
+      "topic": "Proparoxitonas",
+      "difficulty": "medium",
+      "explanation": "A palavra tipica e proparoxitona, e a resposta correta repete essa mesma regra de acentuacao."
+    },
+    {
+      "questionNumber": "4",
+      "statement": "A presenca ou ausencia de acento grafico nem sempre se repete quando uma palavra esta no singular ou no plural. Quanto ao emprego do acento grafico, a seguinte palavra se altera quando vai para o plural:",
+      "options": [
+        { "id": "A", "label": "item" },
+        { "id": "B", "label": "viuva" },
+        { "id": "C", "label": "acucar" },
+        { "id": "D", "label": "fiel" },
+        { "id": "E", "label": "tecnica" }
+      ],
+      "correctAnswer": "D",
+      "topic": "Acentuacao Grafica",
+      "difficulty": "easy",
+      "explanation": "A banca explora a mudanca de tonicidade ou comportamento grafico da palavra quando passa do singular ao plural."
+    },
+    {
+      "questionNumber": "5",
+      "statement": "A palavra saiam contem hiato acentuado. Deve tambem ser acentuado o hiato de",
+      "options": [
+        { "id": "A", "label": "juizes" },
+        { "id": "B", "label": "rainha" },
+        { "id": "C", "label": "coroo" },
+        { "id": "D", "label": "veem" },
+        { "id": "E", "label": "suada" }
+      ],
+      "correctAnswer": "A",
+      "topic": "Hiato",
+      "difficulty": "easy",
+      "explanation": "O foco e reconhecer quando i ou u em hiato exigem acento pela norma-padrao."
+    },
+    {
+      "questionNumber": "6",
+      "statement": "A palavra que precisa ser acentuada graficamente para estar correta quanto as normas em vigor esta destacada na seguinte frase:",
+      "options": [
+        { "id": "A", "label": "Todo escritor de novela tem o desejo de criar um personagem inesquecivel." },
+        { "id": "B", "label": "Os telespectadores veem as novelas como um espelho da realidade." },
+        { "id": "C", "label": "Alguns novelistas gostam de superpor temas sociais com temas politicos." },
+        { "id": "D", "label": "Para decorar o texto antes de gravar, cada ator rele sua fala varias vezes." },
+        { "id": "E", "label": "Alguns atores de novela constroem seus personagens fazendo pesquisa." }
+      ],
+      "correctAnswer": "D",
+      "topic": "Acordo Ortografico",
+      "difficulty": "medium",
+      "explanation": "A questao cobra a forma grafica atualizada da palavra destacada segundo as normas vigentes."
+    },
+    {
+      "questionNumber": "7",
+      "statement": "Em conformidade com o Acordo Ortografico da Lingua Portuguesa vigente, atendem as regras de acentuacao todas as palavras em:",
+      "options": [
+        { "id": "A", "label": "androide, odisseia, residencia" },
+        { "id": "B", "label": "arguicao, refem, mausoleu" },
+        { "id": "C", "label": "desbloqueio, pelo, escarceu" },
+        { "id": "D", "label": "feiura, enjoo, maniqueismo" },
+        { "id": "E", "label": "sutil, assembleia, arremesso" }
+      ],
+      "correctAnswer": "B",
+      "topic": "Acordo Ortografico",
+      "difficulty": "medium",
+      "explanation": "A questao compara formas que perderam ou mantiveram acento depois do Acordo Ortografico."
+    },
+    {
+      "questionNumber": "8",
+      "statement": "A palavra tecnologicos recebe acento grafico, de acordo com as regras da norma-padrao da lingua portuguesa. O grupo em que todas as palavras devem ser acentuadas pela mesma regra e",
+      "options": [
+        { "id": "A", "label": "facil, organico, vitimas" },
+        { "id": "B", "label": "satelites, altissimos, vitimas" },
+        { "id": "C", "label": "fotossintese, atraidos, dominio" },
+        { "id": "D", "label": "saude, possivel, biologicos" },
+        { "id": "E", "label": "vulneraveis, luminarias, incontavel" }
+      ],
+      "correctAnswer": "B",
+      "topic": "Proparoxitonas",
+      "difficulty": "medium",
+      "explanation": "Tecnologicos e acentuada pela mesma regra do grupo correto, centrada na acentuacao de proparoxitonas."
+    },
+    {
+      "questionNumber": "9",
+      "statement": "Todas as palavras do grupo devem receber corretamente acentuacao grafica em:",
+      "options": [
+        { "id": "A", "label": "juri, nautico, inevitavel" },
+        { "id": "B", "label": "consciente, gratuito, facil" },
+        { "id": "C", "label": "presente, paises, inflamavel" },
+        { "id": "D", "label": "heroico, politico, item" },
+        { "id": "E", "label": "tranquilo, paciente, poetico" }
+      ],
+      "correctAnswer": "A",
+      "topic": "Acentuacao Grafica",
+      "difficulty": "medium",
+      "explanation": "A resposta correta reune apenas palavras que exigem acento segundo a grafia normativa."
+    },
+    {
+      "questionNumber": "10",
+      "statement": "No trecho \"Em um plano, temos o tao celebrado futebol-arte glorificado como a forma genuina de nosso suposto estilo de jogo\", a palavra destacada e acentuada graficamente pelo mesmo motivo pelo qual se acentua a palavra",
+      "options": [
+        { "id": "A", "label": "alem" },
+        { "id": "B", "label": "declinio" },
+        { "id": "C", "label": "idolo" },
+        { "id": "D", "label": "paises" },
+        { "id": "E", "label": "vies" }
+      ],
+      "correctAnswer": "D",
+      "topic": "Hiato",
+      "difficulty": "medium",
+      "explanation": "A palavra genuina e comparada a outra forma cuja acentuacao decorre da mesma regra de hiato."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Quando i ou u em hiato costumam receber acento?",
+      "answer": "Quando aparecem sozinhos na silaba ou acompanhados de s, formando hiato, respeitadas as excecoes da norma-padrao.",
+      "topic": "Hiato",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Qual e um foco recorrente da Cesgranrio em acentuacao grafica?",
+      "answer": "Comparar palavras ou grupos pela mesma justificativa de acentuacao, identificando rapidamente a regra dominante.",
+      "topic": "Cesgranrio",
+      "difficulty": "easy"
+    },
+    {
+      "question": "O que o Acordo Ortografico costuma cobrar nesse tema?",
+      "answer": "A manutencao ou queda de acentos em ditongos, hiatos e formas tradicionalmente confundidas em provas.",
+      "topic": "Acordo Ortografico",
+      "difficulty": "medium"
+    }
+  ],
+  "trail": {
+    "title": "Trilha: Portugues - Acentuacao Grafica",
+    "subject": "Portugues",
+    "nodes": [
+      {
+        "title": "Visao geral de Acentuacao Grafica",
+        "type": "summary"
+      },
+      {
+        "title": "Questoes de Acentuacao Grafica",
+        "type": "exercise",
+        "relatedQuestionNumbers": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      },
+      {
+        "title": "Revisao ativa do topico",
+        "type": "review",
+        "relatedFlashcardIndexes": [0, 1, 2]
+      }
+    ]
+  }
+}

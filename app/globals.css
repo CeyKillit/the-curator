@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-headline: "Aptos", "Trebuchet MS", "Segoe UI", sans-serif;
+
+  /* Cores primárias */
+  --color-primary: #004ac6;
+  --color-primary-container: #2563eb;
+  --color-on-primary: #ffffff;
+
+  /* Cores secundárias */
+  --color-secondary: #5c5f72;
+  --color-secondary-container: #e1e2f5;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #191c30;
+
+  /* Cores terciárias */
+  --color-tertiary: #006229;
+  --color-tertiary-container: #d3f5d8;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #002108;
+
+  /* Superfícies */
+  --color-surface: #f7f9fb;
+  --color-surface-container-low: #f2f4f6;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container: #eceef1;
+  --color-surface-container-high: #e6e8eb;
+
+  /* On-surface */
+  --color-on-surface: #191c1e;
+  --color-on-surface-variant: #434655;
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}

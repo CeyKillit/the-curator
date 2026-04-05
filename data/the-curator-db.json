@@ -1,0 +1,2023 @@
+{
+  "users": [
+    {
+      "id": "local-user",
+      "name": "Local User",
+      "email": "local@thecurator.app",
+      "xp": 5,
+      "streak": 1,
+      "createdAt": "2026-03-28T15:10:17.638Z",
+      "coins": 0,
+      "lastStudyDate": "2026-04-04"
+    }
+  ],
+  "documents": [
+    {
+      "id": "pdf_mnkvops0_vgvrro",
+      "userId": "local-user",
+      "fileName": "AGENTE DE TECNOLOGIA - Microrregião 158 - TI - GABARITO 1.pdf",
+      "fileUrl": "/api/documents/pdf_mnkvops0_vgvrro/file",
+      "storageKey": "pdf_mnkvops0_vgvrro_AGENTE_DE_TECNOLOGIA_-_Microrregi_o_158_-_TI_-_GABARITO_1.pdf",
+      "fileSize": 819723,
+      "uploadedAt": "2026-04-04T22:02:28.612Z",
+      "processingStatus": "processed",
+      "isRead": false,
+      "isAnalyzed": true,
+      "extractedTitle": "BANCO DO BRASIL GABARITO",
+      "extractedSubject": "Tecnologia",
+      "extractedSummary": "Visao geral:\nBANCO DO BRASIL GABARITO AGENTE DE TECNOLOGIA - Microrregião 158 - TI SELEÇÃO EXTERNA 2022 / 001 EDITAL No 01 - 2022/001 BB, DE 22 DE DEZEMBRO DE 2022 LEIA ATENTAMENTE AS INSTRUÇÕES ABAIXO. 01 - ATENÇÃO: o candidato deve escrever seu nome, pondo uma letra em cada quadrícula, no espaço abaixo (não abreviar o primeiro e o último nomes). 02 - O candidato recebeu do fiscal o seguinte material: a) este caderno, com o tema da Redação e 70 questões objetivas, sem repetição ou falha, assim distribuídas: CONHECIMENTOS BÁSICOS Língua Portuguesa Língua Inglesa Matemática Atualidades do Mercado Financeiro Questões Pontuação Questões Pontuação Questões Pontuação Questões Pontuação 1 a 10 1,5 ponto cada 11 a 15 1,0 ponto cada 16 a 20 1,5 ponto cada 21 a 25 1,0 ponto cada Total: 15,0 pontos Total: 5,0 pontos Total: 7,5 pontos Total: 5,0 pontos Total: 32,5 pontos CONHECIMENTOS ESPECÍFICOS Probabilidade e Estatística Conhecimentos Bancários Tecnologia da Informação Questões Pontuação Questões Pontuação Questões Pontuação 26 a 30 1,5 ponto cada 31 a 35 1,5 ponto cada 36 a 70 1,5 ponto cada Total: 7,5 pontos Total: 7,5 pontos Total: 52,5 pontos Total: 67,5 pontos b) um CARTÃO-RESPOSTA destinado à marcação das respostas das questões objetivas formuladas nas provas cujo verso é a página para desenvolvimen- to da Redação, que vale até 100,0 pontos, o qual é denominado CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO. 03 - O candidato deve verificar se este material está em ordem e se o seu nome e número de inscrição conferem com os que aparecem no CARTÃO-RESPOSTA/ PÁGINA DE REDAÇÃO. Caso tal não ocorra, o fato deve ser IMEDIATAMENTE notificado ao fiscal. 04 - Após a conferência, o candidato deverá assinar, no espaço próprio do CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO, com caneta esferográfica de tinta preta, fabricada em material transparente. 05 - Assim que receber o seu CADERNO DE QUESTÕES, o candidato deve: a) transcrever, no espaço apropriado do seu CARTÃO-RESPOSTA, com sua caligrafia usual, considerando as letras maiúsculas e minúsculas, a seguinte frase: b) preencher, no espaço apropriado do seu CARTÃO-RESPOSTA, o campo de marcação referente ao seguinte gabarito: 06 - No CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO, a marcação das letras correspondentes às respostas certas deve ser feita cobrindo a letra e preenchendo todo o espaço compreendido pelos círculos, com caneta esferográfica de tinta preta, fabricada em material transparente, de forma contínua e densa. A leitura ótica do CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO é sensível a marcas escuras, portanto, os campos de marcação devem ser preenchidos completamente, sem deixar claros. Exemplo: 07 - O candidato deve ter muito cuidado com o CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO, para não o DOBRAR, AMASSAR ou MANCHAR. O CARTÃO- RESPOSTA/PÁGINA DE REDAÇÃO SOMENTE poderá ser substituído se, no ato da entrega ao candidato, já estiver danificado. 08 - Imediatamente após a autorização para o início das provas, o candidato deve conferir se este CADERNO DE QUESTÕES está em ordem e com todas as páginas. Caso não esteja nessas condições, o fato deve ser IMEDIATAMENTE notificado ao fiscal. 09 - Para cada uma das questões objetivas, são apresentadas 5 alternativas classificadas com as letras (A), (B), (C), (D) e (E); só uma responde adequada- mente ao quesito proposto. O candidato só deve assinalar UMA RESPOSTA: a marcação em mais de uma alternativa anula a questão, MESMO QUE UMA DAS RESPOSTAS ESTEJA CORRETA. 10 - As questões objetivas são identificadas pelo número que se situa acima de seu enunciado. 11 - SERÁ ELIMINADO da presente Seleção Externa o candidato que: a) for surpreendido, durante as provas, em qualquer tipo de comunicação com outro candidato; b) se utilizar, durante a realização das provas, de aparelhos sonoros, fonográficos, de comunicação ou de registro, eletrônicos ou não, tais como agendas, relógios de qualquer natureza, notebook, transmissor de dados e mensagens, máquina fotográfica, telefones celulares, pagers, microcomputadores portáteis e/ou similares; c) se ausentar da sala em que se realizam as provas levando consigo o CADERNO DE QUESTÕES e/ou o CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO; d) se recusar a entregar o CADERNO DE QUESTÕES e/ou o CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO, quando terminar o tempo estabelecido; e) não assinar a LISTA DE PRESENÇA e/ou o CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO; f) deixar de transcrever corretamente, nos espaços próprios do CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO, o número do gabarito e a frase constantes na capa de seu CADERNO DE QUESTÕES. Obs: Iniciadas as provas, o candidato só poderá retirar-se da sala após decorridas 2 (duas) horas do efetivo início das mesmas e não poderá levar o CADERNO DE QUESTÕES, a qualquer momento. 12 - O candidato deve reservar os 30 (trinta) minutos finais para marcar seu CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO. Os rascunhos e as marcações assinaladas no CADERNO DE QUESTÕES NÃO SERÃO LEVADOS EM CONTA. 13 - O candidato deve, ao terminar as provas, entregar ao fiscal este CADERNO DE QUESTÕES, o CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO e ASSINAR A LISTA DE PRESENÇA. 14 - O TEMPO DISPONÍVEL PARA ESTAS PROVAS DE QUESTÕES OBJETIVAS E DE REDAÇÃO É DE 5 (CINCO) HORAS, incluído o tempo para a mar- cação do seu CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO, findo o qual o candidato deverá, obrigatoriamente, entregar o CADERNO DE QUESTÕES e o CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO. 15 - As questões e os gabaritos das Provas Objetivas serão divulgados no primeiro dia útil após a realização das mesmas, no endereço eletrônico da FUNDAÇÃO CESGRANRIO ( 1 Verdes matas. Gabarito 1 -- 1 of 27 -- 2 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 REDAÇÃO Utilize o texto a seguir como motivador para a produção de sua redação. Não o copie. Qualidade no atendimento ao cliente como fator de crescimento empresarial A qualidade no atendimento ao cliente é fator de crescimento empresarial, pois o mundo dos negócios está em constante progresso. Para sobreviver nesse mercado competitivo, é necessário que a empresa apresen- te diferenciais, buscando oferecer benefícios que possam atrair, reter, satisfazer e fidelizar seus clientes. Para alcançar tais objetivos, é preciso sempre entender o consumidor, de modo que ele venha a sentir confiança nos produtos e nos serviços oferecidos. Assim, é essencial que as organizações tenham um bom relacionamento com seus clientes, que consi- gam identificar quais são as suas necessidades, evitando, dessa forma, a insatisfação, para manter uma relação duradoura. LACERDA, Idelma. Qualidade no atendimento ao cliente como fator de crescimento empresarial. Disponível em: Acesso em: 16 out. 2022. Adaptado. No texto, recomenda-se que as empresas sejam cuidadosas na relação com seus clientes. Considerando os aspectos apresentados, elabore um texto dissertativo-argumentativo, em que você discuta o seguinte tema: A importância de um bom atendimento aos clientes nas instituições financeiras. No desenvolvimento do tema, o candidato deverá a) demonstrar domínio da escrita-padrão; b) manter a abordagem nos limites da proposta; c) redigir o texto no modo dissertativo-argumentativo (não serão aceitos textos narrativos nem poemas); d) demonstrar capacidade de selecionar, organizar e relacionar argumentos, fatos e opiniões para defender seu ponto de vista. Apresentação da Redação a) O texto deverá ter de 25 a 30 linhas, mantendo-se no limite do espaço para a Redação. b) O texto definitivo deverá ser transcrito para a Folha de Redação (o texto da folha de Rascunho não será considerado), em letra legível, com caneta esferográfica, fabricada em material transparente, e com tinta preta. c) A Redação não deve ser identificada, por meio de assinatura ou por qualquer outro sinal. -- 2 of 27 -- 3 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 RASCUNHO -- 3 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI4GABARITO 1 BANCO DO BRASIL 1 O trecho do texto que resume o objetivo do “empreende- dorismo social” é (A) “A meta é transformar uma realidade, promover o bem-estar da sociedade e agregar valor com cunho social”. (parágrafo 1) (B) “os empreendimentos sociais analisam seu desempe- nho a partir do impacto social gerado por sua atua- ção”. (parágrafo 2) (C) “ser inovadora; realizável; autossustentável; contar com a participação de diversos segmentos da socie- dade”. (parágrafo 4) (D) “Quem tem interesse de atuar nessa área precisa tra- balhar em grupo e formar parcerias”. (parágrafo 5) (E) “o profissional precisa ter flexibilidade e vontade de explorar, pois é possível que ele acabe exercendo um papel que não seja necessariamente na sua área de formação”. (parágrafo 6) 2 O texto explica que o empreendedorismo social se dife- rencia do conceito de negócio social porque o primeiro procura (A) criar profissionais especializados na sua área de atu- ação. (B) excluir do processo a parcela mais carente da popu- lação. (C) seguir a lógica tradicional do mercado de ações. (D) ter como objetivo produzir retorno financeiro. (E) transformar a sociedade por meio da inovação. 3 No trecho “está relacionado ao ato de empreender ou ino- var com o objetivo de alavancar causas sociais e ambien- tais” (parágrafo 1), a palavra destacada pode ser substitu- ída, sem prejuízo do sentido do texto, por (A) comprovar (B) defender (C) impulsionar (D) modificar (E) subsidiar 4 No trecho “Ainda que não exista uma concepção única sobre o empreendedorismo social” (parágrafo 1), a ex- pressão destacada pode ser substituída, sem prejuízo do sentido do texto, por (A) À medida que (B) Contanto que (C) De modo que (D) Mesmo que (E) Por causa de CONHECIMENTOS BÁSICOS LÍNGUA PORTUGUESA Empreendedorismo social: um caminho para quem quer mudar o mundo Ainda que não exista uma concepção única so- bre o empreendedorismo social, de forma geral, o conceito está relacionado ao ato de empreender ou inovar com o objetivo de alavancar causas sociais e ambientais. A meta é transformar uma realidade, pro- mover o bem-estar da sociedade e agregar valor com cunho social. Um empreendedor social produz bens e servi- ços que irão impactar positivamente a comunidade em que ele está inserido e solucionar algum proble- ma ou necessidade daquele grupo. Apesar de poder ter retorno financeiro, os empreendimentos sociais analisam seu desempenho a partir do impacto social gerado por sua atuação. Vale ressaltar que, apesar de apresentarem mui- tas similaridades, empreendedorismo social e negó- cio social não são sinônimos. O empreendedorismo social cria valor por meio da inovação, que gera uma transformação social. O foco não é o retorno financei- ro, mas a resolução de problemas sociais e o impacto positivo. Enquanto isso, os negócios sociais seguem a lógica tradicional do mercado, porém com a ambi- ção de gerar valor social. Cinco características também são essenciais para a iniciativa: ser inovadora; realizável; autos- sustentável; contar com a participação de diversos segmentos da sociedade, incluindo as pessoas im- pactadas; e promover impacto social com resultados mensuráveis. Quem tem interesse de atuar nessa área preci- sa trabalhar em grupo e formar parcerias, saber lidar bem com as pessoas e buscar formas de trazer resul- tados de impacto social. Além disso, o profissional precisa ter flexibilidade e vontade de explorar, pois é possível que ele acabe exercendo um papel que não seja necessariamen- te na sua área de formação, ou que sua atuação se transforme rapidamente, por conta do dinamismo e das necessidades do negócio. MENDES, T. Empreendedorismo social: um caminho para quem quer mudar o mundo. Na prática, 7 jul. 2022. Disponível em: Acesso em: 2 set. 2022. Adaptado. 1 2 3 4 5 6 -- 4 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI5GABARITO 1 BANCO DO BRASIL 5 No trecho “Ainda que não exista uma concepção única” (parágrafo 1), a palavra destacada pode ser substituída, sem prejuízo do sentido do texto, por (A) compreensão (B) conciliação (C) convivência (D) capacidade (E) semelhança 6 A palavra destacada atende às exigências de concor- dância de acordo com a norma-padrão da língua portu- guesa em: (A) A administração de empresas de tecnologia e o marketing profissional estão envolvidos na promoção de novos negócios na área econômica. (B) A assistência social às pessoas carentes e os cui- dados com o aparecimento de novas doenças são necessárias para manter a saúde da população. (C) A iniciativa de implementar mudanças nas empresas e o sucesso ao alcançar êxito são comemoradas pelos funcionários. (D) O financiamento de projetos e a assistência aos ne- cessitados, desejadas pelos empreendedores sociais, precisam da atenção redobrada dos responsáveis. (E) A vacinação de toda a população e a intensificação dos estudos sobre a pandemia devem ser implemen- tados pelas autoridades. 7 No trecho “os empreendimentos sociais analisam seu de- sempenho” (parágrafo 2), a palavra destacada se refere a (A) problema (B) comunidade (C) daquele grupo (D) retorno financeiro (E) empreendimentos sociais 8 De acordo com a norma-padrão da língua portuguesa, o uso do acento grave indicativo da crase é obrigatório na palavra destacada em: (A) A descrição detalhada de um empreendimento a ser realizado é uma necessidade para a aprovação de sua realização. (B) A divulgação do concurso levou muitas pessoas a se candidatarem a vaga mais concorrida na empresa. (C) A tentativa de obter a isenção fiscal é buscada a todo custo pelos responsáveis da instituição. (D) O sucesso de uma empresa deve ser atribuído a ges- tores competentes. (E) O uso de recursos digitais levou os jovens estudiosos a uma nova forma de aprendizagem em diferentes áreas. 9 O emprego da vírgula atende às exigências da norma- -padrão da língua portuguesa em: (A) A execução de novas tarefas em um supermercado, envolve a disposição dos funcionários de aceitarem as mudanças propostas pelo RH. (B) Ao consultar os fornecedores de produtos para suas lojas, os responsáveis por esse departamento devem ser cuidadosos. (C) A escolha do funcionário para proferir uma palestra em nome da empresa, compete à administração da instituição. (D) O profissional interessado em mudanças na sua área de atuação deve estudar, com antecedência as suas possibilidades de crescimento. (E) Para desenvolver projetos cabe ao gerente da orga- nização, a iniciativa de implementar novas técnicas à disposição dos empreendedores. 10 O pronome oblíquo destacado foi colocado na posição correta, segundo as exigências da norma-padrão da lín- gua portuguesa, em: (A) A área da saúde não encontra-se atendida em regiões afastadas dos grandes centros urbanos nem em co- munidades que vivem nas periferias das cidades. (B) A preocupação com o meio ambiente tem sido um dos segmentos mais relevantes do empreendedorismo social, porque destina-se a transformar positivamente a sociedade. (C) Governantes que têm como missão viabilizar o aces- so universal à educação pública de qualidade sempre preocupam-se com ações de inovação e empreende- dorismo. (D) Para uma iniciativa de empreendedorismo destina- da à formação de educadores tornar-se produtiva, é preciso identificar as necessidades do público-alvo de cada comunidade. (E) Quando os profissionais que atuam na área de empre- endedorismo social sentem-se desanimados, é preci- so que eles avaliem todo o progresso que ajudaram a desenvolver. RASCUNHO -- 5 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI6GABARITO 1 BANCO DO BRASIL LÍNGUA INGLESA From Bartering to Bitcoin By Rich Beattie What we call “money” has always been a moving target. It changes appearance and value. Here are five key developments in the history of money that have impacted how we earn, save and spend today. Cash Cows - Before humans had money, they had stuff. In ancient times, when you had stuff other people wanted, you bartered it for stuff you wanted. Around 9000 BC, the most popular commodities included things like cattle, sheep and camels. This was fine when people bartered close to home, but bulky creatures are cumbersome and difficult to transport. As people started to venture farther afield to trade, a more portable option became essential. In 1200 BC people started using cowries—the shells of marine mollusks taken from oceans. They were recognized as precious, and their use spread across Asia, Africa, Oceania and Europe. Having been in use for centuries — even into the 20th century in some places—cowries win the prize as the world’s longest-running currency. Three Coins in the Fountain - The issue with bartering became assigning value: Just how much was a cowrie or a cow worth? So, agreeing on the value of money became essential. It was the Lydians, around 600 BC, who get credit for a critical step in this process: fashioning the first known coins, which were made of a gold and silver alloy. The metal used to make a coin—along with its weight—was important, as it denoted the money’s value. Moreover, as coins gained popularity, so did the idea of adorning them with locally inspired designs. Coins were money, but they now doubled as a historic record. Eventually, they took on even more uses: People flipped them to make decisions and tossed them into wells while making wishes. They may be used less in 2020, but coins have been an integral part of our culture for centuries. The Paper Chase - Coins were obviously lighter and easier to transport than cows, but carrying bags of heavy metal still wasn’t very practical. China’s Tang Dynasty, in the seventh century, came up with a smart solution, namely, paper money. It was super-light and could feature even richer designs than coins, and it promised a certain amount of purchasing power. Gold Rush - One of the problems, though, was that counterfeiters had great success with paper bills. The bigger problem came when governments faced economic crises; it was far too easy to print more paper money, which led to skyrocketing inflation. Paper needed a backup—something universally valued yet not easily replicated. Something like gold. 1 2 3 4 5 6 7 The “gold standard” let governments create a fixed price for this precious metal that was tied directly to the value of their currency. In the United States, the idea took root in the late 17th century, and it spread to Europe in the 19th century. But confidence in the gold standard crumbled during World War I, and it soon became apparent that in order to thrive, currencies needed the freedom to fluctuate dynamically against each other. The gold standard was dropped in the United States in 1933, and a global economy started to take shape. The E-Buck Stops Here? - Cows, cowries, coins, paper, gold: Money has always had a physical presence. But today, it is quickly evolving into numbers that float through the ether. This modern era of money began in 1946 with the first bank-issued charge card. Credit cards followed some 12 years later, still related to dollars. However, technology, with cryptocurrencies like Bitcoin, is changing the world’s definition of “money.” Now, social media companies and entire countries are considering digital currencies of their own. Meanwhile, artificial intelligence is growing ever- smarter, and perhaps one day soon your budget and expenses will be managing themselves. The debate rages about exactly where we are headed, but with history as our guide, the one thing we can absolutely count on is the inevitability of change. Available at: -of-money/. Retrieved on: Sept 10, 2022. Adapted. 11 The main purpose of the text is to (A) present a brief history of money. (B) relate the history of money with wars. (C) regret society’s attitude regarding money. (D) deny the importance of money to humankind. (E) describe the relevance of money in the world. 12 In the fragment in the fourth paragraph of the text, “It was the Lydians, around 600 BC, who get credit for a critical step in this process: fashioning the first known coins, which were made of a gold and silver alloy” the words in bold refer respectively to: (A) BC – coins (B) 600 BC – first (C) 600 BC – coins (D) Lydians – coins (E) Lydians – known 8 9 10 RASCUNHO -- 6 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI7GABARITO 1 BANCO DO BRASIL 13 In the sixth paragraph of the text, the author mentions that paper money first circulated in (A) Italy (B) China (C) England (D) Australia (E) Germany 14 In the fragment in the seventh paragraph of the text “One of the problems, though, was that counterfeiters had great success with paper bills”, the word in bold is associated with the idea of (A) time (B) addition (C) condition (D) emphasis (E) opposition 15 In the tenth paragraph, the author of the text predicts that there are chances artificial intelligence will be able to (A) manage bank accounts. (B) prevent money changes. (C) eliminate exchange rates. (D) control financial resources. (E) avoid inflation and corruption. MATEMÁTICA 16 Um grande banco formará uma comissão que será co- mandada por três de suas funcionárias, Alice, Beatriz e Carla. Nessa comissão, uma delas será a presidente, ou- tra será a gerente, e outra, a coordenadora. A distribuição desses cargos deverá, necessariamente, considerar as quatro seguintes restrições: I) Se Carla for a gerente, então Beatriz terá de ser a presidente; II) Se Alice for a presidente, então Carla terá de ser a gerente; III) Se Beatriz não for a coordenadora, então Alice terá de ser a gerente; IV) Se Carla for a coordenadora, então Beatriz terá de ser a gerente. Nessas circunstâncias, os respectivos cargos de Alice, Beatriz e Carla serão (A) gerente, coordenadora e presidente (B) gerente, presidente e coordenadora (C) coordenadora, presidente e gerente (D) presidente, gerente e coordenadora (E) presidente, coordenadora e gerente RASCUNHO -- 7 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI8GABARITO 1 BANCO DO BRASIL 17 Uma fábrica vende mensalmente 200 malas a R$ 300,00 cada. O departamento de vendas trabalha com a hipóte- se de que cada aumento de R$ 10,00 no preço de cada mala implica a venda mensal de 20 malas a menos. Por exemplo, em um mês em que cada mala foi vendida por R$ 320,00, foram vendidas 160 malas. Suponha que a hipótese esteja correta e que, em um determinado mês, cada mala foi vendida por (300 + 10x) reais, sendo x o nú- • Prob (Z > 1,96) = 2,5% . 29 Considere que, em uma agência bancária, o tempo médio que um cliente aguardou para começar a ser atendido, na primeira semana de um determinado mês de 2022, foi de 8min 30s e, na semana seguinte, esse tempo médio passou para 5min 30s. Considere, ainda, que na primeira semana foram atendidos 2.700 clientes, e na segunda se- mana, 1.350 clientes. O tempo médio de espera para um cliente começar a ser atendido no caixa, considerando essas duas semanas, foi de, aproximadamente, (A) 5min 50s (B) 6min 30s (C) 6min 50s (D) 7min 30s (E) 7min 50s 30 Para melhorar a educação financeira de seus clientes quanto ao uso do crédito, um banco contratou uma em- presa de análise de risco, que classifica os clientes quan- to à propensão de usar o cheque especial, em dois tipos: A e B, sendo o tipo A propenso a usar o cheque especial, e o tipo B, a não usar o cheque especial. Para uma de- terminada agência, um estudo da empresa mostrou que a probabilidade de um cliente tipo A usar o cheque especial, em um intervalo de um ano, é de 80%. Já para o tipo B, a probabilidade de usar é de 10%, no mesmo intervalo de tempo. Considere que, nessa agência, 30% dos clientes são considerados do tipo A. Nesse contexto, se um cliente entrou no cheque especial, a probabilidade de que seja do tipo A, é de, aproximada- mente, (A) 65% (B) 70% (C) 77% (D) 82% (E) 85% 27 Uma população é formada por quatro números, quais sejam, 2, 5, 10, 15, de modo que a média vale 8, e a variância, 24,5. Considerando-se todas as possíveis amostras aleatórias simples, com reposição, de tamanho 2 dessa população, a variância da distribuição amostral das médias é de (A) 3,50 (B) 4,94 (C) 12,25 (D) 24,50 (E) 32,67 28 Após uma festa de casamento, a anfitriã percebeu que foram esquecidos quatro telefones celulares. Na manhã seguinte, enviou uma mensagem para o grupo de convi- dados pelo WhatsApp sobre o esquecimento, e apenas quatro pessoas não responderam, fazendo com que ela presumisse, corretamente, que estas quatro pessoas se- riam os proprietários dos telefones. Para devolvê-los, a anfitriã preparou quatro envelopes, cada um contendo um dos endereços desses quatro proprietários. Ato contínuo, colocou aleatoriamente cada celular em um envelope e os despachou para uma entrega expressa. A probabilidade de que apenas um desses quatro convi- dados tenha recebido o seu próprio celular é de (A) 3/4 (B) 2/3 (C) 1/2 (D) 3/8 (E) 1/3 RASCUNHO -- 10 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI11GABARITO 1 BANCO DO BRASIL CONHECIMENTOS BANCÁRIOS 31 Ao decidir pela aplicação em um ativo financeiro, os in- vestidores levam em conta a chamada taxa de juros real ex-ante. Se eles considerarem a taxa de juros SELIC, o índice da taxa de juros real ex-ante para os próximos 12 meses é entendido como o índice da (A) SELIC nominal esperada para os próximos 12 meses, descontado o índice da variação cambial esperada para os próximos 12 meses. (B) SELIC nominal esperada para os próximos 12 meses, descontado o índice da inflação esperada para os pró- ximos 12 meses. (C) SELIC nominal acumulada nos últimos 12 meses, des- contado o índice de variação cambial acumulada nos últimos 12 meses. (D) SELIC nominal acumulada nos últimos 12 meses, des- contado o índice da inflação acumulada nos últimos 12 meses. (E) SELIC nominal acumulada nos últimos 12 meses, des- contado o índice de impostos acumulados nos últimos 12 meses, incidentes sobre os rendimentos do ativo. 32 As operações diárias de compra e venda de divisas es- trangeiras (dólares, euros, libras esterlinas, dentre outras) são parte integrante do mercado (A) monetário (B) cambial (C) acionário (D) creditício (E) de trabalho 33 A equação da paridade dos juros, a descoberto, estabe- lece que: taxa de juros interna – taxa de juros externa = expecta- tivas de depreciação da moeda nacional em relação ao Dólar americano + risco-país Admita-se que a deterioração de indicadores macroeco- nômicos fundamentais no Brasil, como o déficit fiscal e o déficit em transações correntes do balanço de pagamen- tos, provoque o aumento do risco-país e a fuga de capitais estrangeiros do Brasil. Se a equação de paridade dos juros for aplicada ao caso brasileiro, supondo-se que todos os demais indicadores econômicos permaneçam constantes, para que os influ- xos de capitais estrangeiros no Brasil voltem a se estabi- lizar, será necessário (A) aumentar o risco-país. (B) aumentar a taxa de juros externa. (C) aumentar a taxa de juros interna. (D) reduzir a taxa de juros interna. (E) depreciar o Real brasileiro em relação ao Dólar ameri- cano. 34 Considere-se a execução, em determinado ano, do orça- mento público consolidado do Brasil. Se, no final desse mesmo ano, o total das despesas pri- márias relativas a gastos em custeio e investimento – ex- cluídas as despesas de juros incidentes sobre o estoque da dívida pública – tiver sido superior ao total das receitas de impostos arrecadados, o governo brasileiro terá fecha- do o ano com (A) déficit fiscal primário (B) déficit fiscal nominal (C) superávit fiscal primário (D) superávit fiscal nominal (E) orçamento equilibrado 35 Um pesquisador na área de finanças públicas e privadas atua, também, como consultor de negócios. Em determi- nado momento, recebe proposta para assessorar empre- sário que deseja constituir sociedade para negociar infor- mações constantes de dados de instituições financeiras. Tal atividade não é autorizada pela legislação. O pesquisador aduz que, consoante a Lei Complementar no 105/2001, devem observar o sigilo em suas operações ativas e passivas e serviços prestados diversas institui- ções financeiras, dentre as quais administradoras de (A) imóveis urbanos (B) locação de móveis (C) empréstimo de automóveis (D) bens antigos de raridade comprovada (E) mercado de balcão organizado RASCUNHO -- 11 of 27 -- 12 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 TECNOLOGIA DA INFORMAÇÃO 36 Analise o código a seguir, feito em Python com o Scikit-learn. import numpy as np import sklearn.linear_model as skl base = np.array([1, 2, 3, 4, 5, 6]) x = base.reshape((-1, 1)) # a fazer print('a', model.coef_[0]) print('b', model.intercept_) A partir desse código, um programador quer obter os parâmetros a e b da equação y = ax + b, por meio de uma regressão linear, usando, para isso, os dados nos vetores x e y definidos no programa. Qual linha de código deve substituir o comentário # a fazer de modo a realizar essa regressão linear? (A) model = skl.lr(x, y) (B) model = skl.lr().fit(x, y) (C) model = skl.LinearRegression(x, y) (D) model = skl.LinearRegression([x, y]) (E) model = skl.LinearRegression().fit(x, y) 37 Em um programa em Swift, o programador deseja incluir o resultado de uma operação dentro de uma string. Nesse contexto, considere o seguinte código: let quantidade = 4 let valor = 10 Dado o código acima, o programador deseja uma string saida cujo valor seja \"valor total = 40\" Para isso, o programador deve utilizar o seguinte fragmento de código Swift: (A) let saida := \"valor total = \\(quantidade*valor)\" (B) let saida := \"valor total = \\{quantidade*valor}\" (C) let saida = \"valor total = %[quantidade*valor]\" (D) let saida = \"valor total = \\(quantidade*valor)\" (E) let saida = \"valor total = \\[quantidade*valor]\" 38 Um programador foi instruído pelo seu gerente a implementar, em Java, uma classe MemoriaCalculoVenda que imple- mentasse a interface MemoriaCalculo, já criada pela organização e que representa as exigências da organização para classes que implementam memórias de cálculo. Nesse cenário, com que fragmento de código o programador deve começar, de forma correta, a implementação da classe? (A) class MemoriaCalculoVenda extends MemoriaCalculo (B) class MemoriaCalculoVenda implements MemoriaCalculo (C) class MemoriaCalculoVenda imports MemoriaCalculo (D) class MemoriaCalculoVenda inherits MemoriaCalculo (E) class MemoriaCalculoVenda uses MemoriaCalculo -- 12 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI13GABARITO 1 BANCO DO BRASIL 39 No processo de aprendizagem de máquina, busca-se identificar padrões compreensíveis em bases de dados. Desse modo, supõe-se a existência de uma hierarquia de três níveis: a base, com os itens elementares, captados e armazenados por recursos de Tecnologia da Informação; o nível intermediário, no qual esses itens são processa- dos, com significados e contextos bem definidos; e o nível mais alto, contendo os padrões ou os conjuntos cuja for- mulação pode envolver ou relacionar os níveis inferiores. Os três níveis dessa hierarquia, listados, respectivamen- te, da base para o nível mais alto, são: (A) conhecimento, informação e dado (B) dado, conhecimento e informação (C) dado, informação e conhecimento (D) informação, conhecimento e dado (E) informação, dado e conhecimento 40 Analise com atenção o código a seguir, escrito em TypeScript 4.0. function segredo(a: number[]) { return a.map(x=>x*2); console.log(segredo([1,2,3])); O que será exibido no console quando o código acima for executado? (A) \"Executed JavaScript Failed:\" (B) [2, 4, 6] (C) [6] (D) 6 (E) 12 41 Uma organização decidiu monitorar a opinião do público sobre ela nas redes sociais. Para isso, processou as men- sagens com referências ao seu nome, a fim de possibilitar o uso de uma técnica de processamento de linguagem natural conhecida como análise de sentimentos. Após transformar cada mensagem em uma string, um dos passos importantes nessa técnica é a tokenização, que consiste em (A) colocar todos os caracteres da mensagem em minús- culas. (B) colocar todos os verbos da mensagem no infinitivo. (C) dividir o texto da mensagem em palavras isoladas. (D) eliminar todos os marcadores HTML ou XML da men- sagem. (E) substituir todos os caracteres acentuados da mensa- gem por suas versões sem acento. 42 Sabendo que existe, na organização em que trabalha, uma base de dados formada por uma grande tabela que contém apenas o id do cliente e colunas do tipo booleano indicando se um cliente possuía ou já tinha possuído cada produto da organização, um funcionário de TI resolveu di- vidir os clientes em grupos apenas com base nessa infor- mação, utilizando aprendizado de máquina. Para essa tarefa, o funcionário de TI deve utilizar o apren- dizado de máquina (A) independente (B) não supervisionado (C) por recompensa (D) por reforço (E) supervisionado 43 Organizações modernas estão sujeitas a uma grande quantidade de dados, principalmente se tratam com gran- des quantidades de clientes. Muitas das demandas de tecnologia de informação a que essas organizações estão submetidas passaram a ser organizadas e tratadas dentro do conceito de Big Data. Além do grande volume de dados, o Big Data, em sua definição original, considera também a(s) seguinte(s) propriedade(s): (A) falta de qualidade, apenas (B) variedade, apenas (C) velocidade, apenas (D) variedade e velocidade (E) velocidade e falta de qualidade 44 Ao fazer a preparação para analisar dados em um banco de dados típico de Big Data, um profissional de TI per- cebeu que o número de atributos, ou colunas, era mui- to maior do que poderia processar com a ferramenta de análise disponível, sendo necessário, portanto, utilizar uma técnica de redução de dados para prepará-los para análise. Uma técnica indicada, nesse caso, é a (A) Amostragem Aleatória (B) Amostragem Estratificada (C) Análise de Componentes Principais (D) Deduplicação (E) Imputação RASCUNHO -- 13 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI14GABARITO 1 BANCO DO BRASIL 45 Ao programar em Python com Pandas, é possível usar máscaras para selecionar linhas específicas, de acordo com um padrão. Nesse cenário, analise o seguinte código: import pandas as pd df = pd.DataFrame(data) m = df['z'] == False ef = df[m] # a fazer print(ff) Ao executar esse código, deseja-se obter a seguinte saída: x y 0 1 3 2 3 11 O fragmento de código que deve substituir o comentário # a fazer para obter a saída desejada é (A) ff = ef['x','y'] (B) ff = ef[] == 'x' or 'y' (C) ff = ef[['x','y']] (D) ff = ef.cols('x','y') (E) ff = ef.cols(['x','y']) 46 Um programador recebeu a incumbência de desenvolver uma aplicação móvel segundo a API 30 do Android, cor- respondente ao Android 11. Seguindo as melhores práti- cas, cada tela dessa aplicação, incluindo sua funcionali- dade, foi construída como um módulo único e autônomo, totalmente independente de outros módulos similares. Esse módulo único e autônomo é conhecido como (A) activity (B) content provider (C) fragment (D) intent (E) manifest 47 O React Native 0.59 introduziu o conceito de Hooks. Entre os Hooks, tem-se o usestate, que permite (A) calcular o estado de um CEP ou ZIP de acordo com o Locale. (B) chamar estados específicos do engine React para al- terar seu comportamento. (C) declarar uma classe que segue o padrão de design state. (D) criar uma enumeration que representa estados. (E) manter um estado local em uma função de um compo- nente funcional. 48 Durante o desenvolvimento de uma aplicação mobile em Java para Android, um programador detectou a necessi- dade de alterar o texto de um widget da classe TextView, chamado resultado, para \"Sucesso!\". Para realizar essa ação, esse programador deve usar o seguinte fragmento de código: (A) TextView resultado = \"Sucesso!\"; (B) resultado := \"Sucesso!\"; (C) resultado.setValue(\"Sucesso!\"); (D) resultado.setText(\"Sucesso!\"); (E) resultado = TextView.setValue(\"Sucesso!\"); 49 Ansible é uma ferramenta configurável por playbooks, es- critos em YAML. Um playbook é composto de (A) plays, que são sequências de modules que, por sua vez, chamam tasks. (B) plays, que são sequências de tasks que, por sua vez, chamam modules. (C) tasks, que são sequências de modules que, por sua vez, chamam plays. (D) tasks, que são sequências de plays que, por sua vez, chamam modules. (E) modules, que são sequências de tasks que, por sua vez, chamam play. -- 14 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI15GABARITO 1 BANCO DO BRASIL 50 Kotlin é uma linguagem de programação usada no desen- volvimento Android. Entre suas características, está um grau de compatibilida- de com Java, que permite (A) chamar funções feitas em Java, apenas, mas não permite que suas funções Kotlin sejam chamadas por Java. (B) ler dados que foram salvos por apps Java, apenas. (C) ler e escrever dados que podem ser lidos e escritos por apps Java, apenas. (D) ter suas funções chamadas por Java, apenas, mas não consegue chamar funções feitas em Java. (E) construir apps com código parcialmente em Java e parcialmente em Kotlin, sem restrições. 51 A seguir, é apresentado um fragmento de código em Python. import numpy as np b = np.array([[1,2,3,5]]) c = b.transpose() print(b.dot(c),sum(b),sum(c)) O fragmento de código acima provoca a seguinte saída: (A) 39 [11] [11] (B) 39 [1 2 3 5] 11 (C) [39] [1 2 3 5] 11 (D) [[39]] [11] [11] (E) [[39]] [1 2 3 5] [11] 52 Considere uma empresa que possui dados de clientes, todos bem definidos e estruturados (ex: CPF, nome, e-mail, endereço), armazenados em um banco de dados relacional. Uma oportunidade surge para a empresa enriquecer esse banco de dados com dados de outra natureza, porém não muito bem definidos e pouco estruturados. Uma solução pode ser adotar um banco de dados NoSQL, de tal forma que: (A) a ausência de um esquema de dados bem definido para os dados necessários de um cliente possa ser corretamente modelada e implementada em um ge- renciador de banco de dados adequado. (B) a linguagem SQL utilizada para acesso aos dados dos clientes possa ser substituída por outra linguagem de acesso a dados organizados em tabelas segundo o modelo relacional, porém com maior eficiência. (C) esse novo banco de dados relacional possa ser me- lhorado, com os dados não muito bem definidos, sem um esquema rígido. (D) o gerenciador de banco de dados relacional utilizado possa ser atualizado para uma versão mais recente, que não utilize a linguagem SQL. (E) os atributos que hoje representam chaves primárias e estrangeiras sejam mais bem controlados. 53 Uma empresa de investimentos financeiros busca iden- tificar novas oportunidades de negócio para pessoas jurídicas, em especial dentre aquelas que têm como ca- racterística a adoção de governança ambiental, social e corporativa (conhecida como ESG, uma sigla em inglês). Considere que existe um banco de dados nessa empresa com as seguintes tabelas (todas as chaves primárias são numéricas): Empresa (CNPJ, razaoSocial, endereco) Caracteristica (cod, sigla, nome) Tem (CNPJ, cod) Que comando SELECT do SQL retorna apenas o CNPJ e a razão social das empresas que não têm \"ESG\" como característica? (A) SELECT * FROM Empresa WHERE Caracteristica.Sigla <> 'ESG' (B) SELECT E.CNPJ, E.razaoSocial FROM Empresa E JOIN Tem T ON (E.CNPJ = T.CNPJ) WHERE Tem.cod = 'ESG' (C) SELECT E.CNPJ, E.razaoSocial FROM Empresa E JOIN Tem T ON (E.CNPJ = T.CNPJ) JOIN Caracteristica C ON (C.cod = T.cod) WHERE C.nome <> 'ESG' (D) SELECT E.CNPJ, E.razaoSocial FROM Empresa E WHERE E.CNPJ NOT IN ( SELECT T.CNPJ FROM Tem T JOIN Caracteristica C ON (T.cod = C.cod) WHERE C.sigla = 'ESG' (E) SELECT Empresa.* FROM Empresa, Tem WHERE Empresa.CNPJ = Tem.cod AND Tem.cod <> 'ESG' 54 Um banco de dados (BD) persiste dados de forma organi- zada e controlada. Em adição, um BD deve prover recur- sos para permitir que consultas que necessitem de velo- cidade (baixo tempo de resposta) no acesso aos dados possam ter um bom desempenho. Um dos recursos que um profissional de tecnologia da informação tem à disposição para configurar um BD, de modo a melhorar o desempenho de consultas seleciona- das, é a criação de (A) regras de integridade (B) visões não materializadas (C) índices (D) sequências (E) gatilhos -- 15 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI16GABARITO 1 BANCO DO BRASIL 55 O banco de dados de uma empresa que comercializa seguros pessoais possui as seguintes tabelas: UF (sigla, nome) Faixa (nome, menorIdade, maiorIdade) A coluna \"unidadeFederativaNascimento\" da tabela Pessoa é uma chave estrangeira que referencia a coluna \"sigla\" da tabela UF; a coluna \"faixaEtaria\" da tabela Pessoa é uma chave estrangeira que aponta para a coluna \"nome\" da tabela Faixa. A tabela Faixa possui os seguintes dados: nome menorIdade maiorIdade Jovens - não informada - 19 Adultos 20 59 Idosos 60 - não informada - Considere o seguinte comando: SELECT COUNT(*) FROM Pessoa P, Faixa F WHERE P.faixaEtaria = F.nome AND P.unidadeFederativaNascimento = 'RJ' AND F.maiorIdade = 4, 'bom', 'ruim') Quanto aos valores do campo sentimento, o referido comando atribuirá o valor (A) bom, para stars entre 2 e 5 (B) bom, para stars 4 e 5 (C) bom, para stars 3 e 4 (D) ruim, para stars 4 e 5 (E) ruim, para stars entre 1 e 4 62 Um profissional de TI está trabalhando com um grande banco de dados (Big Data), realizando uma análise prévia da base de dados, com o objetivo de identificar anomalias ou resultados raros, de forma a tratá-los ou descartá-los para utilização. Esse profissional está realizando a seguinte tarefa: (A) Agrupamento dos dados (B) Análise de associações dos dados (C) Análise de segmentação dos dados (D) Análise de outliers (pontos fora da curva) ou detecção de desvios (E) Classificação dos dados e das anomalias 63 Para entender como o algoritmo de busca binária se comporta, um estudante de computação resolveu inserir um comando System.out.printf() em um método chamado busca. Esse método, escrito em Java, realiza uma busca binária em um array de números inteiros, ordenados de forma ascendente. O objetivo do printf é exibir, no console, o valor de cada elemento do array visitado pelo algoritmo de busca binária. Para testar o código que criou, o estudante escreveu o método main a seguir. public class Main { public static void main(String[] args) { int lista[]={5,18,27,33,44,49,54,67,69,72,79,86,87,92}; // o array lista possui 14 elementos busca(78, lista); public static int busca(int val,int lista[]) { // código relativo ao algoritmo de busca binária O que será exibido no console quando o método main for executado? (A) 54 79 69 72 (B) 49 72 86 79 (C) 54 86 69 72 79 (D) 67 86 72 79 (E) 54 79 67 69 72 -- 18 of 27 -- 19 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 64 Sejam as seguintes classes Java, que ocupam arquivos separados: public class CAx { protected int a; protected int b; public CAx() { public int op1(int x) { return op2(x)+op3(x)+b; public int op2(int x) { return x+a; public static int op3(int x) { return x*2; public class CBy extends CAx { protected int a; public CBy() { public int op2(int x) { return x-a; public static int op3(int x) { return x*3; public class Main { public static void main(String[] args) { CAx o=new CBy(); System.out.println(o.op1(2)); O que será exibido no console quando o método main for executado? (A) 10 (B) 12 (C) 14 (D) 18 (E) 20 -- 19 of 27 -- 20 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 65 Considere as seguintes classes Java, que ocupam arquivos separados: public class Pa { String x,y,z; String r=\"vazio\"; public Pa(String s1,String s2, String s3) throws Exception { throw new Exception(); catch(Exception e) { z=\"a\"; throw e; finally { public String get() { return r; public class Qb extends Pa { public Qb(String s1,String s2, String s3) throws Exception { super(s1,s2,s3); public class Main { public static void main(String[] args) { Pa o=null; o=new Qb(\"a\",\" \",\"c\"); catch (Exception e) { finally { if(o!=null) System.out.print(o.get()); -- 20 of 27 -- 21 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 O que será exibido no console quando o método main for executado? (A) ac (E) vazio 66 A Figura a seguir exibe o conteúdo de três pilhas: P1, P2 e P3. Admita que um método Java, chamado exibePilha, receba essas três pilhas como parâmetros e execute os seguintes passos: 1. Cria duas pilhas auxiliares, A1 e A2, inicialmente vazias; 2. Remove um elemento de P1 e o insere em A1. Em seguida, remove um elemento de P2 e o insere em A1. Repete esses dois procedimentos até que P1 e P2 fiquem, ambas, vazias; 3. Remove um elemento de P3 e o insere em A1. Repete esse procedimento até que P3 fique vazia; 4. Remove um elemento de A1 e o insere em A2. Repete esse procedimento até que A1 fique vazia; 5. Remove um elemento de A2 e o exibe no console. Repete esse procedimento 4 vezes. O que será exibido no console, quando o método exibePilha for executado, tendo P1, P2 e P3 sido passadas como parâmetros? (A) 10 15 25 28 (B) 10 25 30 40 (C) 15 10 28 25 (D) 20 35 34 40 (E) 40 34 30 60 RASCUNHO -- 21 of 27 -- 22 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 67 Um estudante de computação decidiu escrever um método Java para exibir, no console, em pré-ordem, os valores dos nós de uma árvore binária recebida como parâmetro. Ao executar esse método, os seguintes valores foram exibidos no console: 80 84 55 76 72 Considerando os valores exibidos, qual árvore foi recebida como parâmetro? (A) (B) (C) -- 22 of 27 -- 23 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 (D) (E) RASCUNHO -- 23 of 27 -- 24 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 68 A Figura abaixo exibe um diagrama E-R que contém duas entidades (ET1 e XT2) e uma relação (S). Admita a existência de um banco de dados relacional composto pelos conjuntos ET1 e XT2, oriundos do mapeamento das entidades ET1 e XT2. Parte do estado atual desse banco de dados é definido pelos seguintes conjuntos: Qual conjunto completa o banco de dados em questão, de modo a atender a todas as regras relativas à relação S? (B) S={ (e1,t1), (e2,t2), (e2,t3) } (C) S={ (e1,t1), (e2,t2), (e4,t1) } (D) S={ (e1,t1), (e1,t2), (e4,t3), (e4,t2) } (E) S={ (e1,t3), (e2,t2), (e4,t1) } 69 Considere o seguinte diagrama E-R: Foi criado um conjunto de tabelas relacionais, a partir do modelo E-R acima. Uma vez que as regras de transformações de entidades e relações para tabelas relacionais independem dos tipos de dados dos atributos, todos os atributos do modelo E-R acima foram tratados como itens de dados do tipo cadeia de caracteres (TEXT). As tabelas resultantes são as seguintes: CREATE TABLE TX ( X1 TEXT NOT NULL, X2 TEXT NOT NULL, X3 TEXT NOT NULL, PRIMARY KEY (X1)); CREATE TABLE EY ( Y1 TEXT NOT NULL, Y2 TEXT NOT NULL, PRIMARY KEY (Y1)); -- 24 of 27 -- 25 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 Qual transformação da relação Rel irá preservar a semântica do diagrama E-R apresentado? (A) CREATE TABLE REL ( X1 TEXT NOT NULL, Y1 TEXT NOT NULL, R1 TEXT NOT NULL, R2 TEXT NOT NULL, PRIMARY KEY (X1, Y1), FOREIGN KEY (X1) REFERENCES TX (X1), FOREIGN KEY (Y1) REFERENCES EY (Y1)); (B) CREATE TABLE REL ( X1 TEXT NOT NULL, Y1 TEXT NOT NULL, R1 TEXT NOT NULL, R2 TEXT NOT NULL, PRIMARY KEY (X1, R1), FOREIGN KEY (X1) REFERENCES TX (X1), FOREIGN KEY (Y1) REFERENCES EY (Y1)); (C) CREATE TABLE REL ( X1 TEXT NOT NULL, Y1 TEXT NOT NULL, R1 TEXT NOT NULL, R2 TEXT NOT NULL, PRIMARY KEY (Y1, R1), FOREIGN KEY (X1) REFERENCES TX (X1), FOREIGN KEY (Y1) REFERENCES EY (Y1)); (D) CREATE TABLE REL ( X1 TEXT NOT NULL, Y1 TEXT NOT NULL, R1 TEXT NOT NULL, R2 TEXT NOT NULL, PRIMARY KEY (X1, Y1, R1), FOREIGN KEY (X1) REFERENCES TX (X1), FOREIGN KEY (Y1) REFERENCES EY (Y1)); (E) CREATE TABLE REL ( X1 TEXT NOT NULL, Y1 TEXT NOT NULL, R1 TEXT NOT NULL, R2 TEXT NOT NULL, PRIMARY KEY (R1), FOREIGN KEY (X1) REFERENCES TX (X1), FOREIGN KEY (Y1) REFERENCES EY (Y1)); -- 25 of 27 -- 26 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 70 Um método Java, chamado converte, deve receber uma string (str) como parâmetro e retornar uma string igual a str, exceto pelas letras minúsculas, que devem ser convertidas em letras maiúsculas. Exemplo: String recebida: \"Abc $12d\" String retornada: \"ABC $12D\" Qual método realiza essa tarefa? (A) public static String converte(String str) { String r=\" \"; int i=0; char x=str.charAt(i); if(Character.isLowerCase(x)) r=r.concat(Character.toString(Character.toUpperCase(x))); else r=r.concat(Character.toString(x)); } while(i < str.length()); return r; (B) public static String converte(String str) { String r=null; int i=0; while(i < str.length()) { char x=str.charAt(i); if(Character.isLowerCase(x)) r=r.concat(Character.toString(Character.toUpperCase(x))); else r=r.concat(Character.toString(x)); return r; (C) public static String converte(String str) { String r=null; int i=0; while(i < str.length()) { if(str[i].isLowerCase(x)) r=r.concat(Character.toString(Character.toUpperCase(str[i]))); else r=r.concat(Character.toString(str[i])); return r; -- 26 of 27 -- 27 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 (D) public static String converte(String str) { String r=\" \"; for(char x : str) if(Character.isLowerCase(x)) r=r.concat(Character.toString(Character.toUpperCase(x))); else r=r.concat(Character.toString(x)); return r; (E) public static String converte(String str) { String r=\" \"; for(int i=0; i < str.length(); i++) if(Character.isLowerCase(str.charAt(i))) r=r+Character.toUpperCase(str.charAt(i)); else r=r+str.charAt(i); return r; RASCUNHO -- 27 of 27 --\n\nPontos de atencao:\nBANCO DO BRASIL GABARITO AGENTE DE TECNOLOGIA - Microrregião 158 - TI SELEÇÃO EXTERNA 2022 / 001 EDITAL No 01 - 2022/001 BB, DE 22 DE DEZEMBRO DE 2022 LEIA ATENTAMENTE AS INSTRUÇÕES ABAIXO. 01 - ATENÇÃO: o candidato deve escrever seu nome, pondo uma letra em cada quadrícula, no espaço abaixo (não abreviar o primeiro e o último nomes). 02 - O candidato recebeu do fiscal o seguinte material: a) este caderno, com o tema da Redação e 70 questões objetivas, sem repetição ou falha, assim distribuídas: CONHECIMENTOS BÁSICOS Língua Portuguesa Língua Inglesa Matemática Atualidades do Mercado Financeiro Questões Pontuação Questões Pontuação Questões Pontuação Questões Pontuação 1 a 10 1,5 ponto cada 11 a 15 1,0 ponto cada 16 a 20 1,5 ponto cada 21 a 25 1,0 ponto cada Total: 15,0 pontos Total: 5,0 pontos Total: 7,5 pontos Total: 5,0 pontos Total: 32,5 pontos CONHECIMENTOS ESPECÍFICOS Probabilidade e Estatística Conhecimentos Bancários Tecnologia da Informação Questões Pontuação Questões Pontuação Questões Pontuação 26 a 30 1,5 ponto cada 31 a 35 1,5 ponto cada 36 a 70 1,5 ponto cada Total: 7,5 pontos Total: 7,5 pontos Total: 52,5 pontos Total: 67,5 pontos b) um CARTÃO-RESPOSTA destinado à marcação das respostas das questões objetivas formuladas nas provas cujo verso é a página para desenvolvimen- to da Redação, que vale até 100,0 pontos, o qual é denominado CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO. 03 - O candidato deve verificar se este material está em ordem e se o seu nome e número de inscrição conferem com os que aparecem no CARTÃO-RESPOSTA/ PÁGINA DE REDAÇÃO. Caso tal não ocorra, o fato deve ser IMEDIATAMENTE notificado ao fiscal. 04 - Após a conferência, o candidato deverá assinar, no espaço próprio do CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO, com caneta esferográfica de tinta preta, fabricada em material transparente. 05 - Assim que receber o seu CADERNO DE QUESTÕES, o candidato deve: a) transcrever, no espaço apropriado do seu CARTÃO-RESPOSTA, com sua caligrafia usual, considerando as letras maiúsculas e minúsculas, a seguinte frase: b) preencher, no espaço apropriado do seu CARTÃO-RESPOSTA, o campo de marcação referente ao seguinte gabarito: 06 - No CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO, a marcação das letras correspondentes às respostas certas deve ser feita cobrindo a letra e preenchendo todo o espaço compreendido pelos círculos, com caneta esferográfica de tinta preta, fabricada em material transparente, de forma contínua e densa. A leitura ótica do CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO é sensível a marcas escuras, portanto, os campos de marcação devem ser preenchidos completamente, sem deixar claros. Exemplo: 07 - O candidato deve ter muito cuidado com o CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO, para não o DOBRAR, AMASSAR ou MANCHAR. O CARTÃO- RESPOSTA/PÁGINA DE REDAÇÃO SOMENTE poderá ser substituído se, no ato da entrega ao candidato, já estiver danificado. 08 - Imediatamente após a autorização para o início das provas, o candidato deve conferir se este CADERNO DE QUESTÕES está em ordem e com todas as páginas. Caso não esteja nessas condições, o fato deve ser IMEDIATAMENTE notificado ao fiscal. 09 - Para cada uma das questões objetivas, são apresentadas 5 alternativas classificadas com as letras (A), (B), (C), (D) e (E); só uma responde adequada- mente ao quesito proposto. O candidato só deve assinalar UMA RESPOSTA: a marcação em mais de uma alternativa anula a questão, MESMO QUE UMA DAS RESPOSTAS ESTEJA CORRETA. 10 - As questões objetivas são identificadas pelo número que se situa acima de seu enunciado. 11 - SERÁ ELIMINADO da presente Seleção Externa o candidato que: a) for surpreendido, durante as provas, em qualquer tipo de comunicação com outro candidato; b) se utilizar, durante a realização das provas, de aparelhos sonoros, fonográficos, de comunicação ou de registro, eletrônicos ou não, tais como agendas, relógios de qualquer natureza, notebook, transmissor de dados e mensagens, máquina fotográfica, telefones celulares, pagers, microcomputadores portáteis e/ou similares; c) se ausentar da sala em que se realizam as provas levando consigo o CADERNO DE QUESTÕES e/ou o CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO; d) se recusar a entregar o CADERNO DE QUESTÕES e/ou o CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO, quando terminar o tempo estabelecido; e) não assinar a LISTA DE PRESENÇA e/ou o CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO; f) deixar de transcrever corretamente, nos espaços próprios do CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO, o número do gabarito e a frase constantes na capa de seu CADERNO DE QUESTÕES. Obs: Iniciadas as provas, o candidato só poderá retirar-se da sala após decorridas 2 (duas) horas do efetivo início das mesmas e não poderá levar o CADERNO DE QUESTÕES, a qualquer momento. 12 - O candidato deve reservar os 30 (trinta) minutos finais para marcar seu CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO. Os rascunhos e as marcações assinaladas no CADERNO DE QUESTÕES NÃO SERÃO LEVADOS EM CONTA. 13 - O candidato deve, ao terminar as provas, entregar ao fiscal este CADERNO DE QUESTÕES, o CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO e ASSINAR A LISTA DE PRESENÇA. 14 - O TEMPO DISPONÍVEL PARA ESTAS PROVAS DE QUESTÕES OBJETIVAS E DE REDAÇÃO É DE 5 (CINCO) HORAS, incluído o tempo para a mar- cação do seu CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO, findo o qual o candidato deverá, obrigatoriamente, entregar o CADERNO DE QUESTÕES e o CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO. 15 - As questões e os gabaritos das Provas Objetivas serão divulgados no primeiro dia útil após a realização das mesmas, no endereço eletrônico da FUNDAÇÃO CESGRANRIO ( 1 Verdes matas. Gabarito 1 -- 1 of 27 -- 2 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 REDAÇÃO Utilize o texto a seguir como motivador para a produção de sua redação. Não o copie. Qualidade no atendimento ao cliente como fator de crescimento empresarial A qualidade no atendimento ao cliente é fator de crescimento empresarial, pois o mundo dos negócios está em constante progresso. Para sobreviver nesse mercado competitivo, é necessário que a empresa apresen- te diferenciais, buscando oferecer benefícios que possam atrair, reter, satisfazer e fidelizar seus clientes. Para alcançar tais objetivos, é preciso sempre entender o consumidor, de modo que ele venha a sentir confiança nos produtos e nos serviços oferecidos. Assim, é essencial que as organizações tenham um bom relacionamento com seus clientes, que consi- gam identificar quais são as suas necessidades, evitando, dessa forma, a insatisfação, para manter uma relação duradoura. LACERDA, Idelma. Qualidade no atendimento ao cliente como fator de crescimento empresarial. Disponível em: Acesso em: 16 out. 2022. Adaptado. No texto, recomenda-se que as empresas sejam cuidadosas na relação com seus clientes. Considerando os aspectos apresentados, elabore um texto dissertativo-argumentativo, em que você discuta o seguinte tema: A importância de um bom atendimento aos clientes nas instituições financeiras. No desenvolvimento do tema, o candidato deverá a) demonstrar domínio da escrita-padrão; b) manter a abordagem nos limites da proposta; c) redigir o texto no modo dissertativo-argumentativo (não serão aceitos textos narrativos nem poemas); d) demonstrar capacidade de selecionar, organizar e relacionar argumentos, fatos e opiniões para defender seu ponto de vista. Apresentação da Redação a) O texto deverá ter de 25 a 30 linhas, mantendo-se no limite do espaço para a Redação. b) O texto definitivo deverá ser transcrito para a Folha de Redação (o texto da folha de Rascunho não será considerado), em letra legível, com caneta esferográfica, fabricada em material transparente, e com tinta preta. c) A Redação não deve ser identificada, por meio de assinatura ou por qualquer outro sinal. -- 2 of 27 -- 3 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 RASCUNHO -- 3 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI4GABARITO 1 BANCO DO BRASIL 1 O trecho do texto que resume o objetivo do “empreende- dorismo social” é (A) “A meta é transformar uma realidade, promover o bem-estar da sociedade e agregar valor com cunho social”. (parágrafo 1) (B) “os empreendimentos sociais analisam seu desempe- nho a partir do impacto social gerado por sua atua- ção”. (parágrafo 2) (C) “ser inovadora; realizável; autossustentável; contar com a participação de diversos segmentos da socie- dade”. (parágrafo 4) (D) “Quem tem interesse de atuar nessa área precisa tra- balhar em grupo e formar parcerias”. (parágrafo 5) (E) “o profissional precisa ter flexibilidade e vontade de explorar, pois é possível que ele acabe exercendo um papel que não seja necessariamente na sua área de formação”. (parágrafo 6) 2 O texto explica que o empreendedorismo social se dife- rencia do conceito de negócio social porque o primeiro procura (A) criar profissionais especializados na sua área de atu- ação. (B) excluir do processo a parcela mais carente da popu- lação. (C) seguir a lógica tradicional do mercado de ações. (D) ter como objetivo produzir retorno financeiro. (E) transformar a sociedade por meio da inovação. 3 No trecho “está relacionado ao ato de empreender ou ino- var com o objetivo de alavancar causas sociais e ambien- tais” (parágrafo 1), a palavra destacada pode ser substitu- ída, sem prejuízo do sentido do texto, por (A) comprovar (B) defender (C) impulsionar (D) modificar (E) subsidiar 4 No trecho “Ainda que não exista uma concepção única sobre o empreendedorismo social” (parágrafo 1), a ex- pressão destacada pode ser substituída, sem prejuízo do sentido do texto, por (A) À medida que (B) Contanto que (C) De modo que (D) Mesmo que (E) Por causa de CONHECIMENTOS BÁSICOS LÍNGUA PORTUGUESA Empreendedorismo social: um caminho para quem quer mudar o mundo Ainda que não exista uma concepção única so- bre o empreendedorismo social, de forma geral, o conceito está relacionado ao ato de empreender ou inovar com o objetivo de alavancar causas sociais e ambientais. A meta é transformar uma realidade, pro- mover o bem-estar da sociedade e agregar valor com cunho social. Um empreendedor social produz bens e servi- ços que irão impactar positivamente a comunidade em que ele está inserido e solucionar algum proble- ma ou necessidade daquele grupo. Apesar de poder ter retorno financeiro, os empreendimentos sociais analisam seu desempenho a partir do impacto social gerado por sua atuação. Vale ressaltar que, apesar de apresentarem mui- tas similaridades, empreendedorismo social e negó- cio social não são sinônimos. O empreendedorismo social cria valor por meio da inovação, que gera uma transformação social. O foco não é o retorno financei- ro, mas a resolução de problemas sociais e o impacto positivo. Enquanto isso, os negócios sociais seguem a lógica tradicional do mercado, porém com a ambi- ção de gerar valor social. Cinco características também são essenciais para a iniciativa: ser inovadora; realizável; autos- sustentável; contar com a participação de diversos segmentos da sociedade, incluindo as pessoas im- pactadas; e promover impacto social com resultados mensuráveis. Quem tem interesse de atuar nessa área preci- sa trabalhar em grupo e formar parcerias, saber lidar bem com as pessoas e buscar formas de trazer resul- tados de impacto social. Além disso, o profissional precisa ter flexibilidade e vontade de explorar, pois é possível que ele acabe exercendo um papel que não seja necessariamen- te na sua área de formação, ou que sua atuação se transforme rapidamente, por conta do dinamismo e das necessidades do negócio. MENDES, T. Empreendedorismo social: um caminho para quem quer mudar o mundo. Na prática, 7 jul. 2022. Disponível em: Acesso em: 2 set. 2022. Adaptado. 1 2 3 4 5 6 -- 4 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI5GABARITO 1 BANCO DO BRASIL 5 No trecho “Ainda que não exista uma concepção única” (parágrafo 1), a palavra destacada pode ser substituída, sem prejuízo do sentido do texto, por (A) compreensão (B) conciliação (C) convivência (D) capacidade (E) semelhança 6 A palavra destacada atende às exigências de concor- dância de acordo com a norma-padrão da língua portu- guesa em: (A) A administração de empresas de tecnologia e o marketing profissional estão envolvidos na promoção de novos negócios na área econômica. (B) A assistência social às pessoas carentes e os cui- dados com o aparecimento de novas doenças são necessárias para manter a saúde da população. (C) A iniciativa de implementar mudanças nas empresas e o sucesso ao alcançar êxito são comemoradas pelos funcionários. (D) O financiamento de projetos e a assistência aos ne- cessitados, desejadas pelos empreendedores sociais, precisam da atenção redobrada dos responsáveis. (E) A vacinação de toda a população e a intensificação dos estudos sobre a pandemia devem ser implemen- tados pelas autoridades. 7 No trecho “os empreendimentos sociais analisam seu de- sempenho” (parágrafo 2), a palavra destacada se refere a (A) problema (B) comunidade (C) daquele grupo (D) retorno financeiro (E) empreendimentos sociais 8 De acordo com a norma-padrão da língua portuguesa, o uso do acento grave indicativo da crase é obrigatório na palavra destacada em: (A) A descrição detalhada de um empreendimento a ser realizado é uma necessidade para a aprovação de sua realização. (B) A divulgação do concurso levou muitas pessoas a se candidatarem a vaga mais concorrida na empresa. (C) A tentativa de obter a isenção fiscal é buscada a todo custo pelos responsáveis da instituição. (D) O sucesso de uma empresa deve ser atribuído a ges- tores competentes. (E) O uso de recursos digitais levou os jovens estudiosos a uma nova forma de aprendizagem em diferentes áreas. 9 O emprego da vírgula atende às exigências da norma- -padrão da língua portuguesa em: (A) A execução de novas tarefas em um supermercado, envolve a disposição dos funcionários de aceitarem as mudanças propostas pelo RH. (B) Ao consultar os fornecedores de produtos para suas lojas, os responsáveis por esse departamento devem ser cuidadosos. (C) A escolha do funcionário para proferir uma palestra em nome da empresa, compete à administração da instituição. (D) O profissional interessado em mudanças na sua área de atuação deve estudar, com antecedência as suas possibilidades de crescimento. (E) Para desenvolver projetos cabe ao gerente da orga- nização, a iniciativa de implementar novas técnicas à disposição dos empreendedores. 10 O pronome oblíquo destacado foi colocado na posição correta, segundo as exigências da norma-padrão da lín- gua portuguesa, em: (A) A área da saúde não encontra-se atendida em regiões afastadas dos grandes centros urbanos nem em co- munidades que vivem nas periferias das cidades. (B) A preocupação com o meio ambiente tem sido um dos segmentos mais relevantes do empreendedorismo social, porque destina-se a transformar positivamente a sociedade. (C) Governantes que têm como missão viabilizar o aces- so universal à educação pública de qualidade sempre preocupam-se com ações de inovação e empreende- dorismo. (D) Para uma iniciativa de empreendedorismo destina- da à formação de educadores tornar-se produtiva, é preciso identificar as necessidades do público-alvo de cada comunidade. (E) Quando os profissionais que atuam na área de empre- endedorismo social sentem-se desanimados, é preci- so que eles avaliem todo o progresso que ajudaram a desenvolver. RASCUNHO -- 5 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI6GABARITO 1 BANCO DO BRASIL LÍNGUA INGLESA From Bartering to Bitcoin By Rich Beattie What we call “money” has always been a moving target. It changes appearance and value. Here are five key developments in the history of money that have impacted how we earn, save and spend today. Cash Cows - Before humans had money, they had stuff. In ancient times, when you had stuff other people wanted, you bartered it for stuff you wanted. Around 9000 BC, the most popular commodities included things like cattle, sheep and camels. This was fine when people bartered close to home, but bulky creatures are cumbersome and difficult to transport. As people started to venture farther afield to trade, a more portable option became essential. In 1200 BC people started using cowries—the shells of marine mollusks taken from oceans. They were recognized as precious, and their use spread across Asia, Africa, Oceania and Europe. Having been in use for centuries — even into the 20th century in some places—cowries win the prize as the world’s longest-running currency. Three Coins in the Fountain - The issue with bartering became assigning value: Just how much was a cowrie or a cow worth? So, agreeing on the value of money became essential. It was the Lydians, around 600 BC, who get credit for a critical step in this process: fashioning the first known coins, which were made of a gold and silver alloy. The metal used to make a coin—along with its weight—was important, as it denoted the money’s value. Moreover, as coins gained popularity, so did the idea of adorning them with locally inspired designs. Coins were money, but they now doubled as a historic record. Eventually, they took on even more uses: People flipped them to make decisions and tossed them into wells while making wishes. They may be used less in 2020, but coins have been an integral part of our culture for centuries. The Paper Chase - Coins were obviously lighter and easier to transport than cows, but carrying bags of heavy metal still wasn’t very practical. China’s Tang Dynasty, in the seventh century, came up with a smart solution, namely, paper money. It was super-light and could feature even richer designs than coins, and it promised a certain amount of purchasing power. Gold Rush - One of the problems, though, was that counterfeiters had great success with paper bills. The bigger problem came when governments faced economic crises; it was far too easy to print more paper money, which led to skyrocketing inflation. Paper needed a backup—something universally valued yet not easily replicated. Something like gold. 1 2 3 4 5 6 7 The “gold standard” let governments create a fixed price for this precious metal that was tied directly to the value of their currency. In the United States, the idea took root in the late 17th century, and it spread to Europe in the 19th century. But confidence in the gold standard crumbled during World War I, and it soon became apparent that in order to thrive, currencies needed the freedom to fluctuate dynamically against each other. The gold standard was dropped in the United States in 1933, and a global economy started to take shape. The E-Buck Stops Here? - Cows, cowries, coins, paper, gold: Money has always had a physical presence. But today, it is quickly evolving into numbers that float through the ether. This modern era of money began in 1946 with the first bank-issued charge card. Credit cards followed some 12 years later, still related to dollars. However, technology, with cryptocurrencies like Bitcoin, is changing the world’s definition of “money.” Now, social media companies and entire countries are considering digital currencies of their own. Meanwhile, artificial intelligence is growing ever- smarter, and perhaps one day soon your budget and expenses will be managing themselves. The debate rages about exactly where we are headed, but with history as our guide, the one thing we can absolutely count on is the inevitability of change. Available at: -of-money/. Retrieved on: Sept 10, 2022. Adapted. 11 The main purpose of the text is to (A) present a brief history of money. (B) relate the history of money with wars. (C) regret society’s attitude regarding money. (D) deny the importance of money to humankind. (E) describe the relevance of money in the world. 12 In the fragment in the fourth paragraph of the text, “It was the Lydians, around 600 BC, who get credit for a critical step in this process: fashioning the first known coins, which were made of a gold and silver alloy” the words in bold refer respectively to: (A) BC – coins (B) 600 BC – first (C) 600 BC – coins (D) Lydians – coins (E) Lydians – known 8 9 10 RASCUNHO -- 6 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI7GABARITO 1 BANCO DO BRASIL 13 In the sixth paragraph of the text, the author mentions that paper money first circulated in (A) Italy (B) China (C) England (D) Australia (E) Germany 14 In the fragment in the seventh paragraph of the text “One of the problems, though, was that counterfeiters had great success with paper bills”, the word in bold is associated with the idea of (A) time (B) addition (C) condition (D) emphasis (E) opposition 15 In the tenth paragraph, the author of the text predicts that there are chances artificial intelligence will be able to (A) manage bank accounts. (B) prevent money changes. (C) eliminate exchange rates. (D) control financial resources. (E) avoid inflation and corruption. MATEMÁTICA 16 Um grande banco formará uma comissão que será co- mandada por três de suas funcionárias, Alice, Beatriz e Carla. Nessa comissão, uma delas será a presidente, ou- tra será a gerente, e outra, a coordenadora. A distribuição desses cargos deverá, necessariamente, considerar as quatro seguintes restrições: I) Se Carla for a gerente, então Beatriz terá de ser a presidente; II) Se Alice for a presidente, então Carla terá de ser a gerente; III) Se Beatriz não for a coordenadora, então Alice terá de ser a gerente; IV) Se Carla for a coordenadora, então Beatriz terá de ser a gerente. Nessas circunstâncias, os respectivos cargos de Alice, Beatriz e Carla serão (A) gerente, coordenadora e presidente (B) gerente, presidente e coordenadora (C) coordenadora, presidente e gerente (D) presidente, gerente e coordenadora (E) presidente, coordenadora e gerente RASCUNHO -- 7 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI8GABARITO 1 BANCO DO BRASIL 17 Uma fábrica vende mensalmente 200 malas a R$ 300,00 cada. O departamento de vendas trabalha com a hipóte- se de que cada aumento de R$ 10,00 no preço de cada mala implica a venda mensal de 20 malas a menos. Por exemplo, em um mês em que cada mala foi vendida por R$ 320,00, foram vendidas 160 malas. Suponha que a hipótese esteja correta e que, em um determinado mês, cada mala foi vendida por (300 + 10x) reais, sendo x o nú- • Prob (Z > 1,96) = 2,5% . 29 Considere que, em uma agência bancária, o tempo médio que um cliente aguardou para começar a ser atendido, na primeira semana de um determinado mês de 2022, foi de 8min 30s e, na semana seguinte, esse tempo médio passou para 5min 30s. Considere, ainda, que na primeira semana foram atendidos 2.700 clientes, e na segunda se- mana, 1.350 clientes. O tempo médio de espera para um cliente começar a ser atendido no caixa, considerando essas duas semanas, foi de, aproximadamente, (A) 5min 50s (B) 6min 30s (C) 6min 50s (D) 7min 30s (E) 7min 50s 30 Para melhorar a educação financeira de seus clientes quanto ao uso do crédito, um banco contratou uma em- presa de análise de risco, que classifica os clientes quan- to à propensão de usar o cheque especial, em dois tipos: A e B, sendo o tipo A propenso a usar o cheque especial, e o tipo B, a não usar o cheque especial. Para uma de- terminada agência, um estudo da empresa mostrou que a probabilidade de um cliente tipo A usar o cheque especial, em um intervalo de um ano, é de 80%. Já para o tipo B, a probabilidade de usar é de 10%, no mesmo intervalo de tempo. Considere que, nessa agência, 30% dos clientes são considerados do tipo A. Nesse contexto, se um cliente entrou no cheque especial, a probabilidade de que seja do tipo A, é de, aproximada- mente, (A) 65% (B) 70% (C) 77% (D) 82% (E) 85% 27 Uma população é formada por quatro números, quais sejam, 2, 5, 10, 15, de modo que a média vale 8, e a variância, 24,5. Considerando-se todas as possíveis amostras aleatórias simples, com reposição, de tamanho 2 dessa população, a variância da distribuição amostral das médias é de (A) 3,50 (B) 4,94 (C) 12,25 (D) 24,50 (E) 32,67 28 Após uma festa de casamento, a anfitriã percebeu que foram esquecidos quatro telefones celulares. Na manhã seguinte, enviou uma mensagem para o grupo de convi- dados pelo WhatsApp sobre o esquecimento, e apenas quatro pessoas não responderam, fazendo com que ela presumisse, corretamente, que estas quatro pessoas se- riam os proprietários dos telefones. Para devolvê-los, a anfitriã preparou quatro envelopes, cada um contendo um dos endereços desses quatro proprietários. Ato contínuo, colocou aleatoriamente cada celular em um envelope e os despachou para uma entrega expressa. A probabilidade de que apenas um desses quatro convi- dados tenha recebido o seu próprio celular é de (A) 3/4 (B) 2/3 (C) 1/2 (D) 3/8 (E) 1/3 RASCUNHO -- 10 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI11GABARITO 1 BANCO DO BRASIL CONHECIMENTOS BANCÁRIOS 31 Ao decidir pela aplicação em um ativo financeiro, os in- vestidores levam em conta a chamada taxa de juros real ex-ante. Se eles considerarem a taxa de juros SELIC, o índice da taxa de juros real ex-ante para os próximos 12 meses é entendido como o índice da (A) SELIC nominal esperada para os próximos 12 meses, descontado o índice da variação cambial esperada para os próximos 12 meses. (B) SELIC nominal esperada para os próximos 12 meses, descontado o índice da inflação esperada para os pró- ximos 12 meses. (C) SELIC nominal acumulada nos últimos 12 meses, des- contado o índice de variação cambial acumulada nos últimos 12 meses. (D) SELIC nominal acumulada nos últimos 12 meses, des- contado o índice da inflação acumulada nos últimos 12 meses. (E) SELIC nominal acumulada nos últimos 12 meses, des- contado o índice de impostos acumulados nos últimos 12 meses, incidentes sobre os rendimentos do ativo. 32 As operações diárias de compra e venda de divisas es- trangeiras (dólares, euros, libras esterlinas, dentre outras) são parte integrante do mercado (A) monetário (B) cambial (C) acionário (D) creditício (E) de trabalho 33 A equação da paridade dos juros, a descoberto, estabe- lece que: taxa de juros interna – taxa de juros externa = expecta- tivas de depreciação da moeda nacional em relação ao Dólar americano + risco-país Admita-se que a deterioração de indicadores macroeco- nômicos fundamentais no Brasil, como o déficit fiscal e o déficit em transações correntes do balanço de pagamen- tos, provoque o aumento do risco-país e a fuga de capitais estrangeiros do Brasil. Se a equação de paridade dos juros for aplicada ao caso brasileiro, supondo-se que todos os demais indicadores econômicos permaneçam constantes, para que os influ- xos de capitais estrangeiros no Brasil voltem a se estabi- lizar, será necessário (A) aumentar o risco-país. (B) aumentar a taxa de juros externa. (C) aumentar a taxa de juros interna. (D) reduzir a taxa de juros interna. (E) depreciar o Real brasileiro em relação ao Dólar ameri- cano. 34 Considere-se a execução, em determinado ano, do orça- mento público consolidado do Brasil. Se, no final desse mesmo ano, o total das despesas pri- márias relativas a gastos em custeio e investimento – ex- cluídas as despesas de juros incidentes sobre o estoque da dívida pública – tiver sido superior ao total das receitas de impostos arrecadados, o governo brasileiro terá fecha- do o ano com (A) déficit fiscal primário (B) déficit fiscal nominal (C) superávit fiscal primário (D) superávit fiscal nominal (E) orçamento equilibrado 35 Um pesquisador na área de finanças públicas e privadas atua, também, como consultor de negócios. Em determi- nado momento, recebe proposta para assessorar empre- sário que deseja constituir sociedade para negociar infor- mações constantes de dados de instituições financeiras. Tal atividade não é autorizada pela legislação. O pesquisador aduz que, consoante a Lei Complementar no 105/2001, devem observar o sigilo em suas operações ativas e passivas e serviços prestados diversas institui- ções financeiras, dentre as quais administradoras de (A) imóveis urbanos (B) locação de móveis (C) empréstimo de automóveis (D) bens antigos de raridade comprovada (E) mercado de balcão organizado RASCUNHO -- 11 of 27 -- 12 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 TECNOLOGIA DA INFORMAÇÃO 36 Analise o código a seguir, feito em Python com o Scikit-learn. import numpy as np import sklearn.linear_model as skl base = np.array([1, 2, 3, 4, 5, 6]) x = base.reshape((-1, 1)) # a fazer print('a', model.coef_[0]) print('b', model.intercept_) A partir desse código, um programador quer obter os parâmetros a e b da equação y = ax + b, por meio de uma regressão linear, usando, para isso, os dados nos vetores x e y definidos no programa. Qual linha de código deve substituir o comentário # a fazer de modo a realizar essa regressão linear? (A) model = skl.lr(x, y) (B) model = skl.lr().fit(x, y) (C) model = skl.LinearRegression(x, y) (D) model = skl.LinearRegression([x, y]) (E) model = skl.LinearRegression().fit(x, y) 37 Em um programa em Swift, o programador deseja incluir o resultado de uma operação dentro de uma string. Nesse contexto, considere o seguinte código: let quantidade = 4 let valor = 10 Dado o código acima, o programador deseja uma string saida cujo valor seja \"valor total = 40\" Para isso, o programador deve utilizar o seguinte fragmento de código Swift: (A) let saida := \"valor total = \\(quantidade*valor)\" (B) let saida := \"valor total = \\{quantidade*valor}\" (C) let saida = \"valor total = %[quantidade*valor]\" (D) let saida = \"valor total = \\(quantidade*valor)\" (E) let saida = \"valor total = \\[quantidade*valor]\" 38 Um programador foi instruído pelo seu gerente a implementar, em Java, uma classe MemoriaCalculoVenda que imple- mentasse a interface MemoriaCalculo, já criada pela organização e que representa as exigências da organização para classes que implementam memórias de cálculo. Nesse cenário, com que fragmento de código o programador deve começar, de forma correta, a implementação da classe? (A) class MemoriaCalculoVenda extends MemoriaCalculo (B) class MemoriaCalculoVenda implements MemoriaCalculo (C) class MemoriaCalculoVenda imports MemoriaCalculo (D) class MemoriaCalculoVenda inherits MemoriaCalculo (E) class MemoriaCalculoVenda uses MemoriaCalculo -- 12 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI13GABARITO 1 BANCO DO BRASIL 39 No processo de aprendizagem de máquina, busca-se identificar padrões compreensíveis em bases de dados. Desse modo, supõe-se a existência de uma hierarquia de três níveis: a base, com os itens elementares, captados e armazenados por recursos de Tecnologia da Informação; o nível intermediário, no qual esses itens são processa- dos, com significados e contextos bem definidos; e o nível mais alto, contendo os padrões ou os conjuntos cuja for- mulação pode envolver ou relacionar os níveis inferiores. Os três níveis dessa hierarquia, listados, respectivamen- te, da base para o nível mais alto, são: (A) conhecimento, informação e dado (B) dado, conhecimento e informação (C) dado, informação e conhecimento (D) informação, conhecimento e dado (E) informação, dado e conhecimento 40 Analise com atenção o código a seguir, escrito em TypeScript 4.0. function segredo(a: number[]) { return a.map(x=>x*2); console.log(segredo([1,2,3])); O que será exibido no console quando o código acima for executado? (A) \"Executed JavaScript Failed:\" (B) [2, 4, 6] (C) [6] (D) 6 (E) 12 41 Uma organização decidiu monitorar a opinião do público sobre ela nas redes sociais. Para isso, processou as men- sagens com referências ao seu nome, a fim de possibilitar o uso de uma técnica de processamento de linguagem natural conhecida como análise de sentimentos. Após transformar cada mensagem em uma string, um dos passos importantes nessa técnica é a tokenização, que consiste em (A) colocar todos os caracteres da mensagem em minús- culas. (B) colocar todos os verbos da mensagem no infinitivo. (C) dividir o texto da mensagem em palavras isoladas. (D) eliminar todos os marcadores HTML ou XML da men- sagem. (E) substituir todos os caracteres acentuados da mensa- gem por suas versões sem acento. 42 Sabendo que existe, na organização em que trabalha, uma base de dados formada por uma grande tabela que contém apenas o id do cliente e colunas do tipo booleano indicando se um cliente possuía ou já tinha possuído cada produto da organização, um funcionário de TI resolveu di- vidir os clientes em grupos apenas com base nessa infor- mação, utilizando aprendizado de máquina. Para essa tarefa, o funcionário de TI deve utilizar o apren- dizado de máquina (A) independente (B) não supervisionado (C) por recompensa (D) por reforço (E) supervisionado 43 Organizações modernas estão sujeitas a uma grande quantidade de dados, principalmente se tratam com gran- des quantidades de clientes. Muitas das demandas de tecnologia de informação a que essas organizações estão submetidas passaram a ser organizadas e tratadas dentro do conceito de Big Data. Além do grande volume de dados, o Big Data, em sua definição original, considera também a(s) seguinte(s) propriedade(s): (A) falta de qualidade, apenas (B) variedade, apenas (C) velocidade, apenas (D) variedade e velocidade (E) velocidade e falta de qualidade 44 Ao fazer a preparação para analisar dados em um banco de dados típico de Big Data, um profissional de TI per- cebeu que o número de atributos, ou colunas, era mui- to maior do que poderia processar com a ferramenta de análise disponível, sendo necessário, portanto, utilizar uma técnica de redução de dados para prepará-los para análise. Uma técnica indicada, nesse caso, é a (A) Amostragem Aleatória (B) Amostragem Estratificada (C) Análise de Componentes Principais (D) Deduplicação (E) Imputação RASCUNHO -- 13 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI14GABARITO 1 BANCO DO BRASIL 45 Ao programar em Python com Pandas, é possível usar máscaras para selecionar linhas específicas, de acordo com um padrão. Nesse cenário, analise o seguinte código: import pandas as pd df = pd.DataFrame(data) m = df['z'] == False ef = df[m] # a fazer print(ff) Ao executar esse código, deseja-se obter a seguinte saída: x y 0 1 3 2 3 11 O fragmento de código que deve substituir o comentário # a fazer para obter a saída desejada é (A) ff = ef['x','y'] (B) ff = ef[] == 'x' or 'y' (C) ff = ef[['x','y']] (D) ff = ef.cols('x','y') (E) ff = ef.cols(['x','y']) 46 Um programador recebeu a incumbência de desenvolver uma aplicação móvel segundo a API 30 do Android, cor- respondente ao Android 11. Seguindo as melhores práti- cas, cada tela dessa aplicação, incluindo sua funcionali- dade, foi construída como um módulo único e autônomo, totalmente independente de outros módulos similares. Esse módulo único e autônomo é conhecido como (A) activity (B) content provider (C) fragment (D) intent (E) manifest 47 O React Native 0.59 introduziu o conceito de Hooks. Entre os Hooks, tem-se o usestate, que permite (A) calcular o estado de um CEP ou ZIP de acordo com o Locale. (B) chamar estados específicos do engine React para al- terar seu comportamento. (C) declarar uma classe que segue o padrão de design state. (D) criar uma enumeration que representa estados. (E) manter um estado local em uma função de um compo- nente funcional. 48 Durante o desenvolvimento de uma aplicação mobile em Java para Android, um programador detectou a necessi- dade de alterar o texto de um widget da classe TextView, chamado resultado, para \"Sucesso!\". Para realizar essa ação, esse programador deve usar o seguinte fragmento de código: (A) TextView resultado = \"Sucesso!\"; (B) resultado := \"Sucesso!\"; (C) resultado.setValue(\"Sucesso!\"); (D) resultado.setText(\"Sucesso!\"); (E) resultado = TextView.setValue(\"Sucesso!\"); 49 Ansible é uma ferramenta configurável por playbooks, es- critos em YAML. Um playbook é composto de (A) plays, que são sequências de modules que, por sua vez, chamam tasks. (B) plays, que são sequências de tasks que, por sua vez, chamam modules. (C) tasks, que são sequências de modules que, por sua vez, chamam plays. (D) tasks, que são sequências de plays que, por sua vez, chamam modules. (E) modules, que são sequências de tasks que, por sua vez, chamam play. -- 14 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI15GABARITO 1 BANCO DO BRASIL 50 Kotlin é uma linguagem de programação usada no desen- volvimento Android. Entre suas características, está um grau de compatibilida- de com Java, que permite (A) chamar funções feitas em Java, apenas, mas não permite que suas funções Kotlin sejam chamadas por Java. (B) ler dados que foram salvos por apps Java, apenas. (C) ler e escrever dados que podem ser lidos e escritos por apps Java, apenas. (D) ter suas funções chamadas por Java, apenas, mas não consegue chamar funções feitas em Java. (E) construir apps com código parcialmente em Java e parcialmente em Kotlin, sem restrições. 51 A seguir, é apresentado um fragmento de código em Python. import numpy as np b = np.array([[1,2,3,5]]) c = b.transpose() print(b.dot(c),sum(b),sum(c)) O fragmento de código acima provoca a seguinte saída: (A) 39 [11] [11] (B) 39 [1 2 3 5] 11 (C) [39] [1 2 3 5] 11 (D) [[39]] [11] [11] (E) [[39]] [1 2 3 5] [11] 52 Considere uma empresa que possui dados de clientes, todos bem definidos e estruturados (ex: CPF, nome, e-mail, endereço), armazenados em um banco de dados relacional. Uma oportunidade surge para a empresa enriquecer esse banco de dados com dados de outra natureza, porém não muito bem definidos e pouco estruturados. Uma solução pode ser adotar um banco de dados NoSQL, de tal forma que: (A) a ausência de um esquema de dados bem definido para os dados necessários de um cliente possa ser corretamente modelada e implementada em um ge- renciador de banco de dados adequado. (B) a linguagem SQL utilizada para acesso aos dados dos clientes possa ser substituída por outra linguagem de acesso a dados organizados em tabelas segundo o modelo relacional, porém com maior eficiência. (C) esse novo banco de dados relacional possa ser me- lhorado, com os dados não muito bem definidos, sem um esquema rígido. (D) o gerenciador de banco de dados relacional utilizado possa ser atualizado para uma versão mais recente, que não utilize a linguagem SQL. (E) os atributos que hoje representam chaves primárias e estrangeiras sejam mais bem controlados. 53 Uma empresa de investimentos financeiros busca iden- tificar novas oportunidades de negócio para pessoas jurídicas, em especial dentre aquelas que têm como ca- racterística a adoção de governança ambiental, social e corporativa (conhecida como ESG, uma sigla em inglês). Considere que existe um banco de dados nessa empresa com as seguintes tabelas (todas as chaves primárias são numéricas): Empresa (CNPJ, razaoSocial, endereco) Caracteristica (cod, sigla, nome) Tem (CNPJ, cod) Que comando SELECT do SQL retorna apenas o CNPJ e a razão social das empresas que não têm \"ESG\" como característica? (A) SELECT * FROM Empresa WHERE Caracteristica.Sigla <> 'ESG' (B) SELECT E.CNPJ, E.razaoSocial FROM Empresa E JOIN Tem T ON (E.CNPJ = T.CNPJ) WHERE Tem.cod = 'ESG' (C) SELECT E.CNPJ, E.razaoSocial FROM Empresa E JOIN Tem T ON (E.CNPJ = T.CNPJ) JOIN Caracteristica C ON (C.cod = T.cod) WHERE C.nome <> 'ESG' (D) SELECT E.CNPJ, E.razaoSocial FROM Empresa E WHERE E.CNPJ NOT IN ( SELECT T.CNPJ FROM Tem T JOIN Caracteristica C ON (T.cod = C.cod) WHERE C.sigla = 'ESG' (E) SELECT Empresa.* FROM Empresa, Tem WHERE Empresa.CNPJ = Tem.cod AND Tem.cod <> 'ESG' 54 Um banco de dados (BD) persiste dados de forma organi- zada e controlada. Em adição, um BD deve prover recur- sos para permitir que consultas que necessitem de velo- cidade (baixo tempo de resposta) no acesso aos dados possam ter um bom desempenho. Um dos recursos que um profissional de tecnologia da informação tem à disposição para configurar um BD, de modo a melhorar o desempenho de consultas seleciona- das, é a criação de (A) regras de integridade (B) visões não materializadas (C) índices (D) sequências (E) gatilhos -- 15 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI16GABARITO 1 BANCO DO BRASIL 55 O banco de dados de uma empresa que comercializa seguros pessoais possui as seguintes tabelas: UF (sigla, nome) Faixa (nome, menorIdade, maiorIdade) A coluna \"unidadeFederativaNascimento\" da tabela Pessoa é uma chave estrangeira que referencia a coluna \"sigla\" da tabela UF; a coluna \"faixaEtaria\" da tabela Pessoa é uma chave estrangeira que aponta para a coluna \"nome\" da tabela Faixa. A tabela Faixa possui os seguintes dados: nome menorIdade maiorIdade Jovens - não informada - 19 Adultos 20 59 Idosos 60 - não informada - Considere o seguinte comando: SELECT COUNT(*) FROM Pessoa P, Faixa F WHERE P.faixaEtaria = F.nome AND P.unidadeFederativaNascimento = 'RJ' AND F.maiorIdade = 4, 'bom', 'ruim') Quanto aos valores do campo sentimento, o referido comando atribuirá o valor (A) bom, para stars entre 2 e 5 (B) bom, para stars 4 e 5 (C) bom, para stars 3 e 4 (D) ruim, para stars 4 e 5 (E) ruim, para stars entre 1 e 4 62 Um profissional de TI está trabalhando com um grande banco de dados (Big Data), realizando uma análise prévia da base de dados, com o objetivo de identificar anomalias ou resultados raros, de forma a tratá-los ou descartá-los para utilização. Esse profissional está realizando a seguinte tarefa: (A) Agrupamento dos dados (B) Análise de associações dos dados (C) Análise de segmentação dos dados (D) Análise de outliers (pontos fora da curva) ou detecção de desvios (E) Classificação dos dados e das anomalias 63 Para entender como o algoritmo de busca binária se comporta, um estudante de computação resolveu inserir um comando System.out.printf() em um método chamado busca. Esse método, escrito em Java, realiza uma busca binária em um array de números inteiros, ordenados de forma ascendente. O objetivo do printf é exibir, no console, o valor de cada elemento do array visitado pelo algoritmo de busca binária. Para testar o código que criou, o estudante escreveu o método main a seguir. public class Main { public static void main(String[] args) { int lista[]={5,18,27,33,44,49,54,67,69,72,79,86,87,92}; // o array lista possui 14 elementos busca(78, lista); public static int busca(int val,int lista[]) { // código relativo ao algoritmo de busca binária O que será exibido no console quando o método main for executado? (A) 54 79 69 72 (B) 49 72 86 79 (C) 54 86 69 72 79 (D) 67 86 72 79 (E) 54 79 67 69 72 -- 18 of 27 -- 19 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 64 Sejam as seguintes classes Java, que ocupam arquivos separados: public class CAx { protected int a; protected int b; public CAx() { public int op1(int x) { return op2(x)+op3(x)+b; public int op2(int x) { return x+a; public static int op3(int x) { return x*2; public class CBy extends CAx { protected int a; public CBy() { public int op2(int x) { return x-a; public static int op3(int x) { return x*3; public class Main { public static void main(String[] args) { CAx o=new CBy(); System.out.println(o.op1(2)); O que será exibido no console quando o método main for executado? (A) 10 (B) 12 (C) 14 (D) 18 (E) 20 -- 19 of 27 -- 20 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 65 Considere as seguintes classes Java, que ocupam arquivos separados: public class Pa { String x,y,z; String r=\"vazio\"; public Pa(String s1,String s2, String s3) throws Exception { throw new Exception(); catch(Exception e) { z=\"a\"; throw e; finally { public String get() { return r; public class Qb extends Pa { public Qb(String s1,String s2, String s3) throws Exception { super(s1,s2,s3); public class Main { public static void main(String[] args) { Pa o=null; o=new Qb(\"a\",\" \",\"c\"); catch (Exception e) { finally { if(o!=null) System.out.print(o.get()); -- 20 of 27 -- 21 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 O que será exibido no console quando o método main for executado? (A) ac (E) vazio 66 A Figura a seguir exibe o conteúdo de três pilhas: P1, P2 e P3. Admita que um método Java, chamado exibePilha, receba essas três pilhas como parâmetros e execute os seguintes passos: 1. Cria duas pilhas auxiliares, A1 e A2, inicialmente vazias; 2. Remove um elemento de P1 e o insere em A1. Em seguida, remove um elemento de P2 e o insere em A1. Repete esses dois procedimentos até que P1 e P2 fiquem, ambas, vazias; 3. Remove um elemento de P3 e o insere em A1. Repete esse procedimento até que P3 fique vazia; 4. Remove um elemento de A1 e o insere em A2. Repete esse procedimento até que A1 fique vazia; 5. Remove um elemento de A2 e o exibe no console. Repete esse procedimento 4 vezes. O que será exibido no console, quando o método exibePilha for executado, tendo P1, P2 e P3 sido passadas como parâmetros? (A) 10 15 25 28 (B) 10 25 30 40 (C) 15 10 28 25 (D) 20 35 34 40 (E) 40 34 30 60 RASCUNHO -- 21 of 27 -- 22 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 67 Um estudante de computação decidiu escrever um método Java para exibir, no console, em pré-ordem, os valores dos nós de uma árvore binária recebida como parâmetro. Ao executar esse método, os seguintes valores foram exibidos no console: 80 84 55 76 72 Considerando os valores exibidos, qual árvore foi recebida como parâmetro? (A) (B) (C) -- 22 of 27 -- 23 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 (D) (E) RASCUNHO -- 23 of 27 -- 24 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 68 A Figura abaixo exibe um diagrama E-R que contém duas entidades (ET1 e XT2) e uma relação (S). Admita a existência de um banco de dados relacional composto pelos conjuntos ET1 e XT2, oriundos do mapeamento das entidades ET1 e XT2. Parte do estado atual desse banco de dados é definido pelos seguintes conjuntos: Qual conjunto completa o banco de dados em questão, de modo a atender a todas as regras relativas à relação S? (B) S={ (e1,t1), (e2,t2), (e2,t3) } (C) S={ (e1,t1), (e2,t2), (e4,t1) } (D) S={ (e1,t1), (e1,t2), (e4,t3), (e4,t2) } (E) S={ (e1,t3), (e2,t2), (e4,t1) } 69 Considere o seguinte diagrama E-R: Foi criado um conjunto de tabelas relacionais, a partir do modelo E-R acima. Uma vez que as regras de transformações de entidades e relações para tabelas relacionais independem dos tipos de dados dos atributos, todos os atributos do modelo E-R acima foram tratados como itens de dados do tipo cadeia de caracteres (TEXT). As tabelas resultantes são as seguintes: CREATE TABLE TX ( X1 TEXT NOT NULL, X2 TEXT NOT NULL, X3 TEXT NOT NULL, PRIMARY KEY (X1)); CREATE TABLE EY ( Y1 TEXT NOT NULL, Y2 TEXT NOT NULL, PRIMARY KEY (Y1)); -- 24 of 27 -- 25 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 Qual transformação da relação Rel irá preservar a semântica do diagrama E-R apresentado? (A) CREATE TABLE REL ( X1 TEXT NOT NULL, Y1 TEXT NOT NULL, R1 TEXT NOT NULL, R2 TEXT NOT NULL, PRIMARY KEY (X1, Y1), FOREIGN KEY (X1) REFERENCES TX (X1), FOREIGN KEY (Y1) REFERENCES EY (Y1)); (B) CREATE TABLE REL ( X1 TEXT NOT NULL, Y1 TEXT NOT NULL, R1 TEXT NOT NULL, R2 TEXT NOT NULL, PRIMARY KEY (X1, R1), FOREIGN KEY (X1) REFERENCES TX (X1), FOREIGN KEY (Y1) REFERENCES EY (Y1)); (C) CREATE TABLE REL ( X1 TEXT NOT NULL, Y1 TEXT NOT NULL, R1 TEXT NOT NULL, R2 TEXT NOT NULL, PRIMARY KEY (Y1, R1), FOREIGN KEY (X1) REFERENCES TX (X1), FOREIGN KEY (Y1) REFERENCES EY (Y1)); (D) CREATE TABLE REL ( X1 TEXT NOT NULL, Y1 TEXT NOT NULL, R1 TEXT NOT NULL, R2 TEXT NOT NULL, PRIMARY KEY (X1, Y1, R1), FOREIGN KEY (X1) REFERENCES TX (X1), FOREIGN KEY (Y1) REFERENCES EY (Y1)); (E) CREATE TABLE REL ( X1 TEXT NOT NULL, Y1 TEXT NOT NULL, R1 TEXT NOT NULL, R2 TEXT NOT NULL, PRIMARY KEY (R1), FOREIGN KEY (X1) REFERENCES TX (X1), FOREIGN KEY (Y1) REFERENCES EY (Y1)); -- 25 of 27 -- 26 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 70 Um método Java, chamado converte, deve receber uma string (str) como parâmetro e retornar uma string igual a str, exceto pelas letras minúsculas, que devem ser convertidas em letras maiúsculas. Exemplo: String recebida: \"Abc $12d\" String retornada: \"ABC $12D\" Qual método realiza essa tarefa? (A) public static String converte(String str) { String r=\" \"; int i=0; char x=str.charAt(i); if(Character.isLowerCase(x)) r=r.concat(Character.toString(Character.toUpperCase(x))); else r=r.concat(Character.toString(x)); } while(i < str.length()); return r; (B) public static String converte(String str) { String r=null; int i=0; while(i < str.length()) { char x=str.charAt(i); if(Character.isLowerCase(x)) r=r.concat(Character.toString(Character.toUpperCase(x))); else r=r.concat(Character.toString(x)); return r; (C) public static String converte(String str) { String r=null; int i=0; while(i < str.length()) { if(str[i].isLowerCase(x)) r=r.concat(Character.toString(Character.toUpperCase(str[i]))); else r=r.concat(Character.toString(str[i])); return r; -- 26 of 27 -- 27 BANCO DO BRASIL AGENTE DE TECNOLOGIA - Microrregião 158 -TI GABARITO 1 (D) public static String converte(String str) { String r=\" \"; for(char x : str) if(Character.isLowerCase(x)) r=r.concat(Character.toString(Character.toUpperCase(x))); else r=r.concat(Character.toString(x)); return r; (E) public static String converte(String str) { String r=\" \"; for(int i=0; i < str.length(); i++) if(Character.isLowerCase(str.charAt(i))) r=r+Character.toUpperCase(str.charAt(i)); else r=r+str.charAt(i); return r; RASCUNHO -- 27 of 27 --\n\nConclusao resumida:\nUse este resumo para revisao ativa e conexao com os exercicios extraidos.",
+      "extractedTopics": [
+        "BANCO DO BRASIL GABARITO",
+        "AGENTE DE TECNOLOGIA - Microrregião 158 - TI",
+        "SELEÇÃO EXTERNA 2022 / 001",
+        "EDITAL No 01 - 2022/001 BB,",
+        "DE 22 DE DEZEMBRO DE 2022",
+        "02 - O candidato recebeu do fiscal o seguinte material:"
+      ],
+      "extractedQuestionIds": [
+        "question_mnkvotog_r494kv",
+        "question_mnkvotog_b9hdv0",
+        "question_mnkvotog_jp5u0w",
+        "question_mnkvotoh_kvvjhu",
+        "question_mnkvotoh_ojeznn",
+        "question_mnkvotok_rrkeuv",
+        "question_mnkvotok_7ejka3",
+        "question_mnkvotol_reqhs2",
+        "question_mnkvotol_gsr3vv",
+        "question_mnkvotom_bv4mis",
+        "question_mnkvotom_5y3mrj",
+        "question_mnkvotom_lh8du4",
+        "question_mnkvotom_qjzbzv",
+        "question_mnkvotom_yqujkd",
+        "question_mnkvotom_isosan",
+        "question_mnkvoton_xk4na0",
+        "question_mnkvoton_zt0npm",
+        "question_mnkvotoo_6as4qn",
+        "question_mnkvotoo_hdhn11",
+        "question_mnkvotoo_6pslj5",
+        "question_mnkvotop_hwgc90",
+        "question_mnkvotop_yntnwr",
+        "question_mnkvotop_o6mefu",
+        "question_mnkvotop_cswa3z",
+        "question_mnkvotor_c8w901",
+        "question_mnkvotor_24tca9",
+        "question_mnkvotor_2la1lu",
+        "question_mnkvotor_9iy0ke",
+        "question_mnkvotor_jy1ryq",
+        "question_mnkvotos_lgb6ry",
+        "question_mnkvotos_wced0w",
+        "question_mnkvotos_ybmf94",
+        "question_mnkvotos_0ihjfq",
+        "question_mnkvotos_owvhuc",
+        "question_mnkvotot_dinjiq",
+        "question_mnkvotot_lrfxft",
+        "question_mnkvotot_acb0cl",
+        "question_mnkvotot_oqrk5k"
+      ],
+      "extractedFlashcardIds": [
+        "flashcard_mnkvotpk_uw4cnc",
+        "flashcard_mnkvotpl_cfdk65",
+        "flashcard_mnkvotpl_spquin",
+        "flashcard_mnkvotpl_4zk27g"
+      ],
+      "processingError": null,
+      "deletedAt": null,
+      "generatedTrailId": "trail_mnkvotpl_idan4c"
+    },
+    {
+      "id": "pdf_mnc6mopt_4x1oe9",
+      "userId": "local-user",
+      "fileName": "PDF_-_Livro_Digital-banco-do-brasil.pdf",
+      "fileUrl": "/api/documents/pdf_mnc6mopt_4x1oe9/file",
+      "storageKey": "pdf_mnc6mopt_4x1oe9_PDF_-_Livro_Digital-banco-do-brasil.pdf",
+      "fileSize": 10071233,
+      "uploadedAt": "2026-03-29T19:58:54.123Z",
+      "processingStatus": "processed",
+      "isRead": false,
+      "isAnalyzed": true,
+      "extractedTitle": "Livro Digital BB - Portugues - Ortografia",
+      "extractedSubject": "Portugues",
+      "extractedSummary": "Modulo curado de Portugues focado em Ortografia para Banco do Brasil. O bloco trabalha porque, onde, mau e mal, ha e a, hifen, digrafos, grafia normativa e Vocabulário Ortografico da Lingua Portuguesa no padrao Cesgranrio.",
+      "extractedTopics": [
+        "Ortografia",
+        "Uso de porque",
+        "Hifen",
+        "Mau e Mal",
+        "Grafia normativa"
+      ],
+      "extractedQuestionIds": [
+        "question_mnc6moq3_wkjw2k",
+        "question_mnc6moq3_m45yg2",
+        "question_mnc6moq3_t8dyg2",
+        "question_mnc6moq3_n1evyr",
+        "question_mnc6moq3_7vnui4",
+        "question_mnc6moq3_b0jess",
+        "question_mnc6moq3_a13vh9",
+        "question_mnc6moq3_bk1lm5",
+        "question_mnc6moq3_mo6ekk",
+        "question_mnc6moq3_g38uef"
+      ],
+      "extractedFlashcardIds": [
+        "flashcard_mnc6moq3_7nf2rl",
+        "flashcard_mnc6moq3_erl99x",
+        "flashcard_mnc6moq3_j3m4h3"
+      ],
+      "generatedTrailId": "trail_mnc6moq3_va0nrr",
+      "processingError": null,
+      "deletedAt": null
+    },
+    {
+      "id": "pdf_mnc6m9ml_1qg0db",
+      "userId": "local-user",
+      "fileName": "PDF_-_Livro_Digital-banco-do-brasil.pdf",
+      "fileUrl": "/api/documents/pdf_mnc6m9ml_1qg0db/file",
+      "storageKey": "pdf_mnc6m9ml_1qg0db_PDF_-_Livro_Digital-banco-do-brasil.pdf",
+      "fileSize": 10071233,
+      "uploadedAt": "2026-03-29T19:58:34.581Z",
+      "processingStatus": "processed",
+      "isRead": false,
+      "isAnalyzed": true,
+      "extractedTitle": "Livro Digital BB - Portugues - Acentuacao Grafica",
+      "extractedSubject": "Portugues",
+      "extractedSummary": "Modulo curado de Portugues focado em Acentuacao Grafica para Banco do Brasil. O bloco trabalha hiato, proparoxitonas, alteracao de acento no plural, Acordo Ortografico e identificacao da regra de acentuacao exigida pela Cesgranrio.",
+      "extractedTopics": [
+        "Acentuacao Grafica",
+        "Hiato",
+        "Proparoxitonas",
+        "Acordo Ortografico",
+        "Cesgranrio"
+      ],
+      "extractedQuestionIds": [
+        "question_mnc6m9n9_ehrkmn",
+        "question_mnc6m9n9_fs85qg",
+        "question_mnc6m9n9_stiexj",
+        "question_mnc6m9n9_ktnkmg",
+        "question_mnc6m9n9_btc1j7",
+        "question_mnc6m9n9_leam13",
+        "question_mnc6m9n9_3u0hb1",
+        "question_mnc6m9n9_8qq4la",
+        "question_mnc6m9n9_t1cut8",
+        "question_mnc6m9n9_5snrrv"
+      ],
+      "extractedFlashcardIds": [
+        "flashcard_mnc6m9n9_31q3z7",
+        "flashcard_mnc6m9n9_46ibxz",
+        "flashcard_mnc6m9n9_bza4ko"
+      ],
+      "generatedTrailId": "trail_mnc6m9n9_gstrjj",
+      "processingError": null,
+      "deletedAt": "2026-04-04T22:01:25.777Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": "question_mnc6moq3_wkjw2k",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "questionNumber": "1",
+      "statement": "A frase que tem a palavra ou expressao em destaque empregada de acordo com o que preve a norma escrita padrao e",
+      "options": [
+        {
+          "id": "A",
+          "label": "Perguntam-me porque Maria Jose era tao querida."
+        },
+        {
+          "id": "B",
+          "label": "O ceu e aonde Maria Jose deve estar agora."
+        },
+        {
+          "id": "C",
+          "label": "Apresentou-me a muitos autores, por isso tornei-me um leitor voraz."
+        },
+        {
+          "id": "D",
+          "label": "Mau ela se foi, ja sinto sua falta."
+        },
+        {
+          "id": "E",
+          "label": "Perdi quem me protegeu ha um ano."
+        }
+      ],
+      "correctAnswer": "C",
+      "topic": "Ortografia",
+      "difficulty": "easy",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "question_mnc6moq3_m45yg2",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "questionNumber": "2",
+      "statement": "O verbo destacado esta flexionado incorretamente em:",
+      "options": [
+        {
+          "id": "A",
+          "label": "Ele, finalmente, reouve a fe perdida."
+        },
+        {
+          "id": "B",
+          "label": "Assim que os vir, de-lhes um forte abraco."
+        },
+        {
+          "id": "C",
+          "label": "Propus, na verdade, maior reflexao."
+        },
+        {
+          "id": "D",
+          "label": "Ninguem a deteu, embora sua escolha fosse arriscada."
+        },
+        {
+          "id": "E",
+          "label": "Durante muito tempo, cri em ideias nao plausiveis."
+        }
+      ],
+      "correctAnswer": "D",
+      "topic": "Flexao verbal",
+      "difficulty": "medium",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "question_mnc6moq3_t8dyg2",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "questionNumber": "3",
+      "statement": "O grupo de palavras que atende as exigencias relativas ao emprego ou nao do hifen, segundo o Vocabulário Ortografico da Lingua Portuguesa, e",
+      "options": [
+        {
+          "id": "A",
+          "label": "extra-escolar e medico-cirurgiao"
+        },
+        {
+          "id": "B",
+          "label": "bem-educado e vagalume"
+        },
+        {
+          "id": "C",
+          "label": "portarretratos e dia a dia"
+        },
+        {
+          "id": "D",
+          "label": "arco-iris e contra-regra"
+        },
+        {
+          "id": "E",
+          "label": "subutilizar e sub-reitor"
+        }
+      ],
+      "correctAnswer": "E",
+      "topic": "Hifen",
+      "difficulty": "medium",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "question_mnc6moq3_n1evyr",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "questionNumber": "4",
+      "statement": "A frase em que a palavra ou expressao destacada respeita as regras ortograficas e gramaticais da norma padrao e:",
+      "options": [
+        {
+          "id": "A",
+          "label": "As criancas querem estar aonde a fantasia esta."
+        },
+        {
+          "id": "B",
+          "label": "Queremos saber por que a ideia de eternidade nos fascina."
+        },
+        {
+          "id": "C",
+          "label": "O gosto adocicado do chicle mau acaba e queremos outro."
+        },
+        {
+          "id": "D",
+          "label": "Nada como balas e chicletes durante uma secao de cinema."
+        },
+        {
+          "id": "E",
+          "label": "A ideia de viver para sempre persegue o homem ha seculos."
+        }
+      ],
+      "correctAnswer": "B",
+      "topic": "Ortografia",
+      "difficulty": "easy",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "question_mnc6moq3_7vnui4",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "questionNumber": "5",
+      "statement": "A seguinte frase esta escrita de acordo com as normas da ortografia vigente:",
+      "options": [
+        {
+          "id": "A",
+          "label": "Eu me sinto mais vuneravel quando viajo a noite."
+        },
+        {
+          "id": "B",
+          "label": "Preciso que voces viagem para o Peru imediatamente."
+        },
+        {
+          "id": "C",
+          "label": "Alguns roteiros tem um acumulo grande de deslocamentos."
+        },
+        {
+          "id": "D",
+          "label": "Fiz um voo gratuito porque ganhei uma passagem num sorteio."
+        },
+        {
+          "id": "E",
+          "label": "Fizemos um multirao para arrumar as malas, mas conseguimos."
+        }
+      ],
+      "correctAnswer": "D",
+      "topic": "Ortografia",
+      "difficulty": "easy",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "question_mnc6moq3_b0jess",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "questionNumber": "6",
+      "statement": "No Texto II, a autora criou a palavra narrador-viajante e empregou nela corretamente o hifen. Usando uma estrategia criativa semelhante, sera necessario usar esse sinal grafico em",
+      "options": [
+        {
+          "id": "A",
+          "label": "pseudo-viajante"
+        },
+        {
+          "id": "B",
+          "label": "super-viajante"
+        },
+        {
+          "id": "C",
+          "label": "ex-viajante"
+        },
+        {
+          "id": "D",
+          "label": "anti-viajante"
+        },
+        {
+          "id": "E",
+          "label": "neo-viajante"
+        }
+      ],
+      "correctAnswer": "A",
+      "topic": "Hifen",
+      "difficulty": "medium",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "question_mnc6moq3_a13vh9",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "questionNumber": "7",
+      "statement": "Assim como a palavra desfecho se escreve com ch, a seguinte dupla de palavras se escreve corretamente com esse digrafo:",
+      "options": [
+        {
+          "id": "A",
+          "label": "tochico e fichinha"
+        },
+        {
+          "id": "B",
+          "label": "coachar e achatar"
+        },
+        {
+          "id": "C",
+          "label": "cheirosa e inchado"
+        },
+        {
+          "id": "D",
+          "label": "machismo e chaveco"
+        },
+        {
+          "id": "E",
+          "label": "cocheira e deixar"
+        }
+      ],
+      "correctAnswer": "C",
+      "topic": "Grafia normativa",
+      "difficulty": "medium",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "question_mnc6moq3_bk1lm5",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "questionNumber": "8",
+      "statement": "O grupo em que todas as palavras estao grafadas de acordo com a norma-padrao da lingua portuguesa e:",
+      "options": [
+        {
+          "id": "A",
+          "label": "admissao, infracao, renovacao"
+        },
+        {
+          "id": "B",
+          "label": "diversao, excessao, sucessao"
+        },
+        {
+          "id": "C",
+          "label": "extencao, eleicao, informacao"
+        },
+        {
+          "id": "D",
+          "label": "introducao, reprecao, intencao"
+        },
+        {
+          "id": "E",
+          "label": "transmissao, concecao, omissao"
+        }
+      ],
+      "correctAnswer": "A",
+      "topic": "Grafia normativa",
+      "difficulty": "medium",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "question_mnc6moq3_mo6ekk",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "questionNumber": "9",
+      "statement": "O termo destacado esta grafado de acordo com as exigencias da norma-padrao da lingua portuguesa em:",
+      "options": [
+        {
+          "id": "A",
+          "label": "O estagiario foi mal treinado, por isso nao desempenhava satisfatoriamente as tarefas solicitadas pelos seus superiores."
+        },
+        {
+          "id": "B",
+          "label": "O time nao jogou mau no ultimo campeonato, apesar de enfrentar alguns problemas com jogadores descontrolados."
+        },
+        {
+          "id": "C",
+          "label": "O menino nao era mal aluno, somente tinha dificuldade em assimilar conceitos mais complexos sobre os temas expostos."
+        },
+        {
+          "id": "D",
+          "label": "Os funcionarios perceberam que o chefe estava de mal humor porque tinha sofrido um acidente de carro na vespera."
+        },
+        {
+          "id": "E",
+          "label": "Os participantes compreendiam mau o que estava sendo discutido, por isso nao conseguiam formular perguntas."
+        }
+      ],
+      "correctAnswer": "A",
+      "topic": "Mau e Mal",
+      "difficulty": "easy",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "question_mnc6moq3_g38uef",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "questionNumber": "10",
+      "statement": "Assim como ocorre com a palavra quebra-mar, emprega-se obrigatoriamente o hifen, de acordo com o sistema ortografico vigente, em",
+      "options": [
+        {
+          "id": "A",
+          "label": "casa-comercial"
+        },
+        {
+          "id": "B",
+          "label": "linha-de-passe"
+        },
+        {
+          "id": "C",
+          "label": "peixe-espada"
+        },
+        {
+          "id": "D",
+          "label": "pedra-fundamental"
+        },
+        {
+          "id": "E",
+          "label": "sala-de-jantar"
+        }
+      ],
+      "correctAnswer": "C",
+      "topic": "Hifen",
+      "difficulty": "medium",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "question_mnkvotog_r494kv",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "1",
+      "statement": "1. O trecho do texto que resume o objetivo do “empreende- dorismo social” é",
+      "options": [
+        {
+          "id": "A",
+          "label": "“A meta é transformar uma realidade, promover o bem-estar da sociedade e agregar valor com cunho social”. (parágrafo 1) (B)“os empreendimentos sociais analisam seu desempe- nho a partir do impacto social gerado por sua atua- ção”. (parágrafo 2) (C)“ser inovadora; realizável; autossustentável; contar com a participação de diversos segmentos da socie- dade”. (parágrafo 4) (D)“Quem tem interesse de atuar nessa área precisa tra- balhar em grupo e formar parcerias”. (parágrafo 5)"
+        },
+        {
+          "id": "E",
+          "label": "“o profissional precisa ter flexibilidade evontade de explorar, pois é possível que ele acabe exercendo um papel que não seja necessariamente na sua área de formação”. (parágrafo 6)"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Gabarito identificado no documento como alternativa B.",
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "easy",
+      "createdAt": "2026-04-04T22:02:33.664Z"
+    },
+    {
+      "id": "question_mnkvotog_b9hdv0",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "2",
+      "statement": "2. O texto explica que o empreendedorismo social se dife- rencia do conceito de negócio social porque o primeiro procura",
+      "options": [
+        {
+          "id": "A",
+          "label": "criar profissionais especializados na sua área de atu- ação."
+        },
+        {
+          "id": "B",
+          "label": "excluir do processo a parcela mais carente da popu- lação."
+        },
+        {
+          "id": "C",
+          "label": "seguir a lógica tradicional do mercado de ações."
+        },
+        {
+          "id": "D",
+          "label": "ter como objetivo produzir retorno financeiro."
+        },
+        {
+          "id": "E",
+          "label": "transformar a sociedade por meio da inovação."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Gabarito identificado no documento como alternativa B.",
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.664Z"
+    },
+    {
+      "id": "question_mnkvotog_jp5u0w",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "3",
+      "statement": "3. No trecho “está relacionado ao ato de empreender ou ino- var com o objetivo de alavancar causas sociais e ambien- tais” (parágrafo 1), apalavra destacada pode ser substitu- ída, sem prejuízo do sentido do texto, por",
+      "options": [
+        {
+          "id": "A",
+          "label": "comprovar"
+        },
+        {
+          "id": "B",
+          "label": "defender"
+        },
+        {
+          "id": "C",
+          "label": "impulsionar"
+        },
+        {
+          "id": "D",
+          "label": "modificar"
+        },
+        {
+          "id": "E",
+          "label": "subsidiar"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Gabarito identificado no documento como alternativa B.",
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.664Z"
+    },
+    {
+      "id": "question_mnkvotoh_kvvjhu",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "4",
+      "statement": "4. No trecho “Ainda que não exista uma concepção única sobre o empreendedorismo social” (parágrafo 1), aex- pressão destacada pode ser substituída, sem prejuízo do sentido do texto, por",
+      "options": [
+        {
+          "id": "A",
+          "label": "À medida que"
+        },
+        {
+          "id": "B",
+          "label": "Contanto que"
+        },
+        {
+          "id": "C",
+          "label": "De modo que"
+        },
+        {
+          "id": "D",
+          "label": "Mesmo que"
+        },
+        {
+          "id": "E",
+          "label": "Por causa de CONHECIMENTOS BÁSICOS LÍNGUA PORTUGUESA Empreendedorismo social: um caminho para quem quer mudar o mundo Ainda que não exista uma concepção única so- bre o empreendedorismo social, de forma geral, o conceito está relacionado ao ato de empreender ou inovar com o objetivo de alavancar causas sociais e ambientais."
+        },
+        {
+          "id": "A",
+          "label": "meta é transformar uma realidade, pro- mover o bem-estar da sociedade e agregar valor com cunho social. Um empreendedor social produz bens e servi- ços que irão impactar positivamente a comunidade em que ele está inserido e solucionar algum proble- ma ou necessidade daquele grupo. Apesar de poder ter retorno financeiro, os empreendimentos sociais analisam seu desempenho a partir do impacto social gerado por sua atuação. Vale ressaltar que, apesar de apresentarem mui- tas similaridades, empreendedorismo social e negó- cio social não são sinônimos. O empreendedorismo social cria valor por meio da inovação, que gera uma transformação social. O foco não é o retorno financei- ro, mas a resolução de problemas sociais e o impacto positivo. Enquanto isso, os negócios sociais seguem a lógica tradicional do mercado, porém com a ambi- ção de gerar valor social. Cinco características também são essenciais para a iniciativa: ser inovadora; realizável; autos- sustentável; contar com a participação de diversos segmentos da sociedade, incluindo as pessoas im- pactadas; e promover impacto social com resultados mensuráveis. Quem tem interesse de atuar nessa área preci- sa trabalhar em grupo e formar parcerias, saber lidar bem com as pessoas e buscar formas de trazer resul- tados de impacto social. Além disso, o profissional precisa ter flexibilidade e vontade de explorar, pois é possível que ele acabe exercendo um papel que não seja necessariamen- te na sua área de formação, ou que sua atuação se transforme rapidamente, por conta do dinamismo e das necessidades do negócio. MENDES, T. Empreendedorismo social: um caminho para quem quer mudar o mundo. Na prática, 7 jul. 2022. Disponível em: Acesso em: 2 set. 2022. Adaptado."
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.665Z"
+    },
+    {
+      "id": "question_mnkvotoh_ojeznn",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "5",
+      "statement": "5. No trecho “Ainda que não exista uma concepção única” (parágrafo 1), apalavra destacada pode ser substituída, sem prejuízo do sentido do texto, por",
+      "options": [
+        {
+          "id": "A",
+          "label": "compreensão"
+        },
+        {
+          "id": "B",
+          "label": "conciliação"
+        },
+        {
+          "id": "C",
+          "label": "convivência"
+        },
+        {
+          "id": "D",
+          "label": "capacidade"
+        },
+        {
+          "id": "E",
+          "label": "semelhança"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.666Z"
+    },
+    {
+      "id": "question_mnkvotok_rrkeuv",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "7",
+      "statement": "7. No trecho “os empreendimentos sociais analisam seu de- sempenho” (parágrafo 2), apalavra destacada se refere a",
+      "options": [
+        {
+          "id": "A",
+          "label": "problema"
+        },
+        {
+          "id": "B",
+          "label": "comunidade"
+        },
+        {
+          "id": "C",
+          "label": "daquele grupo"
+        },
+        {
+          "id": "D",
+          "label": "retorno financeiro"
+        },
+        {
+          "id": "E",
+          "label": "empreendimentos sociais"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.668Z"
+    },
+    {
+      "id": "question_mnkvotok_7ejka3",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "8",
+      "statement": "8. De acordo com anorma-padrão da língua portuguesa, o uso do acento grave indicativo da crase é obrigatório na palavra destacada em:",
+      "options": [
+        {
+          "id": "A",
+          "label": "A descrição detalhada de um empreendimento a ser realizado é uma necessidade para a aprovação de sua realização."
+        },
+        {
+          "id": "B",
+          "label": "A divulgação do concurso levou muitas pessoas a se candidatarem a vaga mais concorrida na empresa."
+        },
+        {
+          "id": "C",
+          "label": "A tentativa de obter a isenção fiscal é buscada a todo custo pelos responsáveis da instituição."
+        },
+        {
+          "id": "D",
+          "label": "O sucesso de uma empresa deve ser atribuído a ges- tores competentes."
+        },
+        {
+          "id": "E",
+          "label": "O uso de recursos digitais levou os jovens estudiosos a uma nova forma de aprendizagem em diferentes áreas."
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.668Z"
+    },
+    {
+      "id": "question_mnkvotol_reqhs2",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "9",
+      "statement": "9. O emprego da vírgula atende às exigências da norma- -padrão da língua portuguesa em:",
+      "options": [
+        {
+          "id": "A",
+          "label": "A execução de novas tarefas em um supermercado, envolve a disposição dos funcionários de aceitarem as mudanças propostas pelo RH."
+        },
+        {
+          "id": "B",
+          "label": "Ao consultar os fornecedores de produtos para suas lojas, os responsáveis por esse departamento devem ser cuidadosos."
+        },
+        {
+          "id": "C",
+          "label": "A escolha do funcionário para proferir uma palestra em nome da empresa, compete à administração da instituição."
+        },
+        {
+          "id": "D",
+          "label": "O profissional interessado em mudanças na sua área de atuação deve estudar, com antecedência as suas possibilidades de crescimento."
+        },
+        {
+          "id": "E",
+          "label": "Para desenvolver projetos cabe ao gerente da orga- nização, a iniciativa de implementar novas técnicas à disposição dos empreendedores."
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.669Z"
+    },
+    {
+      "id": "question_mnkvotol_gsr3vv",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "10",
+      "statement": "10. O pronome oblíquo destacado foi colocado na posição correta, segundo as exigências da norma-padrão da lín- gua portuguesa, em:",
+      "options": [
+        {
+          "id": "A",
+          "label": "A área da saúde não encontra-se atendida em regiões afastadas dos grandes centros urbanos nem em co- munidades que vivem nas periferias das cidades."
+        },
+        {
+          "id": "B",
+          "label": "A preocupação com o meio ambiente tem sido um dos segmentos mais relevantes do empreendedorismo social, porque destina-se a transformar positivamente a sociedade."
+        },
+        {
+          "id": "C",
+          "label": "Governantes que têm como missão viabilizar o aces- so universal à educação pública de qualidade sempre preocupam-se com ações de inovação e empreende- dorismo."
+        },
+        {
+          "id": "D",
+          "label": "Para uma iniciativa de empreendedorismo destina- da à formação de educadores tornar-se produtiva, é preciso identificar as necessidades do público-alvo de cada comunidade."
+        },
+        {
+          "id": "E",
+          "label": "Quando os profissionais que atuam na área de empre- endedorismo social sentem-se desanimados, é preci- so que eles avaliem todo o progresso que ajudaram a desenvolver. RASCUNHO -- 5 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI6GABARITO 1 BANCO DO BRASIL LÍNGUA INGLESA From Bartering to Bitcoin By Rich Beattie What we call “money” has always been a moving target. It changes appearance and value. Here are five key developments in the history of money that have impacted how we earn, save and spend today. Cash Cows - Before humans had money, they had stuff. In ancient times, when you had stuff other people wanted, you bartered it for stuff you wanted. Around 9000 BC, the most popular commodities included things like cattle, sheep and camels. This was fine when people bartered close to home, but bulky creatures are cumbersome and difficult to transport. As people started to venture farther afield to trade, a more portable option became essential. In 1200 BC people started using cowries—the shells of marine mollusks taken from oceans. They were recognized as precious, and their use spread across Asia, Africa, Oceania and Europe. Having been in use for centuries — even into the 20th century in some places—cowries win the prize as the world’s longest-running currency. Three Coins in the Fountain - The issue with bartering became assigning value: Just how much was a cowrie or a cow worth? So, agreeing on the value of money became essential. It was the Lydians, around 600 BC, who get credit for acritical step in this process: fashioning the first known coins, which were made of a gold and silver alloy. The metal used to make a coin—along with its weight—was important, as it denoted the money’s value. Moreover, as coins gained popularity, so did the idea of adorning them with locally inspired designs. Coins were money, but they now doubled as a historic record. Eventually, they took on even more uses: People flipped them to make decisions and tossed them into wells while making wishes. They may be used less in 2020, but coins have been an integral part of our culture for centuries. The Paper Chase - Coins were obviously lighter and easier to transport than cows, but carrying bags of heavy metal still wasn’t very practical. China’s Tang Dynasty, in the seventh century, came up with a smart solution, namely, paper money. It was super-light and could feature even richer designs than coins, and it promised a certain amount of purchasing power. Gold Rush - One of the problems, though, was that counterfeiters had great success with paper bills. The bigger problem came when governments faced economic crises; it was far too easy to print more paper money, which led to skyrocketing inflation. Paper needed a backup—something universally valued yet not easily replicated. Something like gold."
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.669Z"
+    },
+    {
+      "id": "question_mnkvotom_bv4mis",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "11",
+      "statement": "11. The main purpose of the text is to (A)present a brief history of money.",
+      "options": [
+        {
+          "id": "B",
+          "label": "relate the history of money with wars."
+        },
+        {
+          "id": "C",
+          "label": "regret society’s attitude regarding money."
+        },
+        {
+          "id": "D",
+          "label": "deny the importance of money to humankind."
+        },
+        {
+          "id": "E",
+          "label": "describe the relevance of money in the world."
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "easy",
+      "createdAt": "2026-04-04T22:02:33.670Z"
+    },
+    {
+      "id": "question_mnkvotom_5y3mrj",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "12",
+      "statement": "12. In the fragment in the fourth paragraph of the text, “It was the Lydians, around 600 BC, who get credit for acritical step in this process: fashioning the first known coins, which were made of a gold and silver alloy” the words in bold refer respectively to:",
+      "options": [
+        {
+          "id": "A",
+          "label": "BC – coins"
+        },
+        {
+          "id": "B",
+          "label": "600 BC – first (C)600 BC – coins (D)Lydians – coins"
+        },
+        {
+          "id": "E",
+          "label": "Lydians – known"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "easy",
+      "createdAt": "2026-04-04T22:02:33.670Z"
+    },
+    {
+      "id": "question_mnkvotom_lh8du4",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "13",
+      "statement": "13. In the sixth paragraph of the text, the author mentions that paper money first circulated in",
+      "options": [
+        {
+          "id": "A",
+          "label": "Italy"
+        },
+        {
+          "id": "B",
+          "label": "China"
+        },
+        {
+          "id": "C",
+          "label": "England"
+        },
+        {
+          "id": "D",
+          "label": "Australia"
+        },
+        {
+          "id": "E",
+          "label": "Germany"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.670Z"
+    },
+    {
+      "id": "question_mnkvotom_qjzbzv",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "14",
+      "statement": "14. In the fragment in the seventh paragraph of the text “One of the problems, though, was that counterfeiters had great success with paper bills”, the word in bold is associated with the idea of",
+      "options": [
+        {
+          "id": "A",
+          "label": "time"
+        },
+        {
+          "id": "B",
+          "label": "addition"
+        },
+        {
+          "id": "C",
+          "label": "condition"
+        },
+        {
+          "id": "D",
+          "label": "emphasis"
+        },
+        {
+          "id": "E",
+          "label": "opposition"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.670Z"
+    },
+    {
+      "id": "question_mnkvotom_yqujkd",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "15",
+      "statement": "15. In the tenth paragraph, the author of the text predicts that there are chances artificial intelligence will be able to",
+      "options": [
+        {
+          "id": "A",
+          "label": "manage bank accounts."
+        },
+        {
+          "id": "B",
+          "label": "prevent money changes."
+        },
+        {
+          "id": "C",
+          "label": "eliminate exchange rates."
+        },
+        {
+          "id": "D",
+          "label": "control financial resources."
+        },
+        {
+          "id": "E",
+          "label": "avoid inflation and corruption. MATEMÁTICA"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.670Z"
+    },
+    {
+      "id": "question_mnkvotom_isosan",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "16",
+      "statement": "16. Um grande banco formará uma comissão que será co- mandada por três de suas funcionárias, Alice, Beatriz e Carla. Nessa comissão, uma delas será a presidente, ou- tra será a gerente, e outra, a coordenadora.",
+      "options": [
+        {
+          "id": "A",
+          "label": "distribuição desses cargos deverá, necessariamente, considerar as quatro seguintes restrições: I) Se Carla for a gerente, então Beatriz terá de ser a presidente; II) Se Alice for a presidente, então Carla terá de ser a gerente; III) Se Beatriz não for a coordenadora, então Alice terá de ser a gerente; IV) Se Carla for a coordenadora, então Beatriz terá de ser a gerente. Nessas circunstâncias, os respectivos cargos de Alice, Beatriz e Carla serão"
+        },
+        {
+          "id": "A",
+          "label": "gerente, coordenadora e presidente"
+        },
+        {
+          "id": "B",
+          "label": "gerente, presidente e coordenadora"
+        },
+        {
+          "id": "C",
+          "label": "coordenadora, presidente e gerente"
+        },
+        {
+          "id": "D",
+          "label": "presidente, gerente e coordenadora"
+        },
+        {
+          "id": "E",
+          "label": "presidente, coordenadora e gerente RASCUNHO -- 7 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI8GABARITO 1 BANCO DO BRASIL"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.670Z"
+    },
+    {
+      "id": "question_mnkvoton_xk4na0",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "30",
+      "statement": "30. Para melhorar aeducação financeira de seus clientes quanto ao uso do crédito, um banco contratou uma em- presa de análise de risco, que classifica os clientes quan- to à propensão de usar o cheque especial, em dois tipos:",
+      "options": [
+        {
+          "id": "A",
+          "label": "e B, sendo o tipo"
+        },
+        {
+          "id": "A",
+          "label": "propenso a usar o cheque especial, e o tipo B, a não usar o cheque especial. Para uma de- terminada agência, um estudo da empresa mostrou que a probabilidade de um cliente tipo"
+        },
+        {
+          "id": "A",
+          "label": "usar o cheque especial, em um intervalo de um ano, é de 80%. Já para o tipo B, aprobabilidade de usar é de 10%, no mesmo intervalo de tempo. Considere que, nessa agência, 30% dos clientes são considerados do tipo Nesse contexto, se um cliente entrou no cheque especial, a probabilidade de que seja do tipo A, é de, aproximada- mente,"
+        },
+        {
+          "id": "A",
+          "label": "65% (B)70% (C)77% (D)82% (E)85%"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "easy",
+      "createdAt": "2026-04-04T22:02:33.671Z"
+    },
+    {
+      "id": "question_mnkvoton_zt0npm",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "28",
+      "statement": "28. Após uma festa de casamento, aanfitriã percebeu que foram esquecidos quatro telefones celulares. Na manhã seguinte, enviou uma mensagem para o grupo de convi- dados pelo WhatsApp sobre o esquecimento, e apenas quatro pessoas não responderam, fazendo com que ela\npresumisse, corretamente, que estas quatro pessoas se- riam os proprietários dos telefones. Para devolvê-los, a anfitriã preparou quatro envelopes, cada um contendo um dos endereços desses quatro proprietários. Ato contínuo, colocou aleatoriamente cada celular em um envelope e os\ndespachou para uma entrega expressa.",
+      "options": [
+        {
+          "id": "A",
+          "label": "probabilidade de que apenas um desses quatro convi- dados tenha recebido o seu próprio celular é de"
+        },
+        {
+          "id": "A",
+          "label": "3/4 (B)2/3 (C)1/2 (D)3/8 (E)1/3 RASCUNHO -- 10 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI11GABARITO 1 BANCO DO BRASIL CONHECIMENTOS BANCÁRIOS"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "easy",
+      "createdAt": "2026-04-04T22:02:33.671Z"
+    },
+    {
+      "id": "question_mnkvotoo_6as4qn",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "32",
+      "statement": "32. As operações diárias de compra evenda de divisas es- trangeiras (dólares, euros, libras esterlinas, dentre outras) são parte integrante do mercado",
+      "options": [
+        {
+          "id": "A",
+          "label": "monetário"
+        },
+        {
+          "id": "B",
+          "label": "cambial"
+        },
+        {
+          "id": "C",
+          "label": "acionário"
+        },
+        {
+          "id": "D",
+          "label": "creditício"
+        },
+        {
+          "id": "E",
+          "label": "de trabalho"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.672Z"
+    },
+    {
+      "id": "question_mnkvotoo_hdhn11",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "33",
+      "statement": "33",
+      "options": [
+        {
+          "id": "A",
+          "label": "equação da paridade dos juros, adescoberto, estabe- lece que: taxa de juros interna – taxa de juros externa = expecta- tivas de depreciação da moeda nacional em relação ao Dólar americano + risco-país Admita-se que a deterioração de indicadores macroeco- nômicos fundamentais no Brasil, como o déficit fiscal e o déficit em transações correntes do balanço de pagamen- tos, provoque o aumento do risco-país e a fuga de capitais estrangeiros do Brasil. Se a equação de paridade dos juros for aplicada ao caso brasileiro, supondo-se que todos os demais indicadores econômicos permaneçam constantes, para que os influ- xos de capitais estrangeiros no Brasil voltem a se estabi- lizar, será necessário"
+        },
+        {
+          "id": "A",
+          "label": "aumentar o risco-país."
+        },
+        {
+          "id": "B",
+          "label": "aumentar a taxa de juros externa."
+        },
+        {
+          "id": "C",
+          "label": "aumentar a taxa de juros interna."
+        },
+        {
+          "id": "D",
+          "label": "reduzir a taxa de juros interna."
+        },
+        {
+          "id": "E",
+          "label": "depreciar o Real brasileiro em relação ao Dólar ameri- cano."
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.672Z"
+    },
+    {
+      "id": "question_mnkvotoo_6pslj5",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "34",
+      "statement": "34. Considere-se aexecução, em determinado ano, do orça- mento público consolidado do Brasil. Se, no final desse mesmo ano, o total das despesas pri- márias relativas a gastos em custeio e investimento – ex- cluídas as despesas de juros incidentes sobre o estoque\nda dívida pública – tiver sido superior ao total das receitas de impostos arrecadados, o governo brasileiro terá fecha- do o ano com",
+      "options": [
+        {
+          "id": "A",
+          "label": "déficit fiscal primário"
+        },
+        {
+          "id": "B",
+          "label": "déficit fiscal nominal"
+        },
+        {
+          "id": "C",
+          "label": "superávit fiscal primário"
+        },
+        {
+          "id": "D",
+          "label": "superávit fiscal nominal"
+        },
+        {
+          "id": "E",
+          "label": "orçamento equilibrado"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.672Z"
+    },
+    {
+      "id": "question_mnkvotop_hwgc90",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "35",
+      "statement": "35. Um pesquisador na área de finanças públicas eprivadas atua, também, como consultor de negócios. Em determi- nado momento, recebe proposta para assessorar empre- sário que deseja constituir sociedade para negociar infor- mações constantes de dados de instituições financeiras.\nTal atividade não é autorizada pela legislação. O pesquisador aduz que, consoante a Lei Complementar no 105/2001, devem observar o sigilo em suas operações ativas e passivas e serviços prestados diversas institui- ções financeiras, dentre as quais administradoras de",
+      "options": [
+        {
+          "id": "A",
+          "label": "imóveis urbanos"
+        },
+        {
+          "id": "B",
+          "label": "locação de móveis"
+        },
+        {
+          "id": "C",
+          "label": "empréstimo de automóveis"
+        },
+        {
+          "id": "D",
+          "label": "bens antigos de raridade comprovada"
+        },
+        {
+          "id": "E",
+          "label": "mercado de balcão organizado RASCUNHO -- 11 of 27 --"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.673Z"
+    },
+    {
+      "id": "question_mnkvotop_yntnwr",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "36",
+      "statement": "36. Analise o código aseguir, feito em Python com o Scikit-learn. import numpy as np import sklearn.linear_model as skl base = np.array([1, 2, 3, 4, 5, 6]) x = base.reshape((-1, 1)) # a fazer print('a', model.coef_[0]) print('b', model.intercept_)",
+      "options": [
+        {
+          "id": "A",
+          "label": "partir desse código, um programador quer obter os parâmetros a e b da equação y = ax + b, por meio de uma regressão linear, usando, para isso, os dados nos vetores x e y definidos no programa. Qual linha de código deve substituir o comentário # a fazer de modo a realizar essa regressão linear?"
+        },
+        {
+          "id": "A",
+          "label": "model = skl.lr(x, y)"
+        },
+        {
+          "id": "B",
+          "label": "model = skl.lr().fit(x, y)"
+        },
+        {
+          "id": "C",
+          "label": "model = skl.LinearRegression(x, y)"
+        },
+        {
+          "id": "D",
+          "label": "model = skl.LinearRegression([x, y])"
+        },
+        {
+          "id": "E",
+          "label": "model = skl.LinearRegression().fit(x, y)"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.673Z"
+    },
+    {
+      "id": "question_mnkvotop_o6mefu",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "37",
+      "statement": "37. Em um programa em Swift, o programador deseja incluir o resultado de uma operação dentro de uma string. Nesse contexto, considere o seguinte código: let quantidade = 4 let valor = 10 Dado o código acima, o programador deseja uma string saida cujo valor seja\n\"valor total = 40\" Para isso, o programador deve utilizar o seguinte fragmento de código Swift:",
+      "options": [
+        {
+          "id": "A",
+          "label": "let saida := \"valor total = \\(quantidade*valor)\""
+        },
+        {
+          "id": "B",
+          "label": "let saida := \"valor total = \\{quantidade*valor}\""
+        },
+        {
+          "id": "C",
+          "label": "let saida = \"valor total = %[quantidade*valor]\""
+        },
+        {
+          "id": "D",
+          "label": "let saida = \"valor total = \\(quantidade*valor)\""
+        },
+        {
+          "id": "E",
+          "label": "let saida = \"valor total = \\[quantidade*valor]\""
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.673Z"
+    },
+    {
+      "id": "question_mnkvotop_cswa3z",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "38",
+      "statement": "38. Um programador foi instruído pelo seu gerente aimplementar, em Java, uma classe MemoriaCalculoVenda que imple- mentasse a interface MemoriaCalculo, já criada pela organização e que representa as exigências da organização para classes que implementam memórias de cálculo.\nNesse cenário, com que fragmento de código o programador deve começar, de forma correta, a implementação da classe?",
+      "options": [
+        {
+          "id": "A",
+          "label": "class MemoriaCalculoVenda extends MemoriaCalculo"
+        },
+        {
+          "id": "B",
+          "label": "class MemoriaCalculoVenda implements MemoriaCalculo"
+        },
+        {
+          "id": "C",
+          "label": "class MemoriaCalculoVenda imports MemoriaCalculo"
+        },
+        {
+          "id": "D",
+          "label": "class MemoriaCalculoVenda inherits MemoriaCalculo"
+        },
+        {
+          "id": "E",
+          "label": "class MemoriaCalculoVenda uses MemoriaCalculo -- 12 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI13GABARITO 1 BANCO DO BRASIL"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.673Z"
+    },
+    {
+      "id": "question_mnkvotor_c8w901",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "39",
+      "statement": "39. No processo de aprendizagem de máquina, busca-se identificar padrões compreensíveis em bases de dados. Desse modo, supõe-se a existência de uma hierarquia de três níveis: a base, com os itens elementares, captados e armazenados por recursos de Tecnologia da Informação;\no nível intermediário, no qual esses itens são processa- dos, com significados e contextos bem definidos; e o nível mais alto, contendo os padrões ou os conjuntos cuja for- mulação pode envolver ou relacionar os níveis inferiores. Os três níveis dessa hierarquia, listados, respectivamen-\nte, da base para o nível mais alto, são:",
+      "options": [
+        {
+          "id": "A",
+          "label": "conhecimento, informação e dado"
+        },
+        {
+          "id": "B",
+          "label": "dado, conhecimento e informação"
+        },
+        {
+          "id": "C",
+          "label": "dado, informação e conhecimento"
+        },
+        {
+          "id": "D",
+          "label": "informação, conhecimento e dado"
+        },
+        {
+          "id": "E",
+          "label": "informação, dado e conhecimento"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.675Z"
+    },
+    {
+      "id": "question_mnkvotor_24tca9",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "40",
+      "statement": "40. Analise com atenção o código aseguir, escrito em TypeScript 4.0. function segredo(a: number[]) { return a.map(x=>x*2); console.log(segredo([1,2,3])); O que será exibido no console quando o código acima for executado?",
+      "options": [
+        {
+          "id": "A",
+          "label": "\"Executed JavaScript Failed:\""
+        },
+        {
+          "id": "B",
+          "label": "[2, 4, 6] (C)[6] (D)"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "easy",
+      "createdAt": "2026-04-04T22:02:33.675Z"
+    },
+    {
+      "id": "question_mnkvotor_2la1lu",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "12",
+      "statement": "12. 41 Uma organização decidiu monitorar aopinião do público sobre ela nas redes sociais. Para isso, processou as men- sagens com referências ao seu nome, a fim de possibilitar o uso de uma técnica de processamento de linguagem natural conhecida como análise de sentimentos.\nApós transformar cada mensagem em uma string, um dos passos importantes nessa técnica é a tokenização, que consiste em",
+      "options": [
+        {
+          "id": "A",
+          "label": "colocar todos os caracteres da mensagem em minús- culas."
+        },
+        {
+          "id": "B",
+          "label": "colocar todos os verbos da mensagem no infinitivo."
+        },
+        {
+          "id": "C",
+          "label": "dividir o texto da mensagem em palavras isoladas."
+        },
+        {
+          "id": "D",
+          "label": "eliminar todos os marcadores HTML ou XML da men- sagem."
+        },
+        {
+          "id": "E",
+          "label": "substituir todos os caracteres acentuados da mensa- gem por suas versões sem acento."
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.675Z"
+    },
+    {
+      "id": "question_mnkvotor_9iy0ke",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "42",
+      "statement": "42. Sabendo que existe, na organização em que trabalha, uma base de dados formada por uma grande tabela que contém apenas o id do cliente e colunas do tipo booleano indicando se um cliente possuía ou já tinha possuído cada produto da organização, um funcionário de TI resolveu di-\nvidir os clientes em grupos apenas com base nessa infor- mação, utilizando aprendizado de máquina. Para essa tarefa, o funcionário de TI deve utilizar o apren- dizado de máquina",
+      "options": [
+        {
+          "id": "A",
+          "label": "independente"
+        },
+        {
+          "id": "B",
+          "label": "não supervisionado"
+        },
+        {
+          "id": "C",
+          "label": "por recompensa"
+        },
+        {
+          "id": "D",
+          "label": "por reforço"
+        },
+        {
+          "id": "E",
+          "label": "supervisionado"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.675Z"
+    },
+    {
+      "id": "question_mnkvotor_jy1ryq",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "43",
+      "statement": "43. Organizações modernas estão sujeitas auma grande quantidade de dados, principalmente se tratam com gran- des quantidades de clientes. Muitas das demandas de tecnologia de informação a que essas organizações estão submetidas passaram a ser organizadas e tratadas dentro\ndo conceito de Big Data. Além do grande volume de dados, o Big Data, em sua definição original, considera também a(s) seguinte(s) propriedade(s):",
+      "options": [
+        {
+          "id": "A",
+          "label": "falta de qualidade, apenas"
+        },
+        {
+          "id": "B",
+          "label": "variedade, apenas"
+        },
+        {
+          "id": "C",
+          "label": "velocidade, apenas"
+        },
+        {
+          "id": "D",
+          "label": "variedade e velocidade"
+        },
+        {
+          "id": "E",
+          "label": "velocidade e falta de qualidade"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.675Z"
+    },
+    {
+      "id": "question_mnkvotos_lgb6ry",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "44",
+      "statement": "44. Ao fazer apreparação para analisar dados em um banco de dados típico de Big Data, um profissional de TI per- cebeu que o número de atributos, ou colunas, era mui- to maior do que poderia processar com a ferramenta de análise disponível, sendo necessário, portanto, utilizar\numa técnica de redução de dados para prepará-los para análise. Uma técnica indicada, nesse caso, é a",
+      "options": [
+        {
+          "id": "A",
+          "label": "Amostragem Aleatória"
+        },
+        {
+          "id": "B",
+          "label": "Amostragem Estratificada"
+        },
+        {
+          "id": "C",
+          "label": "Análise de Componentes Principais"
+        },
+        {
+          "id": "D",
+          "label": "Deduplicação"
+        },
+        {
+          "id": "E",
+          "label": "Imputação RASCUNHO -- 13 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI14GABARITO 1 BANCO DO BRASIL"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.676Z"
+    },
+    {
+      "id": "question_mnkvotos_wced0w",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "45",
+      "statement": "45. Ao programar em Python com Pandas, é possível usar máscaras para selecionar linhas específicas, de acordo com um padrão. Nesse cenário, analise o seguinte código: import pandas as pd df = pd.DataFrame(data) m = df['z'] == False ef = df[m] # a fazer print(ff)\nAo executar esse código, deseja-se obter a seguinte saída: x y 0 1 3 2 3 11 O fragmento de código que deve substituir o comentário # afazer para obter a saída desejada é",
+      "options": [
+        {
+          "id": "A",
+          "label": "ff = ef['x','y']"
+        },
+        {
+          "id": "B",
+          "label": "ff = ef[] == 'x' or 'y'"
+        },
+        {
+          "id": "C",
+          "label": "ff = ef[['x','y']]"
+        },
+        {
+          "id": "D",
+          "label": "ff = ef.cols('x','y')"
+        },
+        {
+          "id": "E",
+          "label": "ff = ef.cols(['x','y'])"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.676Z"
+    },
+    {
+      "id": "question_mnkvotos_ybmf94",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "46",
+      "statement": "46. Um programador recebeu aincumbência de desenvolver uma aplicação móvel segundo a API 30 do Android, cor- respondente ao Android 11. Seguindo as melhores práti- cas, cada tela dessa aplicação, incluindo sua funcionali- dade, foi construída como um módulo único e autônomo,\ntotalmente independente de outros módulos similares. Esse módulo único e autônomo é conhecido como",
+      "options": [
+        {
+          "id": "A",
+          "label": "activity"
+        },
+        {
+          "id": "B",
+          "label": "content provider"
+        },
+        {
+          "id": "C",
+          "label": "fragment"
+        },
+        {
+          "id": "D",
+          "label": "intent"
+        },
+        {
+          "id": "E",
+          "label": "manifest"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.676Z"
+    },
+    {
+      "id": "question_mnkvotos_0ihjfq",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "47",
+      "statement": "47. O React Native 0.59 introduziu o conceito de Hooks. Entre os Hooks, tem-se o usestate, que permite",
+      "options": [
+        {
+          "id": "A",
+          "label": "calcular o estado de um CEP ou ZIP de acordo com o Locale."
+        },
+        {
+          "id": "B",
+          "label": "chamar estados específicos do engine React para al- terar seu comportamento."
+        },
+        {
+          "id": "C",
+          "label": "declarar uma classe que segue o padrão de design state."
+        },
+        {
+          "id": "D",
+          "label": "criar uma enumeration que representa estados."
+        },
+        {
+          "id": "E",
+          "label": "manter um estado local em uma função de um compo- nente funcional."
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.676Z"
+    },
+    {
+      "id": "question_mnkvotos_owvhuc",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "48",
+      "statement": "48. Durante o desenvolvimento de uma aplicação mobile em Java para Android, um programador detectou a necessi- dade de alterar o texto de um widget da classe TextView, chamado resultado, para \"Sucesso!\". Para realizar essa ação, esse programador deve usar o seguinte fragmento de código:",
+      "options": [
+        {
+          "id": "A",
+          "label": "TextView resultado = \"Sucesso!\";"
+        },
+        {
+          "id": "B",
+          "label": "resultado := \"Sucesso!\";"
+        },
+        {
+          "id": "C",
+          "label": "resultado.setValue(\"Sucesso!\");"
+        },
+        {
+          "id": "D",
+          "label": "resultado.setText(\"Sucesso!\");"
+        },
+        {
+          "id": "E",
+          "label": "resultado = TextView.setValue(\"Sucesso!\");"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.676Z"
+    },
+    {
+      "id": "question_mnkvotot_dinjiq",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "49",
+      "statement": "49. Ansible é uma ferramenta configurável por playbooks, es- critos em YAML. Um playbook é composto de",
+      "options": [
+        {
+          "id": "A",
+          "label": "plays, que são sequências de modules que, por sua vez, chamam tasks."
+        },
+        {
+          "id": "B",
+          "label": "plays, que são sequências de tasks que, por sua vez, chamam modules."
+        },
+        {
+          "id": "C",
+          "label": "tasks, que são sequências de modules que, por sua vez, chamam plays."
+        },
+        {
+          "id": "D",
+          "label": "tasks, que são sequências de plays que, por sua vez, chamam modules."
+        },
+        {
+          "id": "E",
+          "label": "modules, que são sequências de tasks que, por sua vez, chamam play. -- 14 of 27 -- AGENTE DE TECNOLOGIA - Microrregião 158 -TI15GABARITO 1 BANCO DO BRASIL"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.677Z"
+    },
+    {
+      "id": "question_mnkvotot_lrfxft",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "50",
+      "statement": "50. Kotlin é uma linguagem de programação usada no desen- volvimento Android. Entre suas características, está um grau de compatibilida- de com Java, que permite",
+      "options": [
+        {
+          "id": "A",
+          "label": "chamar funções feitas em Java, apenas, mas não permite que suas funções Kotlin sejam chamadas por Java."
+        },
+        {
+          "id": "B",
+          "label": "ler dados que foram salvos por apps Java, apenas."
+        },
+        {
+          "id": "C",
+          "label": "ler e escrever dados que podem ser lidos e escritos por apps Java, apenas."
+        },
+        {
+          "id": "D",
+          "label": "ter suas funções chamadas por Java, apenas, mas não consegue chamar funções feitas em Java."
+        },
+        {
+          "id": "E",
+          "label": "construir apps com código parcialmente em Java e parcialmente em Kotlin, sem restrições."
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.677Z"
+    },
+    {
+      "id": "question_mnkvotot_acb0cl",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "52",
+      "statement": "52. Considere uma empresa que possui dados de clientes, todos bem definidos e estruturados (ex: CPF, nome, e-mail, endereço), armazenados em um banco de dados relacional. Uma oportunidade surge para a empresa enriquecer esse banco de dados com dados de outra natureza, porém não muito bem definidos e pouco\nestruturados. Uma solução pode ser adotar um banco de dados NoSQL, de tal forma que:",
+      "options": [
+        {
+          "id": "A",
+          "label": "a ausência de um esquema de dados bem definido para os dados necessários de um cliente possa ser corretamente modelada e implementada em um ge- renciador de banco de dados adequado."
+        },
+        {
+          "id": "B",
+          "label": "a linguagem SQL utilizada para acesso aos dados dos clientes possa ser substituída por outra linguagem de acesso a dados organizados em tabelas segundo o modelo relacional, porém com maior eficiência."
+        },
+        {
+          "id": "C",
+          "label": "esse novo banco de dados relacional possa ser me- lhorado, com os dados não muito bem definidos, sem um esquema rígido."
+        },
+        {
+          "id": "D",
+          "label": "o gerenciador de banco de dados relacional utilizado possa ser atualizado para uma versão mais recente, que não utilize a linguagem SQL."
+        },
+        {
+          "id": "E",
+          "label": "os atributos que hoje representam chaves primárias e estrangeiras sejam mais bem controlados."
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.677Z"
+    },
+    {
+      "id": "question_mnkvotot_oqrk5k",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "questionNumber": "53",
+      "statement": "53. Uma empresa de investimentos financeiros busca iden- tificar novas oportunidades de negócio para pessoas jurídicas, em especial dentre aquelas que têm como ca- racterística a adoção de governança ambiental, social e corporativa (conhecida como ESG, uma sigla em inglês).\nConsidere que existe um banco de dados nessa empresa com as seguintes tabelas (todas as chaves primárias são numéricas): Empresa (CNPJ, razaoSocial, endereco) Caracteristica (cod, sigla, nome) Tem (CNPJ, cod) Que comando SELECT do SQL retorna apenas o CNPJ e a razão social das empresas que não têm \"ESG\" como\ncaracterística?",
+      "options": [
+        {
+          "id": "A",
+          "label": "SELECT * FROM Empresa WHERE Caracteristica.Sigla <> 'ESG'"
+        },
+        {
+          "id": "B",
+          "label": "SELECT E.CNPJ, E.razaoSocial FROM Empresa JOIN Tem T ON (E.CNPJ = T.CNPJ) WHERE Tem.cod = 'ESG'"
+        },
+        {
+          "id": "C",
+          "label": "SELECT E.CNPJ, E.razaoSocial FROM Empresa JOIN Tem T ON (E.CNPJ = T.CNPJ) JOIN Caracteristica"
+        },
+        {
+          "id": "C",
+          "label": "ON (C.cod = T.cod) WHERE C.nome <> 'ESG'"
+        },
+        {
+          "id": "D",
+          "label": "SELECT E.CNPJ, E.razaoSocial FROM Empresa WHERE E.CNPJ NOT IN ( SELECT T.CNPJ FROM Tem T JOIN Caracteristica"
+        },
+        {
+          "id": "C",
+          "label": "ON (T.cod = C.cod) WHERE C.sigla = 'ESG'"
+        },
+        {
+          "id": "E",
+          "label": "SELECT Empresa.* FROM Empresa, Tem WHERE Empresa.CNPJ = Tem.cod AND Tem.cod <> 'ESG'"
+        }
+      ],
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.677Z"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flashcard_mnc6moq3_7nf2rl",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "question": "Quando usar por que separado em perguntas indiretas ou diretas?",
+      "answer": "Use por que quando houver ideia de motivo, razao ou quando puder ser substituido por por qual razao.",
+      "topic": "Uso de porque",
+      "difficulty": "easy",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "flashcard_mnc6moq3_erl99x",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "question": "Qual e um foco recorrente da Cesgranrio em Ortografia?",
+      "answer": "Emprego de hifen, escolha entre mau e mal, ha e a e grafia normativa de palavras muito confundidas.",
+      "topic": "Ortografia",
+      "difficulty": "easy",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "flashcard_mnc6moq3_j3m4h3",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "question": "Quando o hifen tende a aparecer em compostos consagrados?",
+      "answer": "Em varios compostos cristalizados pelo uso e em formações com prefixos que preservam a regra ortografica vigente.",
+      "topic": "Hifen",
+      "difficulty": "medium",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "flashcard_mnkvotpk_uw4cnc",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "question": "O que voce precisa lembrar sobre BANCO DO BRASIL GABARITO?",
+      "answer": "BANCO DO BRASIL GABARITO AGENTE DE TECNOLOGIA - Microrregião 158 - TI SELEÇÃO EXTERNA 2022 / 001 EDITAL No 01 - 2022/001 BB, DE 22 DE DEZEMBRO DE 2022 LEIA ATENTAMENTE AS INSTRUÇÕES ABAIXO",
+      "topic": "BANCO DO BRASIL GABARITO",
+      "difficulty": "easy",
+      "createdAt": "2026-04-04T22:02:33.705Z"
+    },
+    {
+      "id": "flashcard_mnkvotpl_cfdk65",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "question": "O que voce precisa lembrar sobre AGENTE DE TECNOLOGIA - Microrregião 158 - TI?",
+      "answer": "01 - ATENÇÃO: o candidato deve escrever seu nome, pondo uma letra em cada quadrícula, no espaço abaixo (não abreviar o primeiro e o último nomes)",
+      "topic": "AGENTE DE TECNOLOGIA - Microrregião 158 - TI",
+      "difficulty": "easy",
+      "createdAt": "2026-04-04T22:02:33.705Z"
+    },
+    {
+      "id": "flashcard_mnkvotpl_spquin",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "question": "O que voce precisa lembrar sobre SELEÇÃO EXTERNA 2022 / 001?",
+      "answer": "02 - O candidato recebeu do fiscal o seguinte material: a) este caderno, com o tema da Redação e 70 questões objetivas, sem repetição ou falha, assim distribuídas: CONHECIMENTOS BÁSICOS Língua Portuguesa Língua Inglesa Matemática Atualidades do Mercado Financeiro Questões Pontuação Questões Pontuação Questões Pontuação Questões Pontuação 1 a 10 1,5 ponto cada 11 a 15 1,0 ponto cada 16 a 20 1,5 ponto cada 21 a 25 1,0 ponto cada Total: 15,0 pontos Total: 5,0 pontos Total: 7,5 pontos Total: 5,0 pontos Total: 32,5 pontos CONHECIMENTOS ESPECÍFICOS Probabilidade e Estatística Conhecimentos Bancários Tecnologia da Informação Questões Pontuação Questões Pontuação Questões Pontuação 26 a 30 1,5 ponto cada 31 a 35 1,5 ponto cada 36 a 70 1,5 ponto cada Total: 7,5 pontos Total: 7,5 pontos Total: 52,5 pontos Total: 67,5 pontos b) um CARTÃO-RESPOSTA destinado à marcação das respostas das questões objetivas formuladas nas provas cujo verso é a página para desenvolvimen- to da Redação, que vale até 100,0 pontos, o qual é denominado CARTÃO-RESPOSTA/PÁGINA DE REDAÇÃO",
+      "topic": "SELEÇÃO EXTERNA 2022 / 001",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.705Z"
+    },
+    {
+      "id": "flashcard_mnkvotpl_4zk27g",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "question": "O que voce precisa lembrar sobre EDITAL No 01 - 2022/001 BB,?",
+      "answer": "03 - O candidato deve verificar se este material está em ordem e se o seu nome e número de inscrição conferem com os que aparecem no CARTÃO-RESPOSTA/ PÁGINA DE REDAÇÃO",
+      "topic": "EDITAL No 01 - 2022/001 BB,",
+      "difficulty": "medium",
+      "createdAt": "2026-04-04T22:02:33.705Z"
+    }
+  ],
+  "trails": [
+    {
+      "id": "trail_mnc6moq3_va0nrr",
+      "userId": "local-user",
+      "pdfId": "pdf_mnc6mopt_4x1oe9",
+      "title": "Trilha: Portugues - Ortografia",
+      "subject": "Portugues",
+      "progress": 0,
+      "status": "not_started",
+      "createdAt": "2026-03-29T19:58:54.123Z"
+    },
+    {
+      "id": "trail_mnkvotpl_idan4c",
+      "userId": "local-user",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "title": "Trilha: BANCO DO BRASIL GABARITO",
+      "subject": "Tecnologia",
+      "progress": 0,
+      "status": "not_started",
+      "createdAt": "2026-04-04T22:02:33.705Z"
+    }
+  ],
+  "trailNodes": [
+    {
+      "id": "node_mnc6moq3_90qrb1",
+      "trailId": "trail_mnc6moq3_va0nrr",
+      "title": "Visao geral de Ortografia",
+      "type": "summary",
+      "status": "in_progress",
+      "order": 1,
+      "relatedQuestionIds": [],
+      "relatedFlashcardIds": []
+    },
+    {
+      "id": "node_mnc6moq3_h2ut4s",
+      "trailId": "trail_mnc6moq3_va0nrr",
+      "title": "Questoes de Ortografia",
+      "type": "exercise",
+      "status": "pending",
+      "order": 2,
+      "relatedQuestionIds": [
+        "question_mnc6moq3_wkjw2k",
+        "question_mnc6moq3_m45yg2",
+        "question_mnc6moq3_t8dyg2",
+        "question_mnc6moq3_n1evyr",
+        "question_mnc6moq3_7vnui4",
+        "question_mnc6moq3_b0jess",
+        "question_mnc6moq3_a13vh9",
+        "question_mnc6moq3_bk1lm5",
+        "question_mnc6moq3_mo6ekk",
+        "question_mnc6moq3_g38uef"
+      ],
+      "relatedFlashcardIds": []
+    },
+    {
+      "id": "node_mnc6moq3_7cb95w",
+      "trailId": "trail_mnc6moq3_va0nrr",
+      "title": "Revisao ativa do topico",
+      "type": "review",
+      "status": "pending",
+      "order": 3,
+      "relatedQuestionIds": [],
+      "relatedFlashcardIds": [
+        "flashcard_mnc6moq3_7nf2rl",
+        "flashcard_mnc6moq3_erl99x",
+        "flashcard_mnc6moq3_j3m4h3"
+      ]
+    },
+    {
+      "id": "node_mnkvotpl_43ncyx",
+      "trailId": "trail_mnkvotpl_idan4c",
+      "title": "Introducao a Tecnologia",
+      "type": "module",
+      "status": "in_progress",
+      "order": 1,
+      "relatedQuestionIds": [],
+      "relatedFlashcardIds": []
+    },
+    {
+      "id": "node_mnkvotpl_bioa3p",
+      "trailId": "trail_mnkvotpl_idan4c",
+      "title": "BANCO DO BRASIL GABARITO",
+      "type": "topic",
+      "status": "pending",
+      "order": 2,
+      "relatedQuestionIds": [
+        "question_mnkvotog_r494kv",
+        "question_mnkvotog_b9hdv0",
+        "question_mnkvotog_jp5u0w",
+        "question_mnkvotoh_kvvjhu",
+        "question_mnkvotoh_ojeznn",
+        "question_mnkvotok_rrkeuv",
+        "question_mnkvotok_7ejka3",
+        "question_mnkvotol_reqhs2",
+        "question_mnkvotol_gsr3vv",
+        "question_mnkvotom_bv4mis",
+        "question_mnkvotom_5y3mrj",
+        "question_mnkvotom_lh8du4",
+        "question_mnkvotom_qjzbzv",
+        "question_mnkvotom_yqujkd",
+        "question_mnkvotom_isosan",
+        "question_mnkvoton_xk4na0",
+        "question_mnkvoton_zt0npm",
+        "question_mnkvotoo_6as4qn",
+        "question_mnkvotoo_hdhn11",
+        "question_mnkvotoo_6pslj5",
+        "question_mnkvotop_hwgc90",
+        "question_mnkvotop_yntnwr",
+        "question_mnkvotop_o6mefu",
+        "question_mnkvotop_cswa3z",
+        "question_mnkvotor_c8w901",
+        "question_mnkvotor_24tca9",
+        "question_mnkvotor_2la1lu",
+        "question_mnkvotor_9iy0ke",
+        "question_mnkvotor_jy1ryq",
+        "question_mnkvotos_lgb6ry",
+        "question_mnkvotos_wced0w",
+        "question_mnkvotos_ybmf94",
+        "question_mnkvotos_0ihjfq",
+        "question_mnkvotos_owvhuc",
+        "question_mnkvotot_dinjiq",
+        "question_mnkvotot_lrfxft",
+        "question_mnkvotot_acb0cl",
+        "question_mnkvotot_oqrk5k"
+      ],
+      "relatedFlashcardIds": [
+        "flashcard_mnkvotpk_uw4cnc"
+      ]
+    },
+    {
+      "id": "node_mnkvotpl_m6v4aa",
+      "trailId": "trail_mnkvotpl_idan4c",
+      "title": "AGENTE DE TECNOLOGIA - Microrregião 158 - TI",
+      "type": "topic",
+      "status": "pending",
+      "order": 3,
+      "relatedQuestionIds": [],
+      "relatedFlashcardIds": [
+        "flashcard_mnkvotpl_cfdk65"
+      ]
+    },
+    {
+      "id": "node_mnkvotpl_lqql7v",
+      "trailId": "trail_mnkvotpl_idan4c",
+      "title": "SELEÇÃO EXTERNA 2022 / 001",
+      "type": "topic",
+      "status": "pending",
+      "order": 4,
+      "relatedQuestionIds": [],
+      "relatedFlashcardIds": [
+        "flashcard_mnkvotpl_spquin"
+      ]
+    },
+    {
+      "id": "node_mnkvotpl_izgdq4",
+      "trailId": "trail_mnkvotpl_idan4c",
+      "title": "EDITAL No 01 - 2022/001 BB,",
+      "type": "topic",
+      "status": "pending",
+      "order": 5,
+      "relatedQuestionIds": [],
+      "relatedFlashcardIds": [
+        "flashcard_mnkvotpl_4zk27g"
+      ]
+    },
+    {
+      "id": "node_mnkvotpl_9nv0qy",
+      "trailId": "trail_mnkvotpl_idan4c",
+      "title": "Exercicios do documento",
+      "type": "exercise",
+      "status": "pending",
+      "order": 6,
+      "relatedQuestionIds": [
+        "question_mnkvotog_r494kv",
+        "question_mnkvotog_b9hdv0",
+        "question_mnkvotog_jp5u0w",
+        "question_mnkvotoh_kvvjhu",
+        "question_mnkvotoh_ojeznn",
+        "question_mnkvotok_rrkeuv",
+        "question_mnkvotok_7ejka3",
+        "question_mnkvotol_reqhs2",
+        "question_mnkvotol_gsr3vv",
+        "question_mnkvotom_bv4mis",
+        "question_mnkvotom_5y3mrj",
+        "question_mnkvotom_lh8du4",
+        "question_mnkvotom_qjzbzv",
+        "question_mnkvotom_yqujkd",
+        "question_mnkvotom_isosan",
+        "question_mnkvoton_xk4na0",
+        "question_mnkvoton_zt0npm",
+        "question_mnkvotoo_6as4qn",
+        "question_mnkvotoo_hdhn11",
+        "question_mnkvotoo_6pslj5",
+        "question_mnkvotop_hwgc90",
+        "question_mnkvotop_yntnwr",
+        "question_mnkvotop_o6mefu",
+        "question_mnkvotop_cswa3z",
+        "question_mnkvotor_c8w901",
+        "question_mnkvotor_24tca9",
+        "question_mnkvotor_2la1lu",
+        "question_mnkvotor_9iy0ke",
+        "question_mnkvotor_jy1ryq",
+        "question_mnkvotos_lgb6ry",
+        "question_mnkvotos_wced0w",
+        "question_mnkvotos_ybmf94",
+        "question_mnkvotos_0ihjfq",
+        "question_mnkvotos_owvhuc",
+        "question_mnkvotot_dinjiq",
+        "question_mnkvotot_lrfxft",
+        "question_mnkvotot_acb0cl",
+        "question_mnkvotot_oqrk5k"
+      ],
+      "relatedFlashcardIds": []
+    },
+    {
+      "id": "node_mnkvotpl_yhmbr5",
+      "trailId": "trail_mnkvotpl_idan4c",
+      "title": "Revisao com flashcards",
+      "type": "review",
+      "status": "pending",
+      "order": 7,
+      "relatedQuestionIds": [],
+      "relatedFlashcardIds": [
+        "flashcard_mnkvotpk_uw4cnc",
+        "flashcard_mnkvotpl_cfdk65",
+        "flashcard_mnkvotpl_spquin",
+        "flashcard_mnkvotpl_4zk27g"
+      ]
+    },
+    {
+      "id": "node_mnkvotpl_cme3z8",
+      "trailId": "trail_mnkvotpl_idan4c",
+      "title": "Resumo final",
+      "type": "summary",
+      "status": "pending",
+      "order": 8,
+      "relatedQuestionIds": [],
+      "relatedFlashcardIds": [
+        "flashcard_mnkvotpk_uw4cnc",
+        "flashcard_mnkvotpl_cfdk65"
+      ]
+    }
+  ],
+  "studySessions": [],
+  "analytics": [
+    {
+      "id": "local-user_Tecnologia",
+      "userId": "local-user",
+      "subject": "Tecnologia",
+      "accuracyRate": 0,
+      "questionsSolved": 0,
+      "flashcardsReviewed": 0,
+      "studyTime": 0,
+      "progressPercent": 0,
+      "updatedAt": "2026-04-04T22:03:26.127Z"
+    }
+  ],
+  "questionAttempts": [
+    {
+      "id": "attempt_mnkvpy5q_qon2ei",
+      "userId": "local-user",
+      "questionId": "question_mnkvotop_hwgc90",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "subject": "BANCO DO BRASIL GABARITO",
+      "selectedAnswer": "B",
+      "isCorrect": false,
+      "createdAt": "2026-04-04T22:03:26.127Z"
+    }
+  ],
+  "reviewStates": [
+    {
+      "id": "review_mnkvpy5r_c1qiq8",
+      "userId": "local-user",
+      "questionId": "question_mnkvotop_hwgc90",
+      "pdfId": "pdf_mnkvops0_vgvrro",
+      "subject": "BANCO DO BRASIL GABARITO",
+      "status": "review",
+      "errorCount": 1,
+      "successStreak": 0,
+      "lastResult": "wrong",
+      "lastReviewedAt": "2026-04-04T22:03:26.127Z",
+      "nextReviewAt": "2026-04-04T22:03:26.127Z",
+      "updatedAt": "2026-04-04T22:03:26.127Z"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach_mnkvpy5r_ksxk1b",
+      "userId": "local-user",
+      "key": "first_answer",
+      "title": "Primeira Resposta",
+      "description": "Respondeu sua primeira questão.",
+      "unlockedAt": "2026-04-04T22:03:26.127Z"
+    }
+  ],
+  "dailyMissions": [
+    {
+      "id": "mission_mnkvpy5r_a0kjzr",
+      "userId": "local-user",
+      "date": "2026-04-04",
+      "targetQuestions": 10,
+      "answeredQuestions": 1,
+      "completed": false,
+      "xpReward": 50,
+      "coinsReward": 20
+    }
+  ],
+  "simuladoAttempts": []
+}

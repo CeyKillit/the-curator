@@ -1,0 +1,196 @@
+{
+  "fileName": "PDF_-_Livro_Digital-banco-do-brasil.pdf",
+  "sourcePdfPath": "C:/Users/ADM/Documents/the-curator/pdf/PDF_-_Livro_Digital-banco-do-brasil.pdf",
+  "title": "Livro Digital BB - Portugues - Ortografia",
+  "subject": "Portugues",
+  "summary": "Modulo curado de Portugues focado em Ortografia para Banco do Brasil. O bloco trabalha porque, onde, mau e mal, ha e a, hifen, digrafos, grafia normativa e Vocabulário Ortografico da Lingua Portuguesa no padrao Cesgranrio.",
+  "topics": [
+    "Ortografia",
+    "Uso de porque",
+    "Hifen",
+    "Mau e Mal",
+    "Grafia normativa"
+  ],
+  "questions": [
+    {
+      "questionNumber": "1",
+      "statement": "A frase que tem a palavra ou expressao em destaque empregada de acordo com o que preve a norma escrita padrao e",
+      "options": [
+        { "id": "A", "label": "Perguntam-me porque Maria Jose era tao querida." },
+        { "id": "B", "label": "O ceu e aonde Maria Jose deve estar agora." },
+        { "id": "C", "label": "Apresentou-me a muitos autores, por isso tornei-me um leitor voraz." },
+        { "id": "D", "label": "Mau ela se foi, ja sinto sua falta." },
+        { "id": "E", "label": "Perdi quem me protegeu ha um ano." }
+      ],
+      "correctAnswer": "C",
+      "topic": "Ortografia",
+      "difficulty": "easy"
+    },
+    {
+      "questionNumber": "2",
+      "statement": "O verbo destacado esta flexionado incorretamente em:",
+      "options": [
+        { "id": "A", "label": "Ele, finalmente, reouve a fe perdida." },
+        { "id": "B", "label": "Assim que os vir, de-lhes um forte abraco." },
+        { "id": "C", "label": "Propus, na verdade, maior reflexao." },
+        { "id": "D", "label": "Ninguem a deteu, embora sua escolha fosse arriscada." },
+        { "id": "E", "label": "Durante muito tempo, cri em ideias nao plausiveis." }
+      ],
+      "correctAnswer": "D",
+      "topic": "Flexao verbal",
+      "difficulty": "medium"
+    },
+    {
+      "questionNumber": "3",
+      "statement": "O grupo de palavras que atende as exigencias relativas ao emprego ou nao do hifen, segundo o Vocabulário Ortografico da Lingua Portuguesa, e",
+      "options": [
+        { "id": "A", "label": "extra-escolar e medico-cirurgiao" },
+        { "id": "B", "label": "bem-educado e vagalume" },
+        { "id": "C", "label": "portarretratos e dia a dia" },
+        { "id": "D", "label": "arco-iris e contra-regra" },
+        { "id": "E", "label": "subutilizar e sub-reitor" }
+      ],
+      "correctAnswer": "E",
+      "topic": "Hifen",
+      "difficulty": "medium"
+    },
+    {
+      "questionNumber": "4",
+      "statement": "A frase em que a palavra ou expressao destacada respeita as regras ortograficas e gramaticais da norma padrao e:",
+      "options": [
+        { "id": "A", "label": "As criancas querem estar aonde a fantasia esta." },
+        { "id": "B", "label": "Queremos saber por que a ideia de eternidade nos fascina." },
+        { "id": "C", "label": "O gosto adocicado do chicle mau acaba e queremos outro." },
+        { "id": "D", "label": "Nada como balas e chicletes durante uma secao de cinema." },
+        { "id": "E", "label": "A ideia de viver para sempre persegue o homem ha seculos." }
+      ],
+      "correctAnswer": "B",
+      "topic": "Ortografia",
+      "difficulty": "easy"
+    },
+    {
+      "questionNumber": "5",
+      "statement": "A seguinte frase esta escrita de acordo com as normas da ortografia vigente:",
+      "options": [
+        { "id": "A", "label": "Eu me sinto mais vuneravel quando viajo a noite." },
+        { "id": "B", "label": "Preciso que voces viagem para o Peru imediatamente." },
+        { "id": "C", "label": "Alguns roteiros tem um acumulo grande de deslocamentos." },
+        { "id": "D", "label": "Fiz um voo gratuito porque ganhei uma passagem num sorteio." },
+        { "id": "E", "label": "Fizemos um multirao para arrumar as malas, mas conseguimos." }
+      ],
+      "correctAnswer": "D",
+      "topic": "Ortografia",
+      "difficulty": "easy"
+    },
+    {
+      "questionNumber": "6",
+      "statement": "No Texto II, a autora criou a palavra narrador-viajante e empregou nela corretamente o hifen. Usando uma estrategia criativa semelhante, sera necessario usar esse sinal grafico em",
+      "options": [
+        { "id": "A", "label": "pseudo-viajante" },
+        { "id": "B", "label": "super-viajante" },
+        { "id": "C", "label": "ex-viajante" },
+        { "id": "D", "label": "anti-viajante" },
+        { "id": "E", "label": "neo-viajante" }
+      ],
+      "correctAnswer": "A",
+      "topic": "Hifen",
+      "difficulty": "medium"
+    },
+    {
+      "questionNumber": "7",
+      "statement": "Assim como a palavra desfecho se escreve com ch, a seguinte dupla de palavras se escreve corretamente com esse digrafo:",
+      "options": [
+        { "id": "A", "label": "tochico e fichinha" },
+        { "id": "B", "label": "coachar e achatar" },
+        { "id": "C", "label": "cheirosa e inchado" },
+        { "id": "D", "label": "machismo e chaveco" },
+        { "id": "E", "label": "cocheira e deixar" }
+      ],
+      "correctAnswer": "C",
+      "topic": "Grafia normativa",
+      "difficulty": "medium"
+    },
+    {
+      "questionNumber": "8",
+      "statement": "O grupo em que todas as palavras estao grafadas de acordo com a norma-padrao da lingua portuguesa e:",
+      "options": [
+        { "id": "A", "label": "admissao, infracao, renovacao" },
+        { "id": "B", "label": "diversao, excessao, sucessao" },
+        { "id": "C", "label": "extencao, eleicao, informacao" },
+        { "id": "D", "label": "introducao, reprecao, intencao" },
+        { "id": "E", "label": "transmissao, concecao, omissao" }
+      ],
+      "correctAnswer": "A",
+      "topic": "Grafia normativa",
+      "difficulty": "medium"
+    },
+    {
+      "questionNumber": "9",
+      "statement": "O termo destacado esta grafado de acordo com as exigencias da norma-padrao da lingua portuguesa em:",
+      "options": [
+        { "id": "A", "label": "O estagiario foi mal treinado, por isso nao desempenhava satisfatoriamente as tarefas solicitadas pelos seus superiores." },
+        { "id": "B", "label": "O time nao jogou mau no ultimo campeonato, apesar de enfrentar alguns problemas com jogadores descontrolados." },
+        { "id": "C", "label": "O menino nao era mal aluno, somente tinha dificuldade em assimilar conceitos mais complexos sobre os temas expostos." },
+        { "id": "D", "label": "Os funcionarios perceberam que o chefe estava de mal humor porque tinha sofrido um acidente de carro na vespera." },
+        { "id": "E", "label": "Os participantes compreendiam mau o que estava sendo discutido, por isso nao conseguiam formular perguntas." }
+      ],
+      "correctAnswer": "A",
+      "topic": "Mau e Mal",
+      "difficulty": "easy"
+    },
+    {
+      "questionNumber": "10",
+      "statement": "Assim como ocorre com a palavra quebra-mar, emprega-se obrigatoriamente o hifen, de acordo com o sistema ortografico vigente, em",
+      "options": [
+        { "id": "A", "label": "casa-comercial" },
+        { "id": "B", "label": "linha-de-passe" },
+        { "id": "C", "label": "peixe-espada" },
+        { "id": "D", "label": "pedra-fundamental" },
+        { "id": "E", "label": "sala-de-jantar" }
+      ],
+      "correctAnswer": "C",
+      "topic": "Hifen",
+      "difficulty": "medium"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Quando usar por que separado em perguntas indiretas ou diretas?",
+      "answer": "Use por que quando houver ideia de motivo, razao ou quando puder ser substituido por por qual razao.",
+      "topic": "Uso de porque",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Qual e um foco recorrente da Cesgranrio em Ortografia?",
+      "answer": "Emprego de hifen, escolha entre mau e mal, ha e a e grafia normativa de palavras muito confundidas.",
+      "topic": "Ortografia",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quando o hifen tende a aparecer em compostos consagrados?",
+      "answer": "Em varios compostos cristalizados pelo uso e em formações com prefixos que preservam a regra ortografica vigente.",
+      "topic": "Hifen",
+      "difficulty": "medium"
+    }
+  ],
+  "trail": {
+    "title": "Trilha: Portugues - Ortografia",
+    "subject": "Portugues",
+    "nodes": [
+      {
+        "title": "Visao geral de Ortografia",
+        "type": "summary"
+      },
+      {
+        "title": "Questoes de Ortografia",
+        "type": "exercise",
+        "relatedQuestionNumbers": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      },
+      {
+        "title": "Revisao ativa do topico",
+        "type": "review",
+        "relatedFlashcardIndexes": [0, 1, 2]
+      }
+    ]
+  }
+}
